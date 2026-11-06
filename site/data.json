@@ -11,7 +11,7 @@
    "note": "补充 DGMarket 会员公告：新增 11 条，交叉链接 4 条。"
   },
   "dgmarket_authorized": true,
-  "built_at": "2026-11-06T10:45:51.268Z",
+  "built_at": "2026-11-06T10:55:59.542Z",
   "purge_rule": "终态（已授标/已取消/已截止）满 72 小时自动删除"
  },
  "sources": [
