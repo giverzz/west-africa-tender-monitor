@@ -1,0 +1,65 @@
+name: 每日更新（07:30 加纳时间）
+
+on:
+  schedule:
+    - cron: "30 7 * * *" # UTC = Africa/Accra
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["data/master.json", "site/**", "tools/pages.mjs"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: 读取官方来源并合并
+        if: github.event_name != 'push'
+        run: |
+          export RUN_STARTED_AT=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          node tools/ghaneps-fetch.mjs data/ghaneps.json 8 || true
+          node tools/wb-fetch.mjs data/wb-candidates.json || true
+          node tools/auto-ingest.mjs data/ghaneps.json data/wb-candidates.json
+
+      - name: 计算状态并清理终态满 72 小时的记录
+        run: node tools/build.mjs data/master.json site/data.json
+
+      - name: 保存到仓库（主存储）
+        run: |
+          git config user.name "tender-bot"
+          git config user.email "tender-bot@users.noreply.github.com"
+          git add data/master.json site/data.json data/purge-log.json 2>/dev/null || git add data/master.json site/data.json
+          git diff --cached --quiet || git commit -m "数据更新 $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git pull --rebase --autostash origin main || true
+          git push origin HEAD:main || true
+
+      - name: 生成站点
+        run: node tools/pages.mjs
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

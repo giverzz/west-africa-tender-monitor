@@ -1,0 +1,662 @@
+<title>西非工程机会</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<style>
+/* 布局：顶部导航 + 摘要带；机会池为左列表 / 右详情（桌面），手机端列表 + 全屏详情层 */
+:root{
+  --bg:#f3f5f4; --surface:#ffffff; --surface-2:#eaefed; --line:#d5ddda; --line-strong:#b9c5c1;
+  --fg:#16211f; --fg-2:#4a5855; --fg-3:#73817e;
+  --accent:#0d5e57; --accent-soft:#dcebe8; --accent-fg:#ffffff;
+  --gold:#a86a00; --gold-soft:#f8ecd2;
+  --red:#b42318; --red-soft:#fbe5e2; --amber:#b25e00; --amber-soft:#fcefd9; --grey-soft:#e9eceb;
+  --ok:#1f7a3f; --ok-soft:#e0f1e5; --violet:#5b4bb1; --violet-soft:#ebe8f8;
+  --font-display:"Noto Serif SC","Songti SC",serif;
+  --font-body:"Noto Sans SC","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+  --font-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --radius:10px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f1514; --surface:#161e1d; --surface-2:#1d2726; --line:#2a3735; --line-strong:#3a4a47;
+  --fg:#e6eeec; --fg-2:#a9b7b4; --fg-3:#7d8c89;
+  --accent:#5cc4b6; --accent-soft:#16322f; --accent-fg:#06201d;
+  --gold:#e0a849; --gold-soft:#33280f;
+  --red:#ff8a7e; --red-soft:#3a1714; --amber:#f2a64a; --amber-soft:#36250d; --grey-soft:#232d2c;
+  --ok:#6fd08f; --ok-soft:#14301d; --violet:#ab9ff0; --violet-soft:#25203f; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1514; --surface:#161e1d; --surface-2:#1d2726; --line:#2a3735; --line-strong:#3a4a47;
+  --fg:#e6eeec; --fg-2:#a9b7b4; --fg-3:#7d8c89;
+  --accent:#5cc4b6; --accent-soft:#16322f; --accent-fg:#06201d;
+  --gold:#e0a849; --gold-soft:#33280f;
+  --red:#ff8a7e; --red-soft:#3a1714; --amber:#f2a64a; --amber-soft:#36250d; --grey-soft:#232d2c;
+  --ok:#6fd08f; --ok-soft:#14301d; --violet:#ab9ff0; --violet-soft:#25203f; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--font-body);font-size:14px;line-height:1.55}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--surface)}
+a{color:var(--accent)}
+button,select,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.num{font-family:var(--font-mono);font-variant-numeric:tabular-nums}
+
+/* 顶栏 */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--surface);border-bottom:1px solid var(--line)}
+.topIn{max-width:1440px;margin:0 auto;display:flex;align-items:center;gap:18px;padding-block:10px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.brand{display:flex;align-items:center;gap:10px;white-space:nowrap}
+.brand b{display:grid;place-items:center;width:32px;height:32px;border-radius:8px;background:var(--accent);color:var(--accent-fg);font-family:var(--font-mono);font-size:13px}
+.brand span{font-weight:700}
+.brand small{display:block;color:var(--fg-3);font-size:11px;font-weight:400}
+.nav{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;min-width:0;flex:1}
+.nav::-webkit-scrollbar{display:none}
+.nav button{border:0;background:none;padding:7px 12px;border-radius:7px;cursor:pointer;color:var(--fg-2);white-space:nowrap}
+.nav button:hover{background:var(--surface-2)}
+.nav button[aria-current="page"]{background:var(--accent-soft);color:var(--accent);font-weight:700}
+.nav .badge{display:inline-block;min-width:18px;padding:0 5px;margin-left:4px;border-radius:9px;background:var(--gold-soft);color:var(--gold);font-size:11px;text-align:center}
+.search{width:250px;max-width:34vw;padding:7px 11px;border:1px solid var(--line);border-radius:8px;background:var(--bg)}
+
+/* 页面 */
+.shell{max-width:1440px;margin:0 auto;padding-block:18px 40px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.heading{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;margin-bottom:14px}
+.heading h1{font-family:var(--font-display);font-size:26px;margin:0;letter-spacing:.02em;text-wrap:balance}
+.heading p{margin:2px 0 0;color:var(--fg-2)}
+.updated{text-align:right;font-size:12px;color:var(--fg-2);display:grid;gap:2px}
+.updated strong{color:var(--fg);font-size:13px}
+.updated .state{display:inline-flex;align-items:center;gap:6px;justify-content:flex-end}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--ok);display:inline-block}
+.dot.fail{background:var(--red)} .dot.warn{background:var(--amber)}
+
+.summary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr)) minmax(0,1.6fr);gap:10px;margin-bottom:14px}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px;min-width:0}
+.tile h3{margin:0;font-size:12px;color:var(--fg-2);font-weight:500}
+.tile .big{font-family:var(--font-mono);font-size:30px;line-height:1.15;margin-top:4px}
+.tile .sub{font-size:11px;color:var(--fg-3)}
+.tile.alert .big{color:var(--red)}
+.bars{display:grid;gap:5px;margin-top:6px}
+.bar{display:grid;grid-template-columns:6.6em 1fr 2.6em;align-items:center;gap:8px;font-size:12px}
+.bar i{display:block;height:8px;border-radius:4px;background:var(--accent);min-width:2px}
+.bar .track{background:var(--surface-2);border-radius:4px}
+.bar .n{text-align:right;font-family:var(--font-mono);color:var(--fg-2)}
+
+/* 筛选 */
+.filters{display:grid;gap:8px;margin-bottom:12px}
+.row{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.row .lab{font-size:12px;color:var(--fg-3);width:3.2em;flex:none}
+.chip{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:4px 11px;cursor:pointer;font-size:13px;white-space:nowrap}
+.chip .c{font-family:var(--font-mono);font-size:11px;color:var(--fg-3);margin-left:4px}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-fg)}
+.chip[aria-pressed="true"] .c{color:inherit;opacity:.8}
+.chip:disabled{opacity:.45;cursor:default}
+.chip.dg{border-style:dashed;border-color:var(--gold);color:var(--gold)}
+.chip.dg[aria-pressed="true"]{background:var(--gold);border-color:var(--gold);color:var(--surface)}
+.sep{width:1px;height:20px;background:var(--line-strong);margin:0 4px}
+.select{padding:5px 9px;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+.legend{display:inline-flex;gap:10px;font-size:12px;color:var(--fg-3);margin-left:auto}
+.legend i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:4px;vertical-align:-1px}
+.u1{background:var(--red)} .u2{background:var(--amber)} .u3{background:var(--line-strong)}
+.dgNote{font-size:12px;color:var(--gold);background:var(--gold-soft);border-radius:8px;padding:6px 10px}
+
+/* 列表 + 详情 */
+.layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:14px;align-items:start}
+.listHead{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;font-size:12px;color:var(--fg-2);margin-bottom:8px}
+.listHead b{color:var(--fg)}
+.reset{border:0;background:none;color:var(--accent);cursor:pointer;padding:0;font-size:12px}
+.list{display:grid;grid-template-columns:minmax(0,1fr);gap:8px}
+.layout>section{min-width:0}
+.card{min-width:0;position:relative;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px 12px 18px;cursor:pointer;text-align:left;width:100%;display:grid;gap:6px}
+.card::before{content:"";position:absolute;left:0;top:10px;bottom:10px;width:4px;border-radius:0 3px 3px 0;background:var(--line-strong)}
+.card.u-1::before{background:var(--red)} .card.u-2::before{background:var(--amber)} .card.u-0::before{background:var(--fg-3);opacity:.35}
+.card:hover{border-color:var(--line-strong)}
+.card[aria-current="true"]{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+.card h4{margin:0;font-size:15px;line-height:1.4;text-wrap:pretty}
+.card .orig{font-size:12px;color:var(--fg-3);overflow:hidden;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical}
+.meta{display:flex;flex-wrap:wrap;gap:4px 10px;font-size:12px;color:var(--fg-2)}
+.meta span{overflow-wrap:anywhere}
+.kv{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;border-top:1px dashed var(--line);padding-top:8px}
+.kv div{min-width:0}
+.kv small{display:block;font-size:11px;color:var(--fg-3)}
+.kv b{display:block;font-size:13px;font-weight:500;overflow-wrap:anywhere}
+.kv b.red{color:var(--red)} .kv b.amber{color:var(--amber)}
+.foot>*{min-width:0}
+.foot{display:flex;flex-wrap:wrap;gap:6px;align-items:center;justify-content:space-between}
+.pill{display:inline-flex;align-items:center;gap:4px;padding:1px 8px;border-radius:999px;font-size:12px;background:var(--grey-soft);color:var(--fg-2);white-space:nowrap}
+.pill.open{background:var(--ok-soft);color:var(--ok)} .pill.closed{background:var(--grey-soft);color:var(--fg-3)}
+.pill.review{background:var(--violet-soft);color:var(--violet)} .pill.plan{background:var(--accent-soft);color:var(--accent)}
+.pill.award{background:var(--gold-soft);color:var(--gold)} .pill.cancel{background:var(--red-soft);color:var(--red)}
+.pill.src{background:transparent;border:1px solid var(--line)} .pill.dgm{background:var(--gold-soft);color:var(--gold)}
+.pill.third{background:var(--amber-soft);color:var(--amber)}
+.links{display:flex;gap:10px;flex-wrap:wrap;font-size:12px}
+.links a{text-decoration:none;white-space:nowrap} .links a:hover{text-decoration:underline}
+.trackBtn{border:1px solid var(--line);background:var(--surface);border-radius:7px;padding:3px 9px;font-size:12px;cursor:pointer;white-space:nowrap}
+.trackBtn[aria-pressed="true"]{background:var(--gold-soft);border-color:var(--gold);color:var(--gold)}
+
+.preview{position:sticky;top:calc(env(safe-area-inset-top,0px) + 70px);max-height:calc(100vh - 90px);overflow:auto;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius)}
+.detail{padding:18px 20px 24px;display:grid;gap:16px}
+.detail .crumbs{display:flex;flex-wrap:wrap;gap:6px}
+.detail h2{font-family:var(--font-display);font-size:21px;line-height:1.4;margin:0;text-wrap:balance}
+.detail .orig{color:var(--fg-2);font-size:13px;margin-top:4px}
+.facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.facts div{padding:8px 11px;border-bottom:1px solid var(--line);min-width:0}
+.facts div:nth-child(odd){border-right:1px solid var(--line)}
+.facts small{display:block;font-size:11px;color:var(--fg-3)}
+.facts b{font-weight:500;overflow-wrap:anywhere}
+.facts .miss{color:var(--fg-3);font-weight:400}
+.sec h5{margin:0 0 4px;font-size:12px;color:var(--fg-3);letter-spacing:.06em}
+.sec p{margin:0;max-width:65ch}
+.sec.risk p{color:var(--red)}
+.srcBox{background:var(--surface-2);border-radius:8px;padding:12px;display:grid;gap:6px;font-size:13px}
+.srcBox a.primary{display:inline-flex;align-items:center;gap:6px;justify-self:start;background:var(--accent);color:var(--accent-fg);padding:7px 13px;border-radius:8px;text-decoration:none;font-weight:500}
+.score{display:flex;align-items:center;gap:10px;font-size:12px;color:var(--fg-2)}
+.score .meter{flex:1;max-width:180px;height:6px;border-radius:3px;background:var(--surface-2);overflow:hidden}
+.score .meter i{display:block;height:100%;background:var(--accent)}
+.detailEmpty{padding:60px 20px;text-align:center;color:var(--fg-3)}
+.closeDetail{display:none}
+
+/* 其他页面 */
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.empty{padding:40px 16px;text-align:center;color:var(--fg-2)}
+.empty b{display:block;font-size:16px;color:var(--fg);margin-bottom:4px}
+.btn{border:1px solid var(--accent);background:var(--accent);color:var(--accent-fg);border-radius:8px;padding:6px 13px;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--accent)}
+.table{width:100%;border-collapse:collapse;font-size:13px}
+.table th{font-size:11px;color:var(--fg-3);text-align:left;font-weight:500;padding:6px 8px;border-bottom:1px solid var(--line-strong);white-space:nowrap}
+.table td{padding:8px;border-bottom:1px solid var(--line);vertical-align:top}
+.tableWrap{overflow-x:auto}
+.trow{cursor:pointer} .trow:hover td{background:var(--surface-2)}
+
+.cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}
+.cal .dow{font-size:11px;color:var(--fg-3);text-align:center;padding:4px 0}
+.day{min-height:92px;background:var(--surface);border:1px solid var(--line);border-radius:7px;padding:5px;display:flex;flex-direction:column;gap:3px;cursor:pointer;text-align:left;min-width:0}
+.day.out{opacity:.45} .day.today{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.day[aria-pressed="true"]{background:var(--accent-soft)}
+.day .d{font-family:var(--font-mono);font-size:12px;color:var(--fg-2)}
+.ev{font-size:11px;line-height:1.3;border-radius:4px;padding:1px 4px;background:var(--grey-soft);overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.ev.u-1{background:var(--red-soft);color:var(--red)} .ev.u-2{background:var(--amber-soft);color:var(--amber)} .ev.t{font-weight:700}
+.calHead{display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap}
+.calHead h3{margin:0 8px;font-family:var(--font-display);font-size:18px}
+.agenda{display:grid;gap:6px;margin-top:12px}
+.agendaItem{display:grid;grid-template-columns:7.5em minmax(0,1fr) auto;gap:10px;align-items:center;padding:8px 10px;background:var(--surface);border:1px solid var(--line);border-radius:8px;cursor:pointer;text-align:left;width:100%}
+.agendaItem time{font-family:var(--font-mono);font-size:12px}
+
+.region h3{margin:0 0 2px;font-family:var(--font-display);font-size:19px}
+.region .stat{display:flex;gap:14px;margin:8px 0 12px}
+.region .stat div{display:grid}
+.region .stat b{font-family:var(--font-mono);font-size:22px;font-weight:500}
+.region .stat small{font-size:11px;color:var(--fg-3)}
+.region h4{font-size:12px;color:var(--fg-3);margin:14px 0 6px;font-weight:500}
+.mini{display:grid;gap:4px}
+.mini button{border:0;background:none;text-align:left;padding:4px 0;cursor:pointer;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;font-size:13px;border-bottom:1px dashed var(--line)}
+.mini button span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+.srcStatus{font-size:12px;white-space:nowrap}
+.srcStatus.ok{color:var(--ok)} .srcStatus.none{color:var(--fg-2)} .srcStatus.fail{color:var(--red)} .srcStatus.auth{color:var(--gold)} .srcStatus.part{color:var(--amber)}
+.note{font-size:12px;color:var(--fg-2);max-width:65ch}
+.footer{margin-top:28px;font-size:12px;color:var(--fg-3);max-width:110ch;line-height:1.7}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--fg);color:var(--bg);padding:8px 14px;border-radius:8px;font-size:13px;opacity:0;pointer-events:none;transition:opacity .2s}
+.toast.on{opacity:1}
+.trackRow{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:start;padding:12px 0;border-bottom:1px solid var(--line)}
+.trackRow textarea{width:100%;min-height:44px;margin-top:6px;border:1px solid var(--line);border-radius:7px;padding:6px 8px;background:var(--bg);resize:vertical;font:inherit;font-size:13px}
+.trackCtl{display:grid;gap:6px;justify-items:end}
+
+@media (max-width:1100px){.summary{grid-template-columns:repeat(2,minmax(0,1fr))}.summary .wide{grid-column:1/-1}.grid3{grid-template-columns:1fr}}
+@media (max-width:860px){
+  .search{display:none}
+  .brand small,.brand span{display:none}
+  .topIn{gap:10px}
+  .layout{grid-template-columns:minmax(0,1fr)}
+  .preview{display:none;position:fixed;inset:0;max-height:none;z-index:40;border-radius:0;border:0;
+    padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+  .preview.open{display:block}
+  .closeDetail{display:flex;position:sticky;top:0;z-index:2;background:var(--surface);border-bottom:1px solid var(--line);
+    padding:10px max(16px,env(safe-area-inset-right,0px)) 10px max(16px,env(safe-area-inset-left,0px));gap:8px;align-items:center}
+  .closeDetail button{border:1px solid var(--line);background:var(--surface);border-radius:7px;padding:5px 11px}
+  .detail{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+  .kv{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .legend{margin-left:0}
+  .day{min-height:54px}.day .ev{display:none}.day.has::after{content:"";width:6px;height:6px;border-radius:50%;background:var(--accent);align-self:center}
+  .heading h1{font-size:22px}
+  .updated{text-align:left}.updated .state{justify-content:flex-start}
+  .mobileSearch{display:block!important}
+}
+.mobileSearch{display:none;width:100%;padding:8px 11px;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+@media (max-width:520px){.facts{grid-template-columns:1fr}.facts div:nth-child(odd){border-right:0}.row .lab{width:100%}.agendaItem{grid-template-columns:6.4em minmax(0,1fr)}.agendaItem .pill{display:none}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<header class="top"><div class="topIn">
+  <div class="brand"><b>WA</b><div><span>西非工程机会监测</span><small>加纳 · 多哥 · 尼日利亚 · 多边机构</small></div></div>
+  <nav class="nav" id="nav" aria-label="页面">
+    <button data-view="pool" aria-current="page">机会池</button>
+    <button data-view="tracking">我的跟踪<span class="badge" id="trackBadge" hidden></span></button>
+    <button data-view="calendar">截止日历</button>
+    <button data-view="regions">区域看板</button>
+    <button data-view="awards">中标结果</button>
+    <button data-view="sources">来源与更新</button>
+  </nav>
+  <input class="search" id="search" type="search" placeholder="搜索项目 / 采购方 / 编号" aria-label="搜索项目">
+</div></header>
+
+<main class="shell">
+  <div class="heading">
+    <div><h1 id="pageTitle">西非工程机会</h1><p id="pageSub">加纳 · 多哥 · 尼日利亚｜清洁能源 / 光伏 / 电力 / 道路桥梁 / 水利灌溉 / 建筑基础设施 / 工程咨询</p></div>
+    <div class="updated" id="updated"><strong>每日更新：07:30 加纳时间（Africa/Accra，UTC+0）</strong><span>正在读取数据…</span></div>
+  </div>
+
+  <section id="view-pool">
+    <div class="summary" id="summary"></div>
+    <input class="mobileSearch" id="search2" type="search" placeholder="搜索项目 / 采购方 / 编号" aria-label="搜索项目">
+    <div class="filters">
+      <div class="row" id="sectorRow"></div>
+      <div class="row" id="stageRow"></div>
+      <div class="row">
+        <span class="lab">条件</span>
+        <select id="fCountry" class="select" aria-label="国家"><option value="">全部国家</option><option value="GH">加纳</option><option value="TG">多哥</option><option value="NG">尼日利亚</option></select>
+        <select id="fStatus" class="select" aria-label="机会状态"></select>
+        <select id="fSort" class="select" aria-label="排序">
+          <option value="deadline">按截止时间排序</option>
+          <option value="published">按最新发布时间排序</option>
+          <option value="complete">按信息完整度排序</option>
+        </select>
+        <span class="legend"><span><i class="u1"></i>≤3天</span><span><i class="u2"></i>4–7天</span><span><i class="u3"></i>&gt;7天</span></span>
+      </div>
+      <div class="dgNote" id="dgNote" hidden></div>
+    </div>
+    <div class="layout">
+      <section>
+        <div class="listHead" id="listHead"></div>
+        <div class="list" id="list"><div class="empty">正在载入项目…</div></div>
+      </section>
+      <aside class="preview" id="preview" aria-label="项目详情"><div class="detailEmpty">选择左侧项目查看详情</div></aside>
+    </div>
+  </section>
+
+  <section id="view-tracking" hidden></section>
+  <section id="view-calendar" hidden></section>
+  <section id="view-regions" hidden></section>
+  <section id="view-awards" hidden></section>
+  <section id="view-sources" hidden></section>
+
+  <p class="footer" id="footer">每条机会都链接到可访问的原始公告页；第三方转载与 DGMarket 会员来源会单独标明。采购阶段与当前状态分开记录：截止不等于授标。截止时间按公告所在国当地时间显示（加纳、多哥 UTC+0；尼日利亚 WAT UTC+1）。已授标、已取消、已截止等终态记录在终态发生满 72 小时后，从所有页面和主存储中删除。发布日期取自原公告；原公告未载明时显示"待核实"，不会用抓取时间代替。</p>
+</main>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const esc = (v) => String(v ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const COUNTRY = { GH: '加纳', TG: '多哥', NG: '尼日利亚' };
+const SECTORS = ['清洁能源/光伏', '电力电气', '道路桥梁', '水利灌溉', '建筑基础设施', '工程咨询'];
+const STAGES = ['采购计划', '意向征集', '资格预审', '询价', '正式招标', '建议书征集', '开标/评审', '中标', '取消', '已截止'];
+const STATUSES = ['开放中', '开放中（截止待核实）', '已截止（待评审）', '评审中', '计划阶段', '已授标', '已取消', '待核实'];
+const TRACK_STATES = ['待评估', '准备投标', '已投标', '暂缓', '放弃'];
+const DAY = 86400000, H72 = 72 * 3600000;
+
+let DATA = { meta: {}, sources: [], items: [] };
+let NOW = Date.now();
+const state = { view: 'pool', sector: 'all', stage: 'all', selected: null, calMonth: null, calDay: null };
+let tracked = {}; // id -> {at, state, note}
+let db = null, userId = null;
+
+/* ---------- 时间与格式 ---------- */
+const pad = (n) => String(n).padStart(2, '0');
+function fmtUTC(ms, withTime = true) {
+  if (ms == null || !isFinite(ms)) return '—';
+  const d = new Date(ms);
+  return `${d.getUTCFullYear()}-${pad(d.getUTCMonth() + 1)}-${pad(d.getUTCDate())}` + (withTime ? ` ${pad(d.getUTCHours())}:${pad(d.getUTCMinutes())}` : '');
+}
+const tzLabel = (c) => (c === 'NG' ? 'WAT UTC+1' : 'UTC+0');
+function deadlineText(x) {
+  const raw = String(x.deadline || '').trim();
+  if (!raw) return '未披露';
+  return raw.length > 10 ? `${raw.slice(0, 16)}（${tzLabel(x.country)}）` : `${raw}（未载明时刻）`;
+}
+function publishedText(x) {
+  const raw = String(x.published_at || '').trim();
+  if (!raw) return '待核实';
+  return raw.length > 10 ? `${raw.slice(0, 16)}（${tzLabel(x.country)}）` : `${raw}（原公告未载明时刻）`;
+}
+const pubMs = (x) => { const m = String(x.published_at || '').match(/^(\d{4})-(\d{2})-(\d{2})(?:[ T](\d{2}):(\d{2}))?/); return m ? Date.UTC(+m[1], +m[2] - 1, +m[3], +(m[4] || 0), +(m[5] || 0)) - (x.country === 'NG' ? 3600000 : 0) : null; };
+function daysLeft(x) { return x.deadline_ms == null ? null : Math.ceil((x.deadline_ms - NOW) / DAY); }
+function isOpen(x) { return x.status === '开放中' || x.status === '开放中（截止待核实）'; }
+// 只有开放状态才按截止远近着色
+function urgency(x) { const d = daysLeft(x); if (!isOpen(x) || d == null) return 0; return d <= 3 ? 1 : d <= 7 ? 2 : 3; }
+function nextRun() { const d = new Date(NOW); let t = Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate(), 7, 30); if (t <= NOW) t += DAY; return t; }
+function statusClass(s) { return s.startsWith('开放') ? 'open' : s === '评审中' ? 'review' : s === '计划阶段' ? 'plan' : s === '已授标' ? 'award' : s === '已取消' ? 'cancel' : 'closed'; }
+function daysText(x) {
+  const d = daysLeft(x);
+  if (d == null) return '';
+  if (!isOpen(x)) return d < 0 ? `已过 ${-d} 天` : '';
+  const ms = x.deadline_ms - NOW;
+  return ms < DAY ? '24 小时内截止' : `剩 ${d} 天`;
+}
+
+/* ---------- 跟踪（已登录用 db 保存，否则存本浏览器） ---------- */
+function loadLocalTracking() { try { tracked = JSON.parse(localStorage.getItem('wa-tender-tracked-v2') || '{}') || {}; } catch (e) { tracked = {}; } }
+async function saveTracking() {
+  try { localStorage.setItem('wa-tender-tracked-v2', JSON.stringify(tracked)); } catch (e) {}
+  if (db && userId) { try { await db.collection('data/users/' + userId).doc('tracking').set({ items: tracked, updated_at: new Date().toISOString() }); } catch (e) { toast('云端保存失败，已保存在本浏览器'); } }
+}
+async function initCloud() {
+  try {
+    if (!window.claude || !window.claude.use) return;
+    const [d, u] = await Promise.all([window.claude.use('db'), window.claude.use('user')]);
+    if (!d || !u) return;
+    userId = await u.id(); if (!userId) return;
+    db = d;
+    const snap = await db.collection('data/users/' + userId).doc('tracking').get();
+    const cloud = snap && (snap.data ? snap.data() : snap);
+    if (cloud && cloud.items) tracked = { ...tracked, ...cloud.items };
+    else if (Object.keys(tracked).length) await saveTracking();
+    render();
+  } catch (e) { db = null; }
+}
+function toggleTrack(id) {
+  if (tracked[id]) { delete tracked[id]; toast('已取消跟踪'); }
+  else { tracked[id] = { at: new Date().toISOString(), state: '待评估', note: '' }; toast('已加入我的跟踪'); }
+  saveTracking(); render();
+}
+function trackBtn(x) { const on = !!tracked[x.id]; return `<button class="trackBtn" data-track="${x.id}" aria-pressed="${on}">${on ? '★ 已跟踪' : '☆ 跟踪'}</button>`; }
+
+/* ---------- 筛选 ---------- */
+function searchText() { return ($('search').value || $('search2').value || '').trim().toLowerCase(); }
+function matches(x, skip = '') {
+  const q = searchText();
+  if (q && ![x.title, x.title_original, x.entity, x.ref_no, x.scope, x.location].join(' ').toLowerCase().includes(q)) return false;
+  if (skip !== 'country' && $('fCountry').value && x.country !== $('fCountry').value) return false;
+  if (skip !== 'status' && $('fStatus').value && x.status !== $('fStatus').value) return false;
+  if (skip !== 'sector') {
+    if (state.sector === 'dgmarket') { if (!x.dgmarket) return false; }
+    else if (state.sector !== 'all' && !x.sectors.includes(state.sector)) return false;
+  }
+  if (skip !== 'stage' && state.stage !== 'all' && x.stage !== state.stage) return false;
+  return true;
+}
+function sorted(list) {
+  const how = $('fSort').value;
+  const rank = (x) => (isOpen(x) ? 0 : x.status === '计划阶段' ? 1 : x.status === '评审中' ? 2 : 3);
+  const byDl = (a, b) => (a.deadline_ms ?? Infinity) - (b.deadline_ms ?? Infinity);
+  return list.slice().sort((a, b) => {
+    if (how === 'published') { const pa = pubMs(a), pb = pubMs(b); if (pa !== pb) return pa == null ? 1 : pb == null ? -1 : pb - pa; return byDl(a, b); }
+    if (how === 'complete') return (b.completeness - a.completeness) || (rank(a) - rank(b)) || byDl(a, b);
+    return (rank(a) - rank(b)) || byDl(a, b);
+  });
+}
+
+/* ---------- 机会池 ---------- */
+function renderSummary() {
+  const it = DATA.items, open = it.filter(isOpen);
+  const soon = open.filter((x) => { const d = daysLeft(x); return d != null && d <= 3; });
+  const week = it.filter((x) => { const p = pubMs(x); return p != null && NOW - p <= 7 * DAY; });
+  const bars = (pairs) => { const max = Math.max(1, ...pairs.map((p) => p[1])); return pairs.map(([k, n]) => `<div class="bar"><span>${esc(k)}</span><span class="track"><i style="width:${(n / max) * 100}%"></i></span><span class="n">${n}</span></div>`).join(''); };
+  $('summary').innerHTML = `
+    <div class="tile"><h3>机会总数</h3><div class="big">${it.length}</div><div class="sub">主存储全部记录（含评审中、计划阶段）</div></div>
+    <div class="tile"><h3>开放中</h3><div class="big">${open.length}</div><div class="sub">截止时间未到的意向征集 / 资格预审 / 招标</div></div>
+    <div class="tile alert"><h3>3 天内截止</h3><div class="big">${soon.length}</div><div class="sub">按公告所在国当地时间计算</div></div>
+    <div class="tile"><h3>近 7 天发布</h3><div class="big">${week.length}</div><div class="sub">以原公告发布日期计，不含发布日期待核实的记录</div></div>
+    <div class="tile wide"><h3>国家与领域分布（开放中）</h3><div class="bars">${bars(Object.entries(COUNTRY).map(([c, n]) => [n, open.filter((x) => x.country === c).length]))}</div>
+      <div class="bars" style="margin-top:8px">${bars(SECTORS.map((s) => [s, open.filter((x) => x.sectors.includes(s)).length]).sort((a, b) => b[1] - a[1]).slice(0, 4))}</div></div>`;
+}
+function renderFilters() {
+  const base = DATA.items.filter((x) => matches(x, 'sector'));
+  const sc = (s) => base.filter((x) => x.sectors.includes(s)).length;
+  const dgN = base.filter((x) => x.dgmarket).length;
+  $('sectorRow').innerHTML = `<span class="lab">领域</span>` +
+    `<button class="chip" data-sector="all" aria-pressed="${state.sector === 'all'}">全部领域<span class="c">${base.length}</span></button>` +
+    SECTORS.map((s) => `<button class="chip" data-sector="${s}" aria-pressed="${state.sector === s}" ${sc(s) || state.sector === s ? '' : 'disabled'}>${s}<span class="c">${sc(s)}</span></button>`).join('') +
+    `<span class="sep" aria-hidden="true"></span><button class="chip dg" data-sector="dgmarket" aria-pressed="${state.sector === 'dgmarket'}" title="DGMarket 会员来源发现或交叉核对的记录">DGMarket 会员公告<span class="c">${dgN}</span></button>`;
+  const sbase = DATA.items.filter((x) => matches(x, 'stage'));
+  const stc = (s) => sbase.filter((x) => x.stage === s).length;
+  $('stageRow').innerHTML = `<span class="lab">阶段</span><button class="chip" data-stage="all" aria-pressed="${state.stage === 'all'}">全部阶段<span class="c">${sbase.length}</span></button>` +
+    STAGES.map((s) => `<button class="chip" data-stage="${s}" aria-pressed="${state.stage === s}" ${stc(s) || state.stage === s ? '' : 'disabled'}>${s}<span class="c">${stc(s)}</span></button>`).join('');
+  const stbase = DATA.items.filter((x) => matches(x, 'status')), cur = $('fStatus').value;
+  $('fStatus').innerHTML = `<option value="">全部状态（${stbase.length}）</option>` + STATUSES.filter((s) => stbase.some((x) => x.status === s) || s === cur).map((s) => `<option value="${s}" ${s === cur ? 'selected' : ''}>${s}（${stbase.filter((x) => x.status === s).length}）</option>`).join('');
+  const dg = DATA.sources.find((s) => s.id === 'dgmarket');
+  $('dgNote').hidden = state.sector !== 'dgmarket';
+  if (dg) $('dgNote').innerHTML = `DGMarket 会员来源：本次状态「${esc(dg.status)}」。${esc(dg.note)} 列表中的 DGMarket 记录尽量链接采购方原始公告，DGMarket 仅为发现或会员来源。`;
+}
+function cardHtml(x) {
+  const d = daysLeft(x), u = urgency(x);
+  const dlCls = u === 1 ? 'red' : u === 2 ? 'amber' : '';
+  return `<article class="card u-${u === 3 ? 3 : u === 0 ? 0 : u}" data-open="${x.id}" aria-current="${state.selected === x.id}" tabindex="0">
+    <h4>${esc(x.title)}</h4>
+    <div class="orig">${esc(x.title_original)}</div>
+    <div class="meta"><span>${COUNTRY[x.country] || x.country}</span><span>${esc(x.sectors.join(' / '))}</span><span>${esc(x.entity)}</span></div>
+    <div class="kv">
+      <div><small>阶段 · 状态</small><b>${esc(x.stage)} · ${esc(x.status.replace('（截止待核实）', ''))}</b></div>
+      <div><small>截止</small><b class="${dlCls}">${esc(x.deadline ? x.deadline.slice(0, 16) : '未披露')}${daysText(x) ? `<br><span style="font-size:11px">${daysText(x)}</span>` : ''}</b></div>
+      <div><small>发布</small><b>${esc(x.published_at ? x.published_at.slice(0, 10) : '待核实')}</b></div>
+      <div><small>金额</small><b>${esc(x.amount || '未披露')}</b></div>
+    </div>
+    <div class="foot">
+      <div class="links"><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.origin)}原始公告 ↗</a>${x.dgmarket_url && x.dgmarket_url !== x.url ? `<a href="${esc(x.dgmarket_url)}" target="_blank" rel="noopener">DGMarket ↗</a>` : ''}</div>
+      <div style="display:flex;gap:6px;align-items:center">${x.origin_type === '第三方转载' ? '<span class="pill third">第三方转载</span>' : ''}${x.dgmarket ? '<span class="pill dgm">DGMarket</span>' : ''}${trackBtn(x)}</div>
+    </div>
+  </article>`;
+}
+function fact(label, v, missText = '待核实') { const ok = String(v ?? '').trim(); return `<div><small>${label}</small><b class="${ok ? '' : 'miss'}">${ok ? esc(v) : missText}</b></div>`; }
+const SCORE_FIELDS = [['原文标题', 'title_original'], ['采购方', 'entity'], ['项目地点', 'location'], ['工程范围', 'scope'], ['项目编号', 'ref_no'], ['采购阶段', 'stage'], ['发布日期', 'published_at'], ['截止时间', 'deadline'], ['金额', 'amount'], ['原始链接', 'url'], ['核验时间', 'verified_at'], ['条件/风险', 'risk']];
+function detailHtml(x) {
+  if (!x) return '<div class="detailEmpty">选择左侧项目查看详情</div>';
+  const missing = SCORE_FIELDS.filter(([, k]) => { const v = String((k === 'risk' ? (x.conditions || x.risk) : x[k]) ?? '').trim(); return !v || /^(未披露|待核实)$/.test(v); }).map(([n]) => n);
+  return `<div class="closeDetail"><button data-close>← 返回列表</button><span style="font-size:12px;color:var(--fg-3)">项目详情</span></div>
+  <div class="detail">
+    <div class="crumbs"><span class="pill ${statusClass(x.status)}">${esc(x.status)}</span><span class="pill src">${esc(x.stage)}</span><span class="pill src">${COUNTRY[x.country]}</span>${x.sectors.map((s) => `<span class="pill src">${esc(s)}</span>`).join('')}${x.dgmarket ? '<span class="pill dgm">DGMarket</span>' : ''}</div>
+    <div><h2>${esc(x.title)}</h2><div class="orig">${esc(x.title_original)}</div></div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">${trackBtn(x)}<span style="font-size:12px;color:var(--fg-3)">${daysText(x)}</span></div>
+    <div class="facts">
+      ${fact('采购方', x.entity)}${fact('项目地点', x.location)}
+      ${fact('采购阶段', x.stage)}${fact('当前状态', x.status)}
+      ${fact('原公告发布', publishedText(x))}${fact('投标截止', deadlineText(x))}
+      ${fact('金额', x.amount, '未披露')}${fact('参考编号', x.ref_no)}
+      ${fact('资金来源', x.funder, '公告未载明')}${fact('采购方式 / 原阶段标注', x.stage_note)}
+    </div>
+    <div class="sec"><h5>工程范围</h5><p>${esc(x.scope || '待核实')}</p></div>
+    ${x.conditions ? `<div class="sec"><h5>资格与投标关键条件</h5><p>${esc(x.conditions)}</p></div>` : ''}
+    <div class="sec"><h5>行动建议</h5><p>${esc(x.action || '暂无')}</p></div>
+    <div class="sec risk"><h5>风险提示</h5><p>${esc(x.risk || '暂无')}</p></div>
+    <div class="srcBox">
+      <a class="primary" href="${esc(x.url)}" target="_blank" rel="noopener">打开${esc(x.origin)}原始公告 ↗</a>
+      <div>来源类型：${esc(x.origin_type)}　发现来源：${esc(x.discovery)}</div>
+      ${x.dgmarket_url && x.dgmarket_url !== x.url ? `<div>DGMarket 会员页：<a href="${esc(x.dgmarket_url)}" target="_blank" rel="noopener">查看 ↗</a>（需会员登录）</div>` : ''}
+      <div>最近核验：<span class="num">${esc(x.verified_at)}</span>　${esc(x.verified_note || '')}</div>
+      ${x.terminal_at ? `<div>终态时间：<span class="num">${fmtUTC(Date.parse(x.terminal_at))} UTC</span>，将于 <span class="num">${fmtUTC(Date.parse(x.terminal_at) + H72)} UTC</span> 自动清除</div>` : ''}
+      <div style="word-break:break-all;font-size:12px;color:var(--fg-3)">${esc(x.url)}</div>
+    </div>
+    <div class="score"><span>信息完整度 ${x.completeness}/12</span><span class="meter"><i style="width:${(x.completeness / 12) * 100}%"></i></span></div>
+    ${missing.length ? `<div class="note">未核实字段：${esc(missing.join('、'))}</div>` : ''}
+  </div>`;
+}
+function renderPool() {
+  renderSummary(); renderFilters();
+  const list = sorted(DATA.items.filter((x) => matches(x)));
+  if (state.selected && !list.some((x) => x.id === state.selected) && window.innerWidth > 860) state.selected = null;
+  if (!state.selected && list.length && window.innerWidth > 860) state.selected = list[0].id;
+  const filtered = list.length !== DATA.items.length;
+  $('listHead').innerHTML = `<span>当前条件下共 <b class="num">${list.length}</b> 条，已全部列出${filtered ? `（总库 ${DATA.items.length} 条）` : ''}</span>${filtered ? '<button class="reset" data-reset>清除筛选</button>' : ''}`;
+  $('list').innerHTML = list.length ? list.map(cardHtml).join('') : '<div class="empty"><b>没有符合条件的项目</b>换一个领域或阶段，或清除筛选。</div>';
+  $('preview').innerHTML = detailHtml(DATA.items.find((x) => x.id === state.selected));
+}
+
+/* ---------- 我的跟踪 ---------- */
+function renderTracking() {
+  const ids = Object.keys(tracked);
+  const items = ids.map((id) => DATA.items.find((x) => x.id === id)).filter(Boolean);
+  const gone = ids.filter((id) => !DATA.items.some((x) => x.id === id));
+  const el = $('view-tracking');
+  if (!items.length) {
+    el.innerHTML = `<div class="panel empty"><b>还没有跟踪项目</b>在机会池里点「☆ 跟踪」，项目会出现在这里、截止日历和区域看板中。<br><br><button class="btn" data-goto="pool">去机会池</button>${gone.length ? `<p class="note">另有 ${gone.length} 条已跟踪项目因终态满 72 小时被清除。</p>` : ''}</div>`;
+    return;
+  }
+  const open = items.filter(isOpen), soon = open.filter((x) => daysLeft(x) <= 7);
+  el.innerHTML = `<div class="summary" style="grid-template-columns:repeat(3,minmax(0,1fr))">
+      <div class="tile"><h3>跟踪中</h3><div class="big">${items.length}</div></div>
+      <div class="tile"><h3>仍开放</h3><div class="big">${open.length}</div></div>
+      <div class="tile alert"><h3>7 天内截止</h3><div class="big">${soon.length}</div></div></div>
+    <div class="panel">
+      <p class="note" style="margin-top:0">${db ? '跟踪记录保存在你的账户中，换设备登录后仍在。' : '跟踪记录保存在本浏览器中；登录 claude.ai 打开本页可保存到账户。'}${gone.length ? ` 另有 ${gone.length} 条已跟踪项目因终态满 72 小时被清除。` : ''}</p>
+      ${sorted(items).map((x) => `<div class="trackRow">
+        <div><a href="#" data-open-pool="${x.id}" style="font-weight:700;text-decoration:none;color:var(--fg)">${esc(x.title)}</a>
+          <div class="meta" style="margin-top:3px"><span>${COUNTRY[x.country]}</span><span>${esc(x.entity)}</span><span class="pill ${statusClass(x.status)}">${esc(x.status)}</span><span>截止 ${esc(deadlineText(x))}</span><span>${daysText(x)}</span></div>
+          <textarea data-note="${x.id}" placeholder="备注：联系人、合作方、报价进展…" aria-label="备注">${esc(tracked[x.id].note || '')}</textarea></div>
+        <div class="trackCtl"><select class="select" data-tstate="${x.id}" aria-label="跟踪进展">${TRACK_STATES.map((s) => `<option ${tracked[x.id].state === s ? 'selected' : ''}>${s}</option>`).join('')}</select>
+          <a href="${esc(x.url)}" target="_blank" rel="noopener" style="font-size:12px">原始公告 ↗</a>${trackBtn(x)}</div>
+      </div>`).join('')}
+    </div>`;
+}
+
+/* ---------- 截止日历 ---------- */
+function renderCalendar() {
+  const el = $('view-calendar');
+  const today = new Date(NOW);
+  if (!state.calMonth) state.calMonth = [today.getUTCFullYear(), today.getUTCMonth()];
+  const [y, m] = state.calMonth;
+  const withDl = DATA.items.filter((x) => x.deadline && (isOpen(x) || tracked[x.id]));
+  const byDay = {};
+  withDl.forEach((x) => { const k = x.deadline.slice(0, 10); (byDay[k] ||= []).push(x); });
+  const first = new Date(Date.UTC(y, m, 1)), start = (first.getUTCDay() + 6) % 7;
+  const cells = [];
+  for (let i = 0; i < 42; i++) {
+    const d = new Date(Date.UTC(y, m, 1 - start + i)), k = fmtUTC(d.getTime(), false), evs = (byDay[k] || []).sort((a, b) => (tracked[b.id] ? 1 : 0) - (tracked[a.id] ? 1 : 0));
+    cells.push(`<button class="day ${d.getUTCMonth() !== m ? 'out' : ''} ${k === fmtUTC(NOW, false) ? 'today' : ''} ${evs.length ? 'has' : ''}" data-day="${k}" aria-pressed="${state.calDay === k}" aria-label="${k}，${evs.length} 个截止">
+      <span class="d">${d.getUTCDate()}</span>${evs.slice(0, 3).map((x) => `<span class="ev u-${urgency(x)} ${tracked[x.id] ? 't' : ''}">${tracked[x.id] ? '★' : ''}${esc(x.title)}</span>`).join('')}${evs.length > 3 ? `<span class="ev">+${evs.length - 3}</span>` : ''}</button>`);
+  }
+  const dayList = state.calDay ? (byDay[state.calDay] || []) : sorted(withDl.filter((x) => { const d = daysLeft(x); return d != null && d >= 0 && d <= 14; }));
+  el.innerHTML = `<div class="panel">
+    <div class="calHead"><button class="btn ghost" data-cal="-1" aria-label="上个月">‹</button><h3>${y} 年 ${m + 1} 月</h3><button class="btn ghost" data-cal="1" aria-label="下个月">›</button><button class="btn ghost" data-cal="0">本月</button>
+      <span class="note" style="margin-left:auto">显示开放中及已跟踪项目的截止日；★ 为我的跟踪。</span></div>
+    <div class="cal">${['一', '二', '三', '四', '五', '六', '日'].map((d) => `<div class="dow">周${d}</div>`).join('')}${cells.join('')}</div>
+    <h4 style="margin:18px 0 0;font-size:13px">${state.calDay ? `${state.calDay} 截止（${dayList.length} 条）<button class="reset" data-day="" style="margin-left:8px">查看未来 14 天</button>` : `未来 14 天截止（${dayList.length} 条）`}</h4>
+    <div class="agenda">${dayList.map((x) => `<button class="agendaItem" data-open-pool="${x.id}"><time>${esc(x.deadline.slice(0, 16))}</time><span><b>${tracked[x.id] ? '★ ' : ''}${esc(x.title)}</b><br><small style="color:var(--fg-3)">${COUNTRY[x.country]} · ${esc(x.entity)} · ${tzLabel(x.country)}</small></span><span class="pill ${statusClass(x.status)}">${esc(daysText(x) || x.status)}</span></button>`).join('') || '<div class="empty">这一天没有截止项目</div>'}</div>
+  </div>`;
+}
+
+/* ---------- 区域看板 ---------- */
+function renderRegions() {
+  const el = $('view-regions');
+  el.innerHTML = `<div class="grid3">${Object.entries(COUNTRY).map(([c, name]) => {
+    const it = DATA.items.filter((x) => x.country === c), open = it.filter(isOpen);
+    const soon = sorted(open).slice(0, 6), tr = it.filter((x) => tracked[x.id]);
+    const sec = SECTORS.map((s) => [s, open.filter((x) => x.sectors.includes(s)).length]).filter((p) => p[1]);
+    const max = Math.max(1, ...sec.map((p) => p[1]));
+    const srcs = DATA.sources.filter((s) => s.country === c);
+    return `<div class="panel region"><h3>${name}</h3><div class="note">${c === 'NG' ? '截止时间 WAT（UTC+1）' : '截止时间 UTC+0'}</div>
+      <div class="stat"><div><b>${it.length}</b><small>记录</small></div><div><b>${open.length}</b><small>开放中</small></div><div><b style="color:var(--red)">${open.filter((x) => daysLeft(x) <= 3).length}</b><small>3 天内</small></div><div><b style="color:var(--gold)">${tr.length}</b><small>我的跟踪</small></div></div>
+      <h4>开放机会领域分布</h4><div class="bars">${sec.map(([k, n]) => `<div class="bar"><span>${k}</span><span class="track"><i style="width:${(n / max) * 100}%"></i></span><span class="n">${n}</span></div>`).join('') || '<span class="note">暂无开放机会</span>'}</div>
+      <h4>最近截止</h4><div class="mini">${soon.map((x) => `<button data-open-pool="${x.id}"><span>${tracked[x.id] ? '★ ' : ''}${esc(x.title)}</span><span class="num" style="color:var(--fg-3)">${esc(x.deadline.slice(5, 10))}</span></button>`).join('') || '<span class="note">暂无</span>'}</div>
+      ${tr.length ? `<h4>我的跟踪</h4><div class="mini">${tr.map((x) => `<button data-open-pool="${x.id}"><span>★ ${esc(x.title)}</span><span class="pill ${statusClass(x.status)}">${esc(x.status)}</span></button>`).join('')}</div>` : ''}
+      <h4>本国来源状态</h4><div class="mini">${srcs.map((s) => `<div style="display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;font-size:12px;padding:3px 0"><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a><span class="srcStatus ${srcCls(s.status)}">${esc(s.status)}</span></div>`).join('')}</div>
+      <button class="btn ghost" style="margin-top:12px" data-filter-country="${c}">在机会池中查看${name}</button></div>`;
+  }).join('')}</div>`;
+}
+
+/* ---------- 中标结果 ---------- */
+function renderAwards() {
+  const el = $('view-awards');
+  const awarded = DATA.items.filter((x) => x.status === '已授标' || x.status === '已取消');
+  const review = DATA.items.filter((x) => x.status === '评审中');
+  const closed = DATA.items.filter((x) => x.status === '已截止（待评审）');
+  const table = (rows, extra) => rows.length ? `<div class="tableWrap"><table class="table"><thead><tr><th>项目</th><th>国家</th><th>采购方</th><th>阶段</th><th>截止</th><th>${extra}</th><th>来源</th></tr></thead><tbody>${sorted(rows).map((x) => `<tr class="trow" data-open-pool="${x.id}"><td>${tracked[x.id] ? '★ ' : ''}${esc(x.title)}</td><td>${COUNTRY[x.country]}</td><td>${esc(x.entity)}</td><td>${esc(x.stage)}</td><td class="num">${esc(x.deadline ? x.deadline.slice(0, 16) : '—')}</td><td class="num">${x.terminal_at ? fmtUTC(Date.parse(x.terminal_at) + H72) : '—'}</td><td><a href="${esc(x.url)}" target="_blank" rel="noopener">原始公告 ↗</a></td></tr>`).join('')}</tbody></table></div>` : '<div class="empty">暂无</div>';
+  el.innerHTML = `<div class="panel" style="display:grid;gap:18px">
+    <p class="note" style="margin:0">中标与取消只在官方公告确认后记录，并保存公告确认的终态时间。截止或开标后、尚无授标公告的项目分开列出，不视为已授标。终态记录满 72 小时后自动清除。</p>
+    <div><h3 style="margin:0 0 8px;font-size:15px">已授标 / 已取消（官方确认） · ${awarded.length}</h3>${awarded.length ? table(awarded, '清除时间 UTC') : '<div class="empty"><b>当前没有经官方确认的授标或取消记录</b>每日任务读到授标或取消公告后会记在这里。</div>'}</div>
+    <div><h3 style="margin:0 0 8px;font-size:15px">开标 / 评审中 · ${review.length}</h3>${table(review, '清除时间 UTC')}</div>
+    <div><h3 style="margin:0 0 8px;font-size:15px">已截止，等待评审结果 · ${closed.length}</h3>${table(closed, '清除时间 UTC')}</div>
+  </div>`;
+}
+
+/* ---------- 来源与更新 ---------- */
+function srcCls(s) { return /已核验并更新/.test(s) ? 'ok' : /无新增/.test(s) ? 'none' : /失败/.test(s) ? 'fail' : /授权/.test(s) ? 'auth' : 'part'; }
+function renderSources() {
+  const m = DATA.meta, r = m.last_run || {};
+  const groups = [['GH', '加纳'], ['TG', '多哥'], ['NG', '尼日利亚'], ['MULTI', '多边开发机构 / 联合国 / 会员来源']];
+  $('view-sources').innerHTML = `<div class="summary" style="grid-template-columns:repeat(3,minmax(0,1fr))">
+      <div class="tile"><h3>最近成功更新</h3><div class="big" style="font-size:20px">${fmtUTC(Date.parse(m.last_success_at))}</div><div class="sub">加纳时间（Africa/Accra，UTC+0）</div></div>
+      <div class="tile"><h3>最近一次运行</h3><div class="big" style="font-size:20px;color:${r.result === '成功' ? 'var(--ok)' : 'var(--red)'}">${esc(r.result || '—')}</div><div class="sub">${esc(fmtUTC(Date.parse(r.finished_at || r.started_at)))} · ${esc(r.note || '')}</div></div>
+      <div class="tile"><h3>下一次计划运行</h3><div class="big" style="font-size:20px">${fmtUTC(nextRun())}</div><div class="sub">${esc(m.schedule || '')}</div></div></div>
+    <div class="panel"><div class="tableWrap"><table class="table"><thead><tr><th>来源</th><th>类型</th><th>本次状态</th><th>核验时间（UTC）</th><th>说明</th></tr></thead><tbody>
+    ${groups.map(([g, n]) => `<tr><td colspan="5" style="background:var(--surface-2);font-weight:700">${n}</td></tr>` + DATA.sources.filter((s) => s.country === g).map((s) => `<tr><td><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a></td><td>${esc(s.kind)}</td><td><span class="srcStatus ${srcCls(s.status)}">${esc(s.status)}</span></td><td class="num">${fmtUTC(Date.parse(s.checked_at))}</td><td class="note">${esc(s.note)}</td></tr>`).join('')).join('')}
+    </tbody></table></div>
+    <p class="note">状态含义：已核验并更新＝读取来源并写入新增或变更；已核验无新增＝读取并筛查，没有符合条件的新记录；访问失败＝本次无法读取，保留已有记录；未获授权＝需要登录或授权的来源本次未访问；可访问、未逐条筛查＝只确认了站点可访问。</p></div>`;
+}
+
+/* ---------- 顶部更新状态 ---------- */
+function renderUpdated() {
+  const m = DATA.meta, r = m.last_run || {};
+  const ok = r.result === '成功';
+  $('updated').innerHTML = `<strong>每日更新：07:30 加纳时间（Africa/Accra，UTC+0）</strong>
+    <span class="state"><i class="dot ${ok ? '' : 'fail'}"></i>最近成功更新 <span class="num">${fmtUTC(Date.parse(m.last_success_at))}</span>（UTC+0）</span>
+    ${ok ? '' : `<span style="color:var(--red)">最近一次运行${esc(r.result || '未知')}：${esc(r.note || '')}（${fmtUTC(Date.parse(r.finished_at || r.started_at))}）</span>`}
+    <span>下次运行 <span class="num">${fmtUTC(nextRun())}</span>${m.dgmarket_authorized ? '' : ' · DGMarket 未获授权'}</span>`;
+}
+
+/* ---------- 视图与事件 ---------- */
+const TITLES = {
+  pool: ['西非工程机会', '加纳 · 多哥 · 尼日利亚｜清洁能源 / 光伏 / 电力 / 道路桥梁 / 水利灌溉 / 建筑基础设施 / 工程咨询'],
+  tracking: ['我的跟踪', '已跟踪项目的进展与备注，同步显示在截止日历和区域看板'],
+  calendar: ['截止日历', '按投标截止日查看开放机会与跟踪项目'],
+  regions: ['区域看板', '分国家查看机会分布、临近截止和来源状态'],
+  awards: ['中标结果', '官方确认的授标与取消，以及开标评审、已截止待评审的项目'],
+  sources: ['来源与更新', '每个来源本次的访问与核验状态，以及每日任务运行记录'],
+};
+function render() {
+  NOW = Date.now();
+  const n = Object.keys(tracked).filter((id) => DATA.items.some((x) => x.id === id)).length;
+  $('trackBadge').hidden = !n; $('trackBadge').textContent = n;
+  document.querySelectorAll('#nav button').forEach((b) => { if (b.dataset.view === state.view) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current'); });
+  ['pool', 'tracking', 'calendar', 'regions', 'awards', 'sources'].forEach((v) => { $('view-' + v).hidden = v !== state.view; });
+  $('pageTitle').textContent = TITLES[state.view][0]; $('pageSub').textContent = TITLES[state.view][1];
+  renderUpdated();
+  ({ pool: renderPool, tracking: renderTracking, calendar: renderCalendar, regions: renderRegions, awards: renderAwards, sources: renderSources })[state.view]();
+}
+function go(view) { state.view = view; try { history.replaceState(null, '', '#' + view); } catch (e) {} render(); window.scrollTo(0, 0); }
+function openInPool(id) { state.view = 'pool'; state.selected = id; const x = DATA.items.find((i) => i.id === id); if (x && !matches(x)) resetFilters(); render(); showDetailMobile(); const c = document.querySelector(`[data-open="${id}"]`); c && c.scrollIntoView({ block: 'nearest' }); }
+function showDetailMobile() { if (window.innerWidth <= 860) { $('preview').classList.add('open'); document.body.style.overflow = 'hidden'; } }
+function hideDetailMobile() { $('preview').classList.remove('open'); document.body.style.overflow = ''; }
+function resetFilters() { state.sector = 'all'; state.stage = 'all'; $('fCountry').value = ''; $('fStatus').value = ''; $('search').value = ''; $('search2').value = ''; }
+let toastT; function toast(t) { const el = $('toast'); el.textContent = t; el.classList.add('on'); clearTimeout(toastT); toastT = setTimeout(() => el.classList.remove('on'), 1800); }
+
+document.addEventListener('click', (e) => {
+  const t = e.target.closest('button,a,[data-open]'); if (!t) return;
+  const ds = t.dataset;
+  if (ds.track) { e.stopPropagation(); toggleTrack(ds.track); return; }
+  if (ds.view) return go(ds.view);
+  if (ds.goto) return go(ds.goto);
+  if (ds.sector) { state.sector = ds.sector; return render(); }
+  if (ds.stage) { state.stage = ds.stage; return render(); }
+  if ('reset' in ds) { resetFilters(); return render(); }
+  if ('close' in ds) return hideDetailMobile();
+  if (ds.openPool) { e.preventDefault(); return openInPool(ds.openPool); }
+  if (ds.filterCountry) { resetFilters(); $('fCountry').value = ds.filterCountry; return go('pool'); }
+  if (ds.cal !== undefined) { const v = +ds.cal; if (!v) { const d = new Date(NOW); state.calMonth = [d.getUTCFullYear(), d.getUTCMonth()]; } else { let [y, m] = state.calMonth; m += v; if (m < 0) { m = 11; y--; } if (m > 11) { m = 0; y++; } state.calMonth = [y, m]; } state.calDay = null; return render(); }
+  if (ds.day !== undefined) { state.calDay = ds.day && state.calDay !== ds.day ? ds.day : null; return render(); }
+  if (ds.open && !t.closest('a')) { state.selected = ds.open; renderPool(); showDetailMobile(); }
+});
+document.addEventListener('keydown', (e) => { if (e.key === 'Enter' && e.target.dataset && e.target.dataset.open) { state.selected = e.target.dataset.open; renderPool(); showDetailMobile(); } if (e.key === 'Escape') hideDetailMobile(); });
+document.addEventListener('change', (e) => {
+  const t = e.target;
+  if (t.dataset.tstate) { tracked[t.dataset.tstate].state = t.value; saveTracking(); toast('进展已保存'); return; }
+  if (['fCountry', 'fStatus', 'fSort'].includes(t.id)) render();
+});
+let noteT;
+document.addEventListener('input', (e) => {
+  const t = e.target;
+  if (t.id === 'search' || t.id === 'search2') { (t.id === 'search' ? $('search2') : $('search')).value = t.value; if (state.view !== 'pool') go('pool'); else renderPool(); }
+  if (t.dataset.note) { tracked[t.dataset.note].note = t.value; clearTimeout(noteT); noteT = setTimeout(() => { saveTracking(); toast('备注已保存'); }, 700); }
+});
+
+async function boot() {
+  loadLocalTracking();
+  const h = (location.hash || '').slice(1); if (TITLES[h]) state.view = h;
+  try {
+    const r = await fetch('data.json', { cache: 'no-store' });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    DATA = await r.json();
+  } catch (e) {
+    $('list').innerHTML = `<div class="empty"><b>数据读取失败</b>${esc(e.message)}。请刷新页面重试。</div>`;
+    return;
+  }
+  render();
+  initCloud();
+}
+boot();
+</script>
