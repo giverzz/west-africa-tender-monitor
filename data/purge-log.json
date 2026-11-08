@@ -38,5 +38,53 @@
   "status": "已截止（待评审）",
   "terminal_at": "2026-11-04T09:00:00.000Z",
   "purged_at": "2026-11-07T14:16:57.025Z"
+ },
+ {
+  "id": "ac673c2a2897",
+  "title": "建设 1 保健中心及 1 座 3 间Quarters，含机械化水井及 Concrete Polytank Stand及供应 Medical 设备，位于 Old Tafo",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3793981",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-05T10:30:00.000Z",
+  "purged_at": "2026-11-08T14:25:51.764Z"
+ },
+ {
+  "id": "ee538a8c6c89",
+  "title": "工程采购：Establishment的 Shippers Complaint及 Support Units及 Support Units及 other related 工程",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3809663",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-05T13:00:00.000Z",
+  "purged_at": "2026-11-08T14:25:51.764Z"
+ },
+ {
+  "id": "aef79a29b335",
+  "title": "建设 Nkonya Ahenkro 区警察局",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3771123",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-05T10:00:00.000Z",
+  "purged_at": "2026-11-08T14:25:51.764Z"
+ },
+ {
+  "id": "acb24b315492",
+  "title": "加纳中学升级与修复：前期合同、设计复核及环境社会评估咨询（9区）",
+  "url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00475633",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-04T16:00:00.000Z",
+  "purged_at": "2026-11-08T14:25:51.764Z"
+ },
+ {
+  "id": "519ef927dbf4",
+  "title": "加纳中学新建、升级与修复：施工后合同服务咨询（9区）",
+  "url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00475634",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-04T16:00:00.000Z",
+  "purged_at": "2026-11-08T14:25:51.764Z"
+ },
+ {
+  "id": "117d7939490c",
+  "title": "从 Damagum 向 Gubana、Janga 与 Ngubdo 延伸供电",
+  "url": "https://www.dgmarket.com/tenders/np-notice.do?keywords=&noticeId=116721811",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-04T22:59:00.000Z",
+  "purged_at": "2026-11-08T14:25:51.764Z"
  }
 ]
