@@ -86,5 +86,29 @@
   "status": "已截止（待评审）",
   "terminal_at": "2026-11-04T22:59:00.000Z",
   "purged_at": "2026-11-08T14:25:51.764Z"
+ },
+ {
+  "id": "82f0dc531fec",
+  "title": "钻探及机械化配套 22 水井，含建设 Concrete Polytank Stand，位于 Selected 社区",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3793017",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-05T23:59:00.000Z",
+  "purged_at": "2026-11-09T17:44:51.653Z"
+ },
+ {
+  "id": "0caf14313b14",
+  "title": "Damaturu Maryam Abacha 环岛至警察总部道路沥青罩面",
+  "url": "https://www.dgmarket.com/tenders/np-notice.do?keywords=&noticeId=116721816",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-05T22:59:00.000Z",
+  "purged_at": "2026-11-09T17:44:51.653Z"
+ },
+ {
+  "id": "9fd8366606d4",
+  "title": "三角州招标委员会建筑工程",
+  "url": "https://www.dgmarket.com/tenders/np-notice.do?keywords=&noticeId=116791778",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-05T22:59:00.000Z",
+  "purged_at": "2026-11-09T17:44:51.653Z"
  }
 ]
