@@ -3,16 +3,15 @@
   "title": "西非工程机会",
   "schedule": "每日 07:30 Africa/Accra（UTC+0）",
   "timezone": "Africa/Accra",
-  "last_success_at": "2026-11-09T17:44:51.607Z",
+  "last_success_at": "2026-11-10T08:46:52.666Z",
   "last_run": {
-   "started_at": "2026-11-09T17:44:17Z",
-   "finished_at": "2026-11-09T17:44:51.607Z",
+   "started_at": "2026-11-10T08:44:55Z",
+   "finished_at": "2026-11-10T08:46:52.666Z",
    "result": "成功",
-   "runner": "GitHub Actions 云端",
-   "note": "云端更新：GHANEPS 新增 1、世界银行新增 0；DGMarket 与其他来源由本机任务读取。"
+   "note": "GHANEPS 与世界银行读取成功；复核并翻译 2 条云端自动收录记录；DGMarket 遇安全验证未读取；其他来源多数仅确认可访问。"
   },
   "dgmarket_authorized": false,
-  "built_at": "2026-11-09T17:44:51.653Z",
+  "built_at": "2026-11-10T08:46:52.803Z",
   "purge_rule": "终态（已授标/已取消/已截止）满 72 小时自动删除"
  },
  "sources": [
@@ -22,9 +21,9 @@
    "country": "GH",
    "kind": "官方",
    "url": "https://www.ghaneps.gov.gh/epps/home.do",
-   "status": "已核验并更新",
-   "checked_at": "2026-11-09T17:44:51.607Z",
-   "note": "云端读取当前招标列表 8 页（80 条）：自动新增 1 条工程类招标，刷新 57 条既有记录核验日期。"
+   "status": "可访问，未逐条筛查",
+   "checked_at": "2026-11-10T08:46:52.666Z",
+   "note": "HTTP 200，本次未逐条筛查。"
   },
   {
    "id": "ppa",
@@ -33,8 +32,8 @@
    "kind": "官方",
    "url": "https://ppa.gov.gh/",
    "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-07T08:04:34.684Z",
-   "note": "站点可打开（HTTP 200），本次未逐条筛查公告"
+   "checked_at": "2026-11-10T08:46:52.666Z",
+   "note": "HTTP 200，本次未逐条筛查。"
   },
   {
    "id": "mrh",
@@ -42,9 +41,9 @@
    "country": "GH",
    "kind": "官方",
    "url": "https://bids.mrh.gov.gh/",
-   "status": "访问失败",
-   "checked_at": "2026-11-07T08:04:34.684Z",
-   "note": "站点无响应，无新增核验；既有记录保持原样"
+   "status": "可访问，未逐条筛查",
+   "checked_at": "2026-11-10T08:46:52.666Z",
+   "note": "HTTP 200，本次未逐条筛查。"
   },
   {
    "id": "dnccp",
@@ -53,8 +52,8 @@
    "kind": "官方",
    "url": "https://dnccp.gouv.tg/",
    "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-07T08:04:34.684Z",
-   "note": "站点可打开（HTTP 200），本次未逐条筛查公告"
+   "checked_at": "2026-11-10T08:46:52.666Z",
+   "note": "HTTP 200，本次未逐条筛查。"
   },
   {
    "id": "osmapt",
@@ -63,8 +62,8 @@
    "kind": "官方",
    "url": "https://osmapt.armp.tg/",
    "status": "访问失败",
-   "checked_at": "2026-11-07T08:04:34.684Z",
-   "note": "站点无响应，无新增核验；既有记录保持原样"
+   "checked_at": "2026-11-10T08:46:52.666Z",
+   "note": "连接失败（无响应）。"
   },
   {
    "id": "ceet",
@@ -73,8 +72,8 @@
    "kind": "官方",
    "url": "https://www.ceet.tg/tg/?cat=15",
    "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-07T08:04:34.684Z",
-   "note": "站点可打开（HTTP 200），本次未逐条筛查公告"
+   "checked_at": "2026-11-10T08:46:52.666Z",
+   "note": "HTTP 200，本次未逐条筛查。"
   },
   {
    "id": "intercom",
@@ -93,8 +92,8 @@
    "kind": "官方",
    "url": "https://bppweb.webhostingng.org/nigeria-open-contracting-portal/",
    "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-07T08:04:34.684Z",
-   "note": "站点可打开（HTTP 200），本次未逐条筛查公告"
+   "checked_at": "2026-11-10T08:46:52.666Z",
+   "note": "HTTP 200，本次未逐条筛查。"
   },
   {
    "id": "bpp",
@@ -103,8 +102,8 @@
    "kind": "官方",
    "url": "https://www.bpp.gov.ng/",
    "status": "访问失败",
-   "checked_at": "2026-11-07T08:04:34.684Z",
-   "note": "站点无响应，无新增核验；既有记录保持原样"
+   "checked_at": "2026-11-10T08:46:52.666Z",
+   "note": "连接失败（无响应）。"
   },
   {
    "id": "rea",
@@ -113,8 +112,8 @@
    "kind": "官方",
    "url": "https://www.rea.gov.ng/tenders",
    "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-07T08:04:34.684Z",
-   "note": "站点可打开（HTTP 200），本次未逐条筛查公告"
+   "checked_at": "2026-11-10T08:46:52.666Z",
+   "note": "HTTP 200，本次未逐条筛查。"
   },
   {
    "id": "nep",
@@ -133,8 +132,8 @@
    "kind": "官方",
    "url": "https://eprocurement.nddc.gov.ng/",
    "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-07T08:04:34.684Z",
-   "note": "站点可打开（HTTP 200），本次未逐条筛查公告"
+   "checked_at": "2026-11-10T08:46:52.666Z",
+   "note": "HTTP 200，本次未逐条筛查。"
   },
   {
    "id": "wb-opps",
@@ -143,8 +142,8 @@
    "kind": "国际机构",
    "url": "https://projects.worldbank.org/en/projects-operations/opportunities",
    "status": "已核验无新增",
-   "checked_at": "2026-11-09T17:44:51.607Z",
-   "note": "云端按加纳/多哥/尼日利亚读取世界银行采购公告 API，开放工程类候选 8 条，自动新增 0 条。"
+   "checked_at": "2026-11-10T08:46:52.666Z",
+   "note": "wb-fetch 读取 GH/TG/NG，候选 7 条，除设备采购（牛奶收集中心设备）外均已收录。"
   },
   {
    "id": "wb-proc",
@@ -153,8 +152,8 @@
    "kind": "国际机构",
    "url": "https://projects.worldbank.org/en/projects-operations/procurement",
    "status": "已核验无新增",
-   "checked_at": "2026-11-09T17:44:51.607Z",
-   "note": "云端按加纳/多哥/尼日利亚读取世界银行采购公告 API，开放工程类候选 8 条，自动新增 0 条。"
+   "checked_at": "2026-11-10T08:46:52.666Z",
+   "note": "同上。"
   },
   {
    "id": "afdb",
@@ -163,8 +162,8 @@
    "kind": "国际机构",
    "url": "https://www.afdb.org/en/documents/category/procurement-notices",
    "status": "访问失败",
-   "checked_at": "2026-11-07T08:04:34.684Z",
-   "note": "HTTP 403 拒绝自动访问，无新增核验；既有记录保持原样"
+   "checked_at": "2026-11-10T08:46:52.666Z",
+   "note": "HTTP 403 拒绝自动访问。"
   },
   {
    "id": "afdb-gpn",
@@ -173,8 +172,8 @@
    "kind": "国际机构",
    "url": "https://www.afdb.org/en/documents/category/general-procurement-notices",
    "status": "访问失败",
-   "checked_at": "2026-11-07T08:04:34.684Z",
-   "note": "HTTP 403 拒绝自动访问，无新增核验；既有记录保持原样"
+   "checked_at": "2026-11-10T08:46:52.666Z",
+   "note": "HTTP 403 拒绝自动访问。"
   },
   {
    "id": "ungm",
@@ -183,8 +182,8 @@
    "kind": "国际机构",
    "url": "https://www.ungm.org/Public/Notice",
    "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-07T08:04:34.684Z",
-   "note": "站点可打开（HTTP 200），本次未逐条筛查公告"
+   "checked_at": "2026-11-10T08:46:52.666Z",
+   "note": "HTTP 200，本次未逐条筛查。"
   },
   {
    "id": "dgmarket",
@@ -193,8 +192,8 @@
    "kind": "会员",
    "url": "https://www.dgmarket.com/tenders/list.do?sub=tenders-in-Africa&locationISO=_s&updatedId=1w",
    "status": "未授权",
-   "checked_at": "2026-11-07T08:04:34.684Z",
-   "note": "ego 浏览器读取时停在安全验证页，未绕过；保留既有 DGMarket 记录及核验日期"
+   "checked_at": "2026-11-10T08:46:52.666Z",
+   "note": "ego 浏览器遇到 DGMarket 安全验证页面，未读取、未绕过；保留既有记录及核验日期。"
   }
  ],
  "items": [
@@ -1721,43 +1720,6 @@
    "deadline_ms": 1795431600000
   },
   {
-   "id": "63c4871ac5dc",
-   "title": "翁多州供水管网工程：Tertiary Pipes Network（第 5–7 标段）",
-   "title_original": "Procurement of Works for Tertiary Pipes Network in Sectors 1, 2, 3, 5, 6, 7 & 8 (Lots 5-7) - UWSR&AWSS",
-   "country": "NG",
-   "sectors": [
-    "水利灌溉",
-    "建筑基础设施"
-   ],
-   "sector_raw": "水利灌溉、建筑及其他基础设施",
-   "entity": "Ondo State Water Corporation（ODWC）",
-   "location": "",
-   "scope": "Akure Water Supply and Sanitation 项目供水分配管网：第 5 标段 87.62 公里、第 6 标段 47.8 公里、第 7 标段 116.19 公里。",
-   "ref_no": "",
-   "stage": "正式招标",
-   "stage_note": "6-正式招标（AfDB 项目）",
-   "published_at": "2026-10-08",
-   "deadline": "2026-11-06",
-   "amount": "未披露",
-   "url": "https://www.afdb.org/en/documents/spn-nigeria-procurement-works-tertiary-pipes-97356",
-   "origin": "非洲开发银行",
-   "origin_type": "国际机构官方",
-   "discovery": "AfDB 官方采购公告",
-   "dgmarket_url": "",
-   "dgmarket": false,
-   "funder": "非洲开发银行",
-   "conditions": "",
-   "action": "立即查阅完整招标文件，确认拟投标标段的工程量、资格及本地注册要求；联系 ODWC 项目采购单位核验截止时刻和补遗。",
-   "risk": "公开摘要未列估算金额和具体提交时刻；截止日期以 ODWC / AfDB 最新正式文件为准。",
-   "verified_at": "2026-10-28",
-   "verified_note": "迁移自参考站核验记录",
-   "terminal_at": "2026-11-06T22:59:00.000Z",
-   "migrated_from": "ghana-togo-engineering-monitor 参考站（2026-11-05 07:28 快照）",
-   "status": "已截止（待评审）",
-   "completeness": 9,
-   "deadline_ms": 1794005940000
-  },
-  {
    "id": "56eb4e28ea5d",
    "title": "阿克拉佩姆·曼庞分支机构太阳能系统采购计划",
    "title_original": "Installation Of Solar System Akwapim Mampong Branch",
@@ -1861,9 +1823,9 @@
    "risk": "属于咨询服务意向征集，非工程施工合同；截止时刻以正式文件为准。",
    "verified_at": "2026-10-28",
    "verified_note": "迁移自参考站核验记录",
-   "terminal_at": null,
+   "terminal_at": "2026-11-09T22:59:00.000Z",
    "migrated_from": "ghana-togo-engineering-monitor 参考站（2026-11-05 07:28 快照）",
-   "status": "开放中",
+   "status": "已截止（待评审）",
    "completeness": 9,
    "deadline_ms": 1794265140000
   },
@@ -1902,42 +1864,6 @@
    "status": "开放中",
    "completeness": 9,
    "deadline_ms": 1794869940000
-  },
-  {
-   "id": "64fd3168314b",
-   "title": "三角州高等教育部建筑工程招标",
-   "title_original": "Invitation to Tender for Construction Works, Delta State Ministry of Higher Education",
-   "country": "NG",
-   "sectors": [
-    "建筑基础设施"
-   ],
-   "sector_raw": "建筑及其他基础设施",
-   "entity": "Delta State Ministry of Higher Education",
-   "location": "",
-   "scope": "三角州高等教育部发布的建筑工程招标；具体工程范围需查阅正式文件。",
-   "ref_no": "",
-   "stage": "正式招标",
-   "stage_note": "6-正式招标",
-   "published_at": "2026-10-21",
-   "deadline": "2026-11-06",
-   "amount": "未披露",
-   "url": "https://www.dgmarket.com/tenders/np-notice.do?keywords=&noticeId=116623502",
-   "origin": "DGMarket",
-   "origin_type": "会员来源",
-   "discovery": "DGMarket",
-   "dgmarket_url": "https://www.dgmarket.com/tenders/np-notice.do?keywords=&noticeId=116623502",
-   "dgmarket": true,
-   "funder": "",
-   "conditions": "",
-   "action": "打开公告确认项目清单、分标、招标文件获取方式和资格要求。",
-   "risk": "列表摘要未提供具体工程范围和金额；投标前须读采购方文件。",
-   "verified_at": "2026-10-28",
-   "verified_note": "迁移自参考站核验记录",
-   "terminal_at": "2026-11-06T22:59:00.000Z",
-   "migrated_from": "ghana-togo-engineering-monitor 参考站（2026-11-05 07:28 快照）",
-   "status": "已截止（待评审）",
-   "completeness": 9,
-   "deadline_ms": 1794005940000
   },
   {
    "id": "9136a6864168",
@@ -3896,7 +3822,7 @@
    "stage_note": "DGMarket 类型：Invitation for Bids；DGMarket 收录 2026-11-03；公告原发布日期待核实",
    "verified_at": "2026-11-06",
    "verified_note": "2026-11-06 经 ego 浏览器 DGMarket 会员会话读取列表与摘要",
-   "terminal_at": null,
+   "terminal_at": "2026-11-09T22:59:00.000Z",
    "added_at": "2026-11-06T10:45:51.127Z",
    "action": "登录 DGMarket 查看全文并追溯采购方原始公告，核实截止时刻与资格要求。",
    "title": "索科托州 4 个供水点修复（Albarka Health Spring Foundation）",
@@ -3907,7 +3833,7 @@
    "scope": "修复 4 个供水点；公告带德国合作（GIZ）标识。",
    "stage": "建议书征集",
    "risk": "仅见于 DGMarket 会员摘要，截止时刻未列明，需以采购方文件为准；采购方为基金会，规模较小；截止日期临近",
-   "status": "开放中",
+   "status": "已截止（待评审）",
    "completeness": 9,
    "deadline_ms": 1794265140000
   },
@@ -4278,32 +4204,29 @@
    "deadline_ms": 1795172400000
   },
   {
-   "location": "",
+   "location": "尼日利亚克罗斯河州",
    "ref_no": "NG-CROSS RIVER SPIN-573502-CS-CQS",
    "amount": "未披露",
    "dgmarket_url": "",
    "dgmarket": false,
    "funder": "世界银行（项目 P179684）",
    "conditions": "",
-   "action": "自动收录：登录官方平台下载招标文件，核实资格、保证金与工程量。",
-   "risk": "云端自动收录，中文标题待复核；截止时刻以公告正文为准（on or before 30th November, 2026）",
+   "action": "准备咨询公司资质与类似项目经验，按公告要求在截止前递交意向书（EOI）。",
+   "risk": "咨询类意向征集，非施工；截止时刻以公告正文为准（2026-11-30 17:00 WAT）。已人工复核标题与范围。",
    "verified_at": "2026-11-08",
    "terminal_at": null,
    "added_at": "2026-11-08T14:25:51.709Z",
-   "auto_ingested": true,
    "id": "b9debdf622d2",
-   "title": "CONSULTANCY SERVICES FOR THE PREPARATION AND IMPLEMENTATION OF A RESETTLEMENT ACTION PLAN FOR THE CONSTRUCTION OF BANSARA IRRIGATION SCHEME, CROSS RIVER STATE（中文标题待翻译）",
+   "title": "克罗斯河州邦萨拉（Bansara）灌溉工程移民安置行动计划编制与实施咨询服务",
    "title_original": "CONSULTANCY SERVICES FOR THE PREPARATION AND IMPLEMENTATION OF A RESETTLEMENT ACTION PLAN FOR THE CONSTRUCTION OF BANSARA IRRIGATION SCHEME, CROSS RIVER STATE",
    "country": "NG",
    "sectors": [
-    "电力电气",
     "水利灌溉",
-    "建筑基础设施",
     "工程咨询"
    ],
-   "sector_raw": "自动分类",
+   "sector_raw": "世界银行 REOI（咨询资格遴选）",
    "entity": "Cross River State SPIN",
-   "scope": "IDA Credit No.: IDA76370 REQUEST FOR EXPRESSION OF INTEREST (REOI) CONSULTANCY SERVICES FOR THE PREPARATION AND IMPLEMENTATION SUPERVISION OF A RESETTLEMENT ACTION PLAN FOR THE BANSARA IRRIGATION SCHEME, CROSS RIVER STATE Reference No.: NG CROSS RIVER SPIN- 573502- CS- CQS Background & Assignment Description The Cross River State Government of Nigeria has received financing from the World Bank tow",
+   "scope": "世界银行（IDA）融资的 SPIN 项目：为 Bansara 灌溉工程编制并监督实施移民安置行动计划（RAP）的咨询服务；意向征集阶段，非工程施工标。",
    "stage": "意向征集",
    "stage_note": "Request for Expression of Interest；Consultant Qualification  Selection",
    "published_at": "2026-11-07",
@@ -4312,36 +4235,34 @@
    "origin": "世界银行",
    "origin_type": "国际机构官方",
    "discovery": "世界银行采购公告 API（云端自动收录）",
-   "verified_note": "2026-11-08 世界银行 API 读取",
+   "verified_note": "2026-11-10 本机复核世界银行公告",
    "status": "开放中",
-   "completeness": 10,
+   "completeness": 11,
    "deadline_ms": 1796054400000
   },
   {
-   "location": "",
+   "location": "加纳西部地区 Jomoro 市（Newtown Whraf）",
    "ref_no": "",
    "amount": "未披露",
    "dgmarket_url": "",
    "dgmarket": false,
    "funder": "",
    "conditions": "",
-   "action": "自动收录：登录官方平台下载招标文件，核实资格、保证金与工程量。",
-   "risk": "云端自动收录，中文标题与工程范围待人工复核；金额未披露。",
+   "action": "登录 GHANEPS 下载招标文件，核实资格条件、保证金与工程量清单后决定是否投标。",
+   "risk": "国内竞争性招标，外资企业通常需本地注册/合作；金额未披露；截止 2026-11-26 10:00。已复核。",
    "verified_at": "2026-11-09",
    "terminal_at": null,
    "added_at": "2026-11-09T17:44:51.607Z",
-   "auto_ingested": true,
    "id": "90364d4d1d9b",
-   "title": "Construction of 1No 6 Unit Classroom block with Office, store, staff common room and 6 seater water closet Toilet and Urinal at Newtown Whraf（中文标题待翻译）",
+   "title": "乔莫罗市政府（Jomoro）Newtown Whraf 6 间教室楼（含办公室、仓库、教工室及厕所）建设",
    "title_original": "Construction of 1No 6 Unit Classroom block with Office, store, staff common room and 6 seater water closet Toilet and Urinal at Newtown Whraf",
    "country": "GH",
    "sectors": [
-    "水利灌溉",
     "建筑基础设施"
    ],
-   "sector_raw": "自动分类",
+   "sector_raw": "GHANEPS 国内竞争性招标（工程）",
    "entity": "JOMORO MUNICIPAL ASSEMBLY",
-   "scope": "Construction of 1No 6 Unit Classroom block with Office, store, staff common room and 6 seater water closet Toilet and Urinal at Newtown Whraf",
+   "scope": "新建 1 栋 6 间教室教学楼，配办公室、储藏室、教工公共室及 6 位厕所和小便池。",
    "stage": "正式招标",
    "stage_note": "National Competitive Tendering",
    "published_at": "2026-11-08 22:22",
@@ -4350,9 +4271,9 @@
    "origin": "GHANEPS",
    "origin_type": "政府官方",
    "discovery": "GHANEPS 当前招标列表（云端自动收录）",
-   "verified_note": "2026-11-09 GHANEPS 官方列表读取",
+   "verified_note": "2026-11-10 本机复核 GHANEPS 列表",
    "status": "开放中",
-   "completeness": 9,
+   "completeness": 10,
    "deadline_ms": 1795687200000
   }
  ]

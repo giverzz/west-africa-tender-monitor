@@ -110,5 +110,21 @@
   "status": "已截止（待评审）",
   "terminal_at": "2026-11-05T22:59:00.000Z",
   "purged_at": "2026-11-09T17:44:51.653Z"
+ },
+ {
+  "id": "63c4871ac5dc",
+  "title": "翁多州供水管网工程：Tertiary Pipes Network（第 5–7 标段）",
+  "url": "https://www.afdb.org/en/documents/spn-nigeria-procurement-works-tertiary-pipes-97356",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-06T22:59:00.000Z",
+  "purged_at": "2026-11-10T08:46:52.803Z"
+ },
+ {
+  "id": "64fd3168314b",
+  "title": "三角州高等教育部建筑工程招标",
+  "url": "https://www.dgmarket.com/tenders/np-notice.do?keywords=&noticeId=116623502",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-06T22:59:00.000Z",
+  "purged_at": "2026-11-10T08:46:52.803Z"
  }
 ]
