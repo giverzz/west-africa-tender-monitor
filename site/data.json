@@ -12,7 +12,7 @@
    "note": "本机更新：GHANEPS 新增 6、NDDC 新增 4、世界银行新增 0；翻译并复核云端自动收录 2 条；DGMarket 因安全验证页未获授权，未读取。"
   },
   "dgmarket_authorized": false,
-  "built_at": "2026-11-11T08:01:39.354Z",
+  "built_at": "2026-11-11T08:03:14.087Z",
   "purge_rule": "终态（已授标/已取消/已截止）满 72 小时自动删除"
  },
  "sources": [
