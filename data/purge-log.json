@@ -126,5 +126,21 @@
   "status": "已截止（待评审）",
   "terminal_at": "2026-11-06T22:59:00.000Z",
   "purged_at": "2026-11-10T08:46:52.803Z"
+ },
+ {
+  "id": "d8bab39ca8ef",
+  "title": "洛美 B 电厂 11 台机组中压开关柜供应与安装",
+  "url": "https://intercom.tg/en/opportunites/aoi-ceet-cellules-hta-centrale-lome-b-2026",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-09T09:00:00.000Z",
+  "purged_at": "2026-11-12T16:08:34.877Z"
+ },
+ {
+  "id": "bc6be1102c9f",
+  "title": "多哥 CEET 新用户接入材料供货（F-10A）",
+  "url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00470908",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-09T10:00:00.000Z",
+  "purged_at": "2026-11-12T16:08:34.877Z"
  }
 ]
