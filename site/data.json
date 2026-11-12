@@ -12,7 +12,7 @@
    "note": "本机更新：GHANEPS 新增 5、世界银行新增 1，云端自动收录 4 条完成中文复核；DGMarket 停在安全验证页面，记为未获授权。"
   },
   "dgmarket_authorized": false,
-  "built_at": "2026-11-12T08:22:46.552Z",
+  "built_at": "2026-11-12T08:24:38.046Z",
   "purge_rule": "终态（已授标/已取消/已截止）满 72 小时自动删除"
  },
  "sources": [
