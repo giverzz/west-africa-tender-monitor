@@ -142,5 +142,21 @@
   "status": "已截止（待评审）",
   "terminal_at": "2026-11-09T10:00:00.000Z",
   "purged_at": "2026-11-12T16:08:34.877Z"
+ },
+ {
+  "id": "333108e47b31",
+  "title": "Bansara 灌溉工程设计复核与施工监理咨询",
+  "url": "https://www.dgmarket.com/tenders/np-notice.do?keywords=&noticeId=116623500",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-09T22:59:00.000Z",
+  "purged_at": "2026-11-13T08:39:56.503Z"
+ },
+ {
+  "id": "7bc1ffd88046",
+  "title": "索科托州 4 个供水点修复（Albarka Health Spring Foundation）",
+  "url": "https://www.dgmarket.com/tenders/np-notice.do?keywords=&noticeId=117307792",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-09T22:59:00.000Z",
+  "purged_at": "2026-11-13T08:39:56.503Z"
  }
 ]
