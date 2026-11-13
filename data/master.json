@@ -45,6 +45,26 @@
    "note": "站点可打开；/bids 列表仍只显示 2017 年的占位演示条目（“Web Designer Meeded”等），无真实道路工程公告。"
   },
   {
+   "id": "gha",
+   "name": "加纳公路局 GHA 招标页",
+   "country": "GH",
+   "kind": "官方",
+   "url": "https://www.highways.gov.gh/tenders",
+   "status": "已核验无新增",
+   "checked_at": "2026-11-13T17:56:08.561Z",
+   "note": "仅 1 条：JICA 资助沃尔特河新斜拉桥（东部走廊，GHA/HO/TRC/02/2026，主跨 280 m，投标保证金 USD 2,300,000），2026-07-24 发布、2026-10-22 截止，已截止。发布频率低，偶有大型道路桥梁项目。"
+  },
+  {
+   "id": "vra",
+   "name": "沃尔特河管理局 VRA 招标页",
+   "country": "GH",
+   "kind": "官方",
+   "url": "https://www.vra.com/media/tenders.php",
+   "status": "已核验无新增",
+   "checked_at": "2026-11-13T17:56:08.561Z",
+   "note": "页面仅 1 条：阿科松博电站水泵控制盘更换项目，页面未标发布与截止日期，未收录。发布频率低。"
+  },
+  {
    "id": "dnccp",
    "name": "多哥 DNCCP 公共采购",
    "country": "TG",
@@ -56,13 +76,53 @@
   },
   {
    "id": "osmapt",
-   "name": "ARMP 采购监测工具 OSMAPT",
+   "name": "ARCOP 采购监测工具 OSMAPT",
    "country": "TG",
    "kind": "官方",
-   "url": "https://osmapt.armp.tg/",
-   "status": "访问失败",
-   "checked_at": "2026-11-13T08:39:56.363Z",
-   "note": "curl 返回 code 000，ego 浏览器报 ERR_CERT_COMMON_NAME_INVALID（HTTPS 证书域名不匹配）。未绕过证书校验，既有记录保持原样。"
+   "url": "https://osmapt.arcop.tg/",
+   "status": "未获授权",
+   "checked_at": "2026-11-13T17:52:11.617Z",
+   "note": "ARMP 已更名为 ARCOP，OSMAPT 迁至 osmapt.arcop.tg（原 osmapt.armp.tg 证书域名不匹配即因此）。新地址可正常打开，但只有登录页，需账号才能查看采购数据；本次未登录。"
+  },
+  {
+   "id": "arcop",
+   "name": "多哥公共采购监管局 ARCOP",
+   "country": "TG",
+   "kind": "官方",
+   "url": "https://arcop.tg/",
+   "status": "已核验无新增",
+   "checked_at": "2026-11-13T17:52:11.617Z",
+   "note": "多哥采购监管机构（原 ARMP）。首页 2026-11-12 仍在更新，可看争议裁决（CRD 决定/审议，如 2026-09-30 关于 635.5 km 乡村道路改造国际招标的调查）、企业黑名单和 PASSE 平台入口。「Avis d’attribution」中标公告栏目为空，「Appels d’offres」只发 ARCOP 自身采购，不是工程招标列表。"
+  },
+  {
+   "id": "mptogo",
+   "name": "Marchés Publics du Togo（marchespublicstogo.com）",
+   "country": "TG",
+   "kind": "辅助",
+   "url": "https://www.marchespublicstogo.com/",
+   "status": "已核验无新增",
+   "checked_at": "2026-11-13T17:52:11.617Z",
+   "note": "私营付费发布平台（自称“Portail officiel”，但按 10 万—40 万 FCFA 套餐收费发布公告，不是政府网站）。2026 年共编号 10 条（AO-2026-00001～00010），最新一条发布于 2026-09-03，首页显示的最近 6 条全部已截止，其中仅 1 条工程类（ARAA/BOAD 太阳能水井，2026-07-10 截止），无开放中的多哥工程/能源公告。更新稀疏，仅作补充。"
+  },
+  {
+   "id": "dnccp-awards",
+   "name": "多哥 DNCCP 已批准合同清单",
+   "country": "TG",
+   "kind": "官方",
+   "url": "https://dnccp.gouv.tg/liste-des-marches/",
+   "status": "可访问，未逐条筛查",
+   "checked_at": "2026-11-13T17:56:08.561Z",
+   "note": "官方已签合同库（非招标公告），含 2026 年第 1—2 季度数据，可按“Travaux / Energie, Eau et Ressources Minières / Infrastructures”筛选并导出，列出中标企业、金额与资金来源。适合补充中标结果，本次未逐条筛查。"
+  },
+  {
+   "id": "ceb",
+   "name": "贝宁电力共同体 CEB 招标页",
+   "country": "TG",
+   "kind": "官方",
+   "url": "https://www.cebnet.org/appels-doffres/",
+   "status": "已核验无新增",
+   "checked_at": "2026-11-13T17:56:08.561Z",
+   "note": "多哥—贝宁两国共有的输电与发电公司（总部洛美）。招标页只有 1 条 2023-09-01 的接待别墅修缮工程；新闻最新为 2026-03-13。招标基本不在官网更新，仅作低频巡查。"
   },
   {
    "id": "ceet",
@@ -135,6 +195,26 @@
    "note": "门户列出 5 条 ACTIVE 公告，其中 4 条工程类（TND-2026-000011/13/14/15：办公设施、供水设施、行政办公楼、农村道路与排水）均已收录，截止时间无变化，已更新核验日期。"
   },
   {
+   "id": "lsppa",
+   "name": "拉各斯州公共采购局 LSPPA",
+   "country": "NG",
+   "kind": "官方",
+   "url": "https://lagosppa.gov.ng/tenders/",
+   "status": "已核验无新增",
+   "checked_at": "2026-11-13T17:56:08.561Z",
+   "note": "州级官方招标栏目。最新两条为 2026-09-28（Ajeromi Ifelodun 地方政府 IFB）与 2026-09-14（IFB），此前一条为 2025-10-29 的 EOI，更新稀疏。"
+  },
+  {
+   "id": "ferma",
+   "name": "联邦道路养护局 FERMA",
+   "country": "NG",
+   "kind": "官方",
+   "url": "https://ferma.gov.ng/",
+   "status": "已核验无新增",
+   "checked_at": "2026-11-13T17:56:08.561Z",
+   "note": "官网“新闻”栏发布开标见证邀请（联邦道路一般养护、咨询服务），不发招标公告全文，可用于跟进道路养护项目开标结果。"
+  },
+  {
    "id": "wb-opps",
    "name": "世界银行 Business Opportunities",
    "country": "MULTI",
@@ -175,6 +255,26 @@
    "note": "最新为 2026 年 11 月 10 日的塞内加尔、厄立特里亚、冈比亚公告与 11 月 6 日多哥 AFLDC-2（斯德哥尔摩与水俣公约履约）项目，均非加纳/多哥/尼日利亚的工程或能源采购。"
   },
   {
+   "id": "wapp",
+   "name": "西非电力池 WAPP 招标",
+   "country": "MULTI",
+   "kind": "国际机构",
+   "url": "https://www.ecowapp.org/en/tenders",
+   "status": "已核验无新增",
+   "checked_at": "2026-11-13T17:56:08.561Z",
+   "note": "ECOWAS 电力专门机构官方招标页，2026-11 仍在更新：2026 采购计划第 4 版（2026-10-20）、EU 资助可再生能源专家招聘（截止 2026-12-04）、加纳—科特迪瓦 225 kV 线路 OPGW 塔架评估（已截止）等，以咨询与个人顾问为主。"
+  },
+  {
+   "id": "boad",
+   "name": "西非开发银行 BOAD 招标",
+   "country": "MULTI",
+   "kind": "国际机构",
+   "url": "https://www.boad.org/fr/opportunites/appels-doffre/",
+   "status": "已核验无新增",
+   "checked_at": "2026-11-13T17:56:08.561Z",
+   "note": "官方招标页共 68 页，可按类型（招标、意向征集、结果、采购计划）与年份筛选；最新为 2026-11-09 发布的意向征集（尼日尔稻米加工可研、BOAD 信息系统规划等），均非加纳/多哥/尼日利亚工程项目。"
+  },
+  {
    "id": "ungm",
    "name": "联合国全球采购系统 UNGM",
    "country": "MULTI",
@@ -190,9 +290,9 @@
    "country": "MULTI",
    "kind": "会员",
    "url": "https://www.dgmarket.com/tenders/list.do?sub=tenders-in-Africa&locationISO=_s&updatedId=1w",
-   "status": "未获授权",
-   "checked_at": "2026-11-13T08:39:56.363Z",
-   "note": "本次用 ego 浏览器读取时页面停在站点安全验证页，脚本返回 ok=false、logged_in=false。按规则未尝试通过或绕过验证，也未输入任何账号信息；既有 19 条 DGMarket 记录及其核验日期保持原样。"
+   "status": "可访问，未逐条筛查",
+   "checked_at": "2026-11-13T17:56:08.561Z",
+   "note": "2026-11-13 用 ego 浏览器复查：已登录会员账号（页面显示 Logout），非洲近 1 周公告列表可正常打开，安全验证不再拦截。本次未运行 dgmarket-fetch 逐条收录，既有记录保持原样。"
   }
  ],
  "items": [
