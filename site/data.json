@@ -12,7 +12,7 @@
    "note": "云端更新：GHANEPS 新增 2、世界银行新增 0；DGMarket 与其他来源由本机任务读取。"
   },
   "dgmarket_authorized": false,
-  "built_at": "2026-11-13T18:01:24.624Z",
+  "built_at": "2026-11-13T18:01:44.969Z",
   "purge_rule": "终态（已授标/已取消/已截止）满 72 小时自动删除"
  },
  "sources": [
