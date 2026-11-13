@@ -158,5 +158,37 @@
   "status": "已截止（待评审）",
   "terminal_at": "2026-11-09T22:59:00.000Z",
   "purged_at": "2026-11-13T08:39:56.503Z"
+ },
+ {
+  "id": "dd6b277662ab",
+  "title": "建设警察局及员工宿舍",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3803311",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-10T14:00:00.000Z",
+  "purged_at": "2026-11-13T15:36:01.988Z"
+ },
+ {
+  "id": "e66c44b3ecbf",
+  "title": "建设 2 双管涵及 1 箱涵，位于 Abanu及 Dzoanti 道路",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3826873",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-10T10:00:00.000Z",
+  "purged_at": "2026-11-13T15:36:01.988Z"
+ },
+ {
+  "id": "84e58c228d7f",
+  "title": "建设 Kpando Adofe CHPS 诊所及护士宿舍",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3826286",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-10T10:00:00.000Z",
+  "purged_at": "2026-11-13T15:36:01.988Z"
+ },
+ {
+  "id": "e994a00ce080",
+  "title": "建设 Nkroful 产科楼、实验室及放射科楼",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3800888",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-10T10:00:00.000Z",
+  "purged_at": "2026-11-13T15:36:01.988Z"
  }
 ]
