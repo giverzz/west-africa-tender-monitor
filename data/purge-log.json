@@ -198,5 +198,69 @@
   "status": "已截止（待评审）",
   "terminal_at": "2026-11-10T22:59:00.000Z",
   "purged_at": "2026-11-14T08:02:36.064Z"
+ },
+ {
+  "id": "d2f570e7035a",
+  "title": "建设 1 座 6 间教学楼，含办公室、商铺、图书馆，含 6 座无障碍厕所及机械化水井，位于 Essumankrom",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3826959",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-11T10:00:00.000Z",
+  "purged_at": "2026-11-14T14:24:19.627Z"
+ },
+ {
+  "id": "9242dc7546ce",
+  "title": "建设 1 CHPS 社区诊所，含家具，3 间护士宿舍及电力扩建，位于 Adelakoekope",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3749344",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-11T13:00:00.000Z",
+  "purged_at": "2026-11-14T14:24:19.627Z"
+ },
+ {
+  "id": "f25ce80a4615",
+  "title": "Accra 20个选区20口水井钻探及机械化",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3855456",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-11T11:30:00.000Z",
+  "purged_at": "2026-11-14T14:24:19.627Z"
+ },
+ {
+  "id": "67606081852e",
+  "title": "Accra Nanka Bruce基础学校11单元两层教学楼",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3855171",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-11T11:30:00.000Z",
+  "purged_at": "2026-11-14T14:24:19.627Z"
+ },
+ {
+  "id": "db848d129c21",
+  "title": "Accra Soko学校群11单元两层教学楼",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3854748",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-11T11:30:00.000Z",
+  "purged_at": "2026-11-14T14:24:19.627Z"
+ },
+ {
+  "id": "ead2fe42f145",
+  "title": "Tamale消防局两层办公楼一期工程",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3812377",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-11T10:00:00.000Z",
+  "purged_at": "2026-11-14T14:24:19.627Z"
+ },
+ {
+  "id": "9f5374a48e10",
+  "title": "Klo-Agogo市场棚、摊位、铺装、排水及厕所工程",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3732962",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-11T10:30:00.000Z",
+  "purged_at": "2026-11-14T14:24:19.627Z"
+ },
+ {
+  "id": "d8f1a8aa4fe0",
+  "title": "多哥 CEET 收益保护计划设备供货与投运（F-08；AOI 002）—截止变更待复核",
+  "url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00468043",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-11T10:00:00.000Z",
+  "purged_at": "2026-11-14T14:24:19.627Z"
  }
 ]
