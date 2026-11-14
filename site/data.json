@@ -12,7 +12,7 @@
    "note": "GHANEPS 与世界银行读取成功；新增 1，复核翻译 2；DGMarket 遇安全验证未读取；其余来源仅确认可访问。"
   },
   "dgmarket_authorized": false,
-  "built_at": "2026-11-14T08:02:36.064Z",
+  "built_at": "2026-11-14T08:03:44.389Z",
   "purge_rule": "终态（已授标/已取消/已截止）满 72 小时自动删除"
  },
  "sources": [
