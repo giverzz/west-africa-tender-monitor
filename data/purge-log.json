@@ -262,5 +262,21 @@
   "status": "已截止（待评审）",
   "terminal_at": "2026-11-11T10:00:00.000Z",
   "purged_at": "2026-11-14T14:24:19.627Z"
+ },
+ {
+  "id": "136f333357e4",
+  "title": "建设 1 座 6 间ATTRACO 基础学校二期",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3845212",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-12T10:00:00.000Z",
+  "purged_at": "2026-11-15T13:37:40.560Z"
+ },
+ {
+  "id": "cfc47b090381",
+  "title": "尼日利亚 Benue州 Yelwata 17套两室住房及WASH设施建设",
+  "url": "https://www.ungm.org/Public/Notice/320828",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-12T10:12:00.000Z",
+  "purged_at": "2026-11-15T13:37:40.560Z"
  }
 ]
