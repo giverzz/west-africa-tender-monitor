@@ -12,7 +12,7 @@
    "note": "GHANEPS 与世界银行已读取，无新增工程类公告（世行新增 2 条职培工具包货物采购未收录）；DGMarket 遇安全验证未读取；AfDB 403、OSMAPT 无响应。"
   },
   "dgmarket_authorized": false,
-  "built_at": "2026-11-15T13:37:40.560Z",
+  "built_at": "2026-11-15T13:38:27.994Z",
   "purge_rule": "终态（已授标/已取消/已截止）满 72 小时自动删除"
  },
  "sources": [
