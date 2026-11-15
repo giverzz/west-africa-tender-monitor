@@ -278,5 +278,45 @@
   "status": "已截止（待评审）",
   "terminal_at": "2026-11-12T10:12:00.000Z",
   "purged_at": "2026-11-15T13:37:40.560Z"
+ },
+ {
+  "id": "de7d76a384c6",
+  "title": "建设 6 间教学楼，含 6 座厕所，位于 Gbalga 小学",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3828569",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-12T14:00:00.000Z",
+  "purged_at": "2026-11-15T14:55:32.614Z"
+ },
+ {
+  "id": "9a632ac83001",
+  "title": "建设 6 间教学楼，含 6 座厕所，位于 Kasheli 小学",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3828491",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-12T14:00:00.000Z",
+  "purged_at": "2026-11-15T14:55:32.614Z"
+ },
+ {
+  "id": "09fabc082ee7",
+  "title": "建设 6 间教学楼，含 6 座厕所，位于 Capton 小学",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3828388",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-12T14:00:00.000Z",
+  "purged_at": "2026-11-15T14:55:32.614Z"
+ },
+ {
+  "id": "9f4c0c145751",
+  "title": "建设 6 间教学楼，含 6 座厕所及 6 间教师宿舍，位于 Kpatanbogu 小学",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3827806",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-12T14:00:00.000Z",
+  "purged_at": "2026-11-15T14:55:32.614Z"
+ },
+ {
+  "id": "cbed23ddc798",
+  "title": "建设 Afiaman 两层五卧室市政行政长官官邸",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3788372",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-12T14:00:00.000Z",
+  "purged_at": "2026-11-15T14:55:32.614Z"
  }
 ]
