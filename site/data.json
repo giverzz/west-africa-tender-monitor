@@ -12,7 +12,7 @@
    "note": "本机更新：GHANEPS 与世界银行读取成功；新增 4 条，复核中文化云端记录 1 条，刷新核验日期 68 条；DGMarket 因安全验证未获授权；OSMAPT 证书错误访问失败。"
   },
   "dgmarket_authorized": false,
-  "built_at": "2026-11-16T08:09:56.678Z",
+  "built_at": "2026-11-16T08:11:58.753Z",
   "purge_rule": "终态（已授标/已取消/已截止）满 72 小时自动删除"
  },
  "sources": [
