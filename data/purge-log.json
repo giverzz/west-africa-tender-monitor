@@ -326,5 +326,13 @@
   "status": "已截止（待评审）",
   "terminal_at": "2026-11-12T22:59:00.000Z",
   "purged_at": "2026-11-16T08:09:56.678Z"
+ },
+ {
+  "id": "6402155ef7f1",
+  "title": "建设 1 座 32 间多层商铺，位于 Suhum",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3841130",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-13T13:00:00.000Z",
+  "purged_at": "2026-11-16T17:18:09.552Z"
  }
 ]
