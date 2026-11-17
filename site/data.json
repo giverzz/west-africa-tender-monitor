@@ -3,16 +3,16 @@
   "title": "西非工程机会",
   "schedule": "每日 07:30 Africa/Accra（UTC+0）",
   "timezone": "Africa/Accra",
-  "last_success_at": "2026-11-17T08:03:05.922Z",
+  "last_success_at": "2026-11-17T16:59:56.575Z",
   "last_run": {
-   "started_at": "2026-11-17T08:00:28Z",
-   "finished_at": "2026-11-17T08:03:05.922Z",
+   "started_at": "2026-11-17T16:59:41Z",
+   "finished_at": "2026-11-17T16:59:56.575Z",
    "result": "成功",
-   "runner": "本机任务",
-   "note": "本机更新：GHANEPS、世界银行、DGMarket 读取成功；新增 3 条，中文化云端记录 2 条，刷新核验日期 68 条；其余来源沿用上次核验状态（OSMAPT 等此前访问失败，本次未重试）。"
+   "runner": "GitHub Actions 云端",
+   "note": "云端更新：GHANEPS 新增 1、世界银行新增 0；DGMarket 与其他来源由本机任务读取。"
   },
   "dgmarket_authorized": true,
-  "built_at": "2026-11-17T08:04:00.910Z",
+  "built_at": "2026-11-17T16:59:56.626Z",
   "purge_rule": "终态（已授标/已取消/已截止）满 72 小时自动删除"
  },
  "sources": [
@@ -23,8 +23,8 @@
    "kind": "官方",
    "url": "https://www.ghaneps.gov.gh/epps/home.do",
    "status": "已核验并更新",
-   "checked_at": "2026-11-17T08:03:05.919Z",
-   "note": "本机抓取 8 页共 80 条当前招标并逐条筛查：新增 0 条（17 条未收录公告均为家具、车辆、IT、会议服务、铁矿勘探类，已排除）；复核并中文化云端自动收录 2 条（Nkoranza 警察分局办公楼、Hohoe 市场商铺）；截止时间变化 0 条。"
+   "checked_at": "2026-11-17T16:59:56.575Z",
+   "note": "云端读取当前招标列表 8 页（80 条）：自动新增 1 条工程类招标，刷新 0 条既有记录核验日期。"
   },
   {
    "id": "ppa",
@@ -233,8 +233,8 @@
    "kind": "国际机构",
    "url": "https://projects.worldbank.org/en/projects-operations/opportunities",
    "status": "已核验无新增",
-   "checked_at": "2026-11-17T08:03:05.919Z",
-   "note": "本机运行 wb-fetch：开放工程类候选 8 条，6 条已收录并复核；另 2 条 IDEAS 项目职业培训工具包为货物采购，不属工程范围，未收录。"
+   "checked_at": "2026-11-17T16:59:56.575Z",
+   "note": "云端按加纳/多哥/尼日利亚读取世界银行采购公告 API，开放工程类候选 8 条，自动新增 0 条。"
   },
   {
    "id": "wb-proc",
@@ -243,8 +243,8 @@
    "kind": "国际机构",
    "url": "https://projects.worldbank.org/en/projects-operations/procurement",
    "status": "已核验无新增",
-   "checked_at": "2026-11-17T08:03:05.919Z",
-   "note": "同世界银行 Business Opportunities：候选 8 条，6 条已收录并复核，2 条培训工具包货物采购未收录。"
+   "checked_at": "2026-11-17T16:59:56.575Z",
+   "note": "云端按加纳/多哥/尼日利亚读取世界银行采购公告 API，开放工程类候选 8 条，自动新增 0 条。"
   },
   {
    "id": "afdb",
@@ -809,9 +809,9 @@
    "risk": "多专业综合工程；金额未披露，以完整标书为准。",
    "verified_at": "2026-11-11",
    "verified_note": "GHANEPS 官方列表 2026-11-11 仍显示为投标阶段。",
-   "terminal_at": null,
+   "terminal_at": "2026-11-17T10:00:00.000Z",
    "migrated_from": "ghana-togo-engineering-monitor 参考站（2026-11-05 07:28 快照）",
-   "status": "开放中",
+   "status": "已截止（待评审）",
    "completeness": 10,
    "deadline_ms": 1794909600000
   },
@@ -992,9 +992,9 @@
    "risk": "参与费GHS 500；投标保证金2%；翻修工程存在隐蔽条件风险。",
    "verified_at": "2026-11-04",
    "verified_note": "迁移自参考站核验记录",
-   "terminal_at": null,
+   "terminal_at": "2026-11-17T11:00:00.000Z",
    "migrated_from": "ghana-togo-engineering-monitor 参考站（2026-11-05 07:28 快照）",
-   "status": "开放中",
+   "status": "已截止（待评审）",
    "completeness": 10,
    "deadline_ms": 1794913200000
   },
@@ -1028,9 +1028,9 @@
    "risk": "公开国内招标；估算金额不等于合同价",
    "verified_at": "2026-11-17",
    "verified_note": "2026-11-12 世界银行采购公告核验，信息无变化",
-   "terminal_at": null,
+   "terminal_at": "2026-11-17T10:00:00.000Z",
    "migrated_from": "ghana-togo-engineering-monitor 参考站（2026-11-05 07:28 快照）",
-   "status": "开放中",
+   "status": "已截止（待评审）",
    "completeness": 11,
    "deadline_ms": 1794909600000
   },
@@ -1412,7 +1412,7 @@
    "stage": "正式招标",
    "stage_note": "6-正式招标",
    "published_at": "2026-11-02 17:14",
-   "deadline": "2026-11-17 11:00",
+   "deadline": "2026-11-17 11:30",
    "amount": "未披露",
    "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3895610",
    "origin": "GHANEPS",
@@ -1423,14 +1423,14 @@
    "funder": "",
    "conditions": "",
    "action": "下载招标文件并核对图纸、工程量清单、施工资质及现场踏勘要求。",
-   "risk": "国内竞争性招标；参与费 GHS 500；投标保证金为合同报价的 2%；金额未披露。",
+   "risk": "国内竞争性招标；参与费 GHS 500；投标保证金为合同报价的 2%；金额未披露。；GHANEPS 列表显示截止改为 2026-11-17 11:30（原 2026-11-17 11:00）",
    "verified_at": "2026-11-17",
    "verified_note": "GHANEPS 官方列表 2026-11-15 仍显示为投标阶段",
-   "terminal_at": null,
+   "terminal_at": "2026-11-17T11:30:00.000Z",
    "migrated_from": "ghana-togo-engineering-monitor 参考站（2026-11-05 07:28 快照）",
-   "status": "开放中",
+   "status": "已截止（待评审）",
    "completeness": 10,
-   "deadline_ms": 1794913200000
+   "deadline_ms": 1794915000000
   },
   {
    "id": "d5f4cabb6f66",
@@ -1606,9 +1606,9 @@
    "risk": "属于续建工程，现场条件和原承包工程界面需重点尽调；参与费 GHS 500；GHANEPS 显示投标保证金数值为 2，但页面的金额/比例字段存在不一致，须以招标文件复核。",
    "verified_at": "2026-11-16",
    "verified_note": "GHANEPS 官方列表 2026-11-15 仍显示为投标阶段",
-   "terminal_at": null,
+   "terminal_at": "2026-11-17T14:00:00.000Z",
    "migrated_from": "ghana-togo-engineering-monitor 参考站（2026-11-05 07:28 快照）",
-   "status": "开放中",
+   "status": "已截止（待评审）",
    "completeness": 10,
    "deadline_ms": 1794924000000
   },
@@ -1972,9 +1972,9 @@
    "risk": "参与费GHS 200；投标保证金GHS 20,000；澄清期已结束。",
    "verified_at": "2026-11-04",
    "verified_note": "迁移自参考站核验记录",
-   "terminal_at": null,
+   "terminal_at": "2026-11-17T13:00:00.000Z",
    "migrated_from": "ghana-togo-engineering-monitor 参考站（2026-11-05 07:28 快照）",
-   "status": "开放中",
+   "status": "已截止（待评审）",
    "completeness": 10,
    "deadline_ms": 1794920400000
   },
@@ -2009,9 +2009,9 @@
    "risk": "参与费GHS 200；投标保证金GHS 20,000；澄清期已结束。",
    "verified_at": "2026-11-04",
    "verified_note": "迁移自参考站核验记录",
-   "terminal_at": null,
+   "terminal_at": "2026-11-17T11:00:00.000Z",
    "migrated_from": "ghana-togo-engineering-monitor 参考站（2026-11-05 07:28 快照）",
-   "status": "开放中",
+   "status": "已截止（待评审）",
    "completeness": 10,
    "deadline_ms": 1794913200000
   },
@@ -2047,9 +2047,9 @@
    "risk": "参与费GHS 500；投标保证金2%；多专业综合履约风险。",
    "verified_at": "2026-11-12",
    "verified_note": "2026-11-12 GHANEPS 官方当前招标列表核验，信息无变化",
-   "terminal_at": null,
+   "terminal_at": "2026-11-17T10:00:00.000Z",
    "migrated_from": "ghana-togo-engineering-monitor 参考站（2026-11-05 07:28 快照）",
-   "status": "开放中",
+   "status": "已截止（待评审）",
    "completeness": 10,
    "deadline_ms": 1794909600000
   },
@@ -5152,6 +5152,43 @@
    "status": "开放中",
    "completeness": 11,
    "deadline_ms": 1796252340000
+  },
+  {
+   "location": "",
+   "ref_no": "",
+   "amount": "未披露",
+   "dgmarket_url": "",
+   "dgmarket": false,
+   "funder": "",
+   "conditions": "",
+   "action": "自动收录：登录官方平台下载招标文件，核实资格、保证金与工程量。",
+   "risk": "云端自动收录，中文标题与工程范围待人工复核；金额未披露。",
+   "verified_at": "2026-11-17",
+   "terminal_at": null,
+   "added_at": "2026-11-17T16:59:56.575Z",
+   "auto_ingested": true,
+   "id": "68bfdde6ee76",
+   "title": "Construction of 1No 2-Storey 5No Bedroom MCE’s Bungalow at Afiaman（中文标题待翻译）",
+   "title_original": "Construction of 1No 2-Storey 5No Bedroom MCE’s Bungalow at Afiaman",
+   "country": "GH",
+   "sectors": [
+    "建筑基础设施"
+   ],
+   "sector_raw": "自动分类",
+   "entity": "GA NORTH MUNICIPAL ASSEMBLY",
+   "scope": "Construction of 1No 2-Storey 5No Bedroom MCE’s Bungalow at Afiaman",
+   "stage": "正式招标",
+   "stage_note": "National Competitive Tendering",
+   "published_at": "2026-11-17 15:56",
+   "deadline": "2026-12-02 11:00",
+   "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=4022991",
+   "origin": "GHANEPS",
+   "origin_type": "政府官方",
+   "discovery": "GHANEPS 当前招标列表（云端自动收录）",
+   "verified_note": "2026-11-17 GHANEPS 官方列表读取",
+   "status": "开放中",
+   "completeness": 9,
+   "deadline_ms": 1796209200000
   }
  ]
 }
