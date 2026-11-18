@@ -12,7 +12,7 @@
    "note": "GHANEPS 与世界银行读取成功；DGMarket 遇安全验证未获授权；其余来源仅可达性检查，AfDB 403、OSMAPT 与 BPP 失败。"
   },
   "dgmarket_authorized": false,
-  "built_at": "2026-11-18T07:59:49.516Z",
+  "built_at": "2026-11-18T08:00:51.506Z",
   "purge_rule": "终态（已授标/已取消/已截止）满 72 小时自动删除"
  },
  "sources": [
