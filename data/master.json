@@ -3,13 +3,13 @@
   "title": "西非工程机会",
   "schedule": "每日 07:30 Africa/Accra（UTC+0）",
   "timezone": "Africa/Accra",
-  "last_success_at": "2026-11-18T07:59:49.277Z",
+  "last_success_at": "2026-11-18T16:39:47.032Z",
   "last_run": {
-   "started_at": "2026-11-18T07:58:00Z",
-   "finished_at": "2026-11-18T07:59:49.277Z",
+   "started_at": "2026-11-18T16:39:29Z",
+   "finished_at": "2026-11-18T16:39:47.032Z",
    "result": "成功",
-   "runner": "本机任务",
-   "note": "GHANEPS 与世界银行读取成功；DGMarket 遇安全验证未获授权；其余来源仅可达性检查，AfDB 403、OSMAPT 与 BPP 失败。"
+   "runner": "GitHub Actions 云端",
+   "note": "云端更新：GHANEPS 新增 0、世界银行新增 0；DGMarket 与其他来源由本机任务读取。"
   },
   "dgmarket_authorized": false
  },
@@ -20,9 +20,9 @@
    "country": "GH",
    "kind": "官方",
    "url": "https://www.ghaneps.gov.gh/epps/home.do",
-   "status": "已核验并更新",
-   "checked_at": "2026-11-18T07:59:49.276Z",
-   "note": "本机读取当前招标列表 8 页（80 条）：无新增工程类招标（新条目均为家具、车辆、IT、矿产遥感等非工程采购）；刷新 61 条既有记录核验日期；复核云端自动收录 1 条。"
+   "status": "已核验无新增",
+   "checked_at": "2026-11-18T16:39:47.032Z",
+   "note": "云端读取当前招标列表 8 页（80 条）：自动新增 0 条工程类招标，刷新 0 条既有记录核验日期。"
   },
   {
    "id": "ppa",
@@ -230,9 +230,9 @@
    "country": "MULTI",
    "kind": "国际机构",
    "url": "https://projects.worldbank.org/en/projects-operations/opportunities",
-   "status": "已核验并更新",
-   "checked_at": "2026-11-18T07:59:49.276Z",
-   "note": "世界银行抓取成功，见采购公告来源；无新增工程类。"
+   "status": "已核验无新增",
+   "checked_at": "2026-11-18T16:39:47.032Z",
+   "note": "云端按加纳/多哥/尼日利亚读取世界银行采购公告 API，开放工程类候选 7 条，自动新增 0 条。"
   },
   {
    "id": "wb-proc",
@@ -240,9 +240,9 @@
    "country": "MULTI",
    "kind": "国际机构",
    "url": "https://projects.worldbank.org/en/projects-operations/procurement",
-   "status": "已核验并更新",
-   "checked_at": "2026-11-18T07:59:49.276Z",
-   "note": "世界银行采购公告抓取成功：西非三国候选 7 条，6 条已在库或为既有；新增 2 条为尼日利亚 IDEAS 项目职业培训工具包采购（物资类，不属工程，未收录）。"
+   "status": "已核验无新增",
+   "checked_at": "2026-11-18T16:39:47.032Z",
+   "note": "云端按加纳/多哥/尼日利亚读取世界银行采购公告 API，开放工程类候选 7 条，自动新增 0 条。"
   },
   {
    "id": "afdb",
@@ -816,9 +816,9 @@
    "risk": "金额未披露；国内竞争性招标，可能存在本地注册、资质或份额要求；须登录 GHANEPS 下载文件核实",
    "verified_at": "2026-11-11",
    "verified_note": "GHANEPS 官方列表 2026-11-11 仍显示为投标阶段。",
-   "terminal_at": null,
+   "terminal_at": "2026-11-18T14:00:00.000Z",
    "migrated_from": "ghana-togo-engineering-monitor 参考站（2026-11-05 07:28 快照）",
-   "status": "开放中"
+   "status": "已截止（待评审）"
   },
   {
    "id": "c1ad2e2f9569",
@@ -851,9 +851,9 @@
    "risk": "金额未披露；国内竞争性招标，可能存在本地注册、资质或份额要求；须登录 GHANEPS 下载文件核实",
    "verified_at": "2026-11-11",
    "verified_note": "GHANEPS 官方列表 2026-11-11 仍显示为投标阶段。",
-   "terminal_at": null,
+   "terminal_at": "2026-11-18T10:00:00.000Z",
    "migrated_from": "ghana-togo-engineering-monitor 参考站（2026-11-05 07:28 快照）",
-   "status": "开放中"
+   "status": "已截止（待评审）"
   },
   {
    "id": "c3c6b37e2609",
@@ -886,9 +886,9 @@
    "risk": "金额未披露；国内竞争性招标，可能存在本地注册、资质或份额要求；须登录 GHANEPS 下载文件核实",
    "verified_at": "2026-11-11",
    "verified_note": "GHANEPS 官方列表 2026-11-11 仍显示为投标阶段。",
-   "terminal_at": null,
+   "terminal_at": "2026-11-18T10:00:00.000Z",
    "migrated_from": "ghana-togo-engineering-monitor 参考站（2026-11-05 07:28 快照）",
-   "status": "开放中"
+   "status": "已截止（待评审）"
   },
   {
    "id": "48b78bb9d178",
@@ -1670,9 +1670,9 @@
    "risk": "参与费 GHS 500；投标保证金2%；公告中的办公室数量表述需以标书复核。",
    "verified_at": "2026-11-18",
    "verified_note": "GHANEPS 官方列表 2026-11-15 仍显示为投标阶段",
-   "terminal_at": null,
+   "terminal_at": "2026-11-18T11:00:00.000Z",
    "migrated_from": "ghana-togo-engineering-monitor 参考站（2026-11-05 07:28 快照）",
-   "status": "开放中"
+   "status": "已截止（待评审）"
   },
   {
    "id": "fc9e6bb90607",
@@ -1845,9 +1845,9 @@
    "risk": "参与费GHS 500；要求投标保证声明；金额未披露。",
    "verified_at": "2026-11-12",
    "verified_note": "2026-11-12 GHANEPS 官方当前招标列表核验，信息无变化",
-   "terminal_at": null,
+   "terminal_at": "2026-11-18T14:00:00.000Z",
    "migrated_from": "ghana-togo-engineering-monitor 参考站（2026-11-05 07:28 快照）",
-   "status": "开放中"
+   "status": "已截止（待评审）"
   },
   {
    "id": "8e7096154711",
@@ -2357,7 +2357,7 @@
    "stage": "正式招标",
    "stage_note": "National Competitive Tendering",
    "published_at": "2026-11-05 22:26",
-   "deadline": "2026-11-20 10:00",
+   "deadline": "2026-11-26 10:00",
    "amount": "未披露",
    "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3907194",
    "origin": "GHANEPS",
@@ -2368,7 +2368,7 @@
    "funder": "",
    "conditions": "",
    "action": "登录 GHANEPS 获取招标文件。",
-   "risk": "金额未披露；国内竞争性招标。",
+   "risk": "金额未披露；国内竞争性招标。；GHANEPS 列表显示截止改为 2026-11-26 10:00（原 2026-11-20 10:00）",
    "verified_at": "2026-11-18",
    "verified_note": "GHANEPS 官方列表 2026-11-15 仍显示为投标阶段",
    "terminal_at": null,
@@ -2391,7 +2391,7 @@
    "stage": "正式招标",
    "stage_note": "National Competitive Tendering",
    "published_at": "2026-11-05 16:37",
-   "deadline": "2026-11-19 10:00",
+   "deadline": "2026-11-26 10:00",
    "amount": "未披露",
    "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3907253",
    "origin": "GHANEPS",
@@ -2402,7 +2402,7 @@
    "funder": "",
    "conditions": "",
    "action": "小型土建项目，适合本地合作方参与。",
-   "risk": "金额未披露；规模可能较小。",
+   "risk": "金额未披露；规模可能较小。；GHANEPS 列表显示截止改为 2026-11-26 10:00（原 2026-11-19 10:00）",
    "verified_at": "2026-11-18",
    "verified_note": "GHANEPS 官方列表 2026-11-15 仍显示为投标阶段",
    "terminal_at": null,
@@ -2425,7 +2425,7 @@
    "stage": "正式招标",
    "stage_note": "National Competitive Tendering",
    "published_at": "2026-11-05 16:22",
-   "deadline": "2026-11-19 10:00",
+   "deadline": "2026-11-26 10:00",
    "amount": "未披露",
    "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3907048",
    "origin": "GHANEPS",
@@ -2436,7 +2436,7 @@
    "funder": "",
    "conditions": "",
    "action": "可与同批 Onyansana 教学楼合并评估。",
-   "risk": "金额未披露；国内竞争性招标。",
+   "risk": "金额未披露；国内竞争性招标。；GHANEPS 列表显示截止改为 2026-11-26 10:00（原 2026-11-19 10:00）",
    "verified_at": "2026-11-18",
    "verified_note": "GHANEPS 官方列表 2026-11-15 仍显示为投标阶段",
    "terminal_at": null,
@@ -2459,7 +2459,7 @@
    "stage": "正式招标",
    "stage_note": "National Competitive Tendering",
    "published_at": "2026-11-05 16:10",
-   "deadline": "2026-11-19 10:00",
+   "deadline": "2026-11-26 10:00",
    "amount": "未披露",
    "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3906874",
    "origin": "GHANEPS",
@@ -2470,7 +2470,7 @@
    "funder": "",
    "conditions": "",
    "action": "可与同批 Joma 教学楼合并评估。",
-   "risk": "金额未披露；国内竞争性招标。",
+   "risk": "金额未披露；国内竞争性招标。；GHANEPS 列表显示截止改为 2026-11-26 10:00（原 2026-11-19 10:00）",
    "verified_at": "2026-11-18",
    "verified_note": "GHANEPS 官方列表 2026-11-15 仍显示为投标阶段",
    "terminal_at": null,
@@ -2493,7 +2493,7 @@
    "stage": "正式招标",
    "stage_note": "National Competitive Tendering",
    "published_at": "2026-11-05 16:03",
-   "deadline": "2026-11-19 10:00",
+   "deadline": "2026-11-26 10:00",
    "amount": "未披露",
    "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3906761",
    "origin": "GHANEPS",
@@ -2504,7 +2504,7 @@
    "funder": "",
    "conditions": "",
    "action": "续建项目，需现场踏勘已完成部分。",
-   "risk": "续建工程存在既有质量与界面风险；金额未披露。",
+   "risk": "续建工程存在既有质量与界面风险；金额未披露。；GHANEPS 列表显示截止改为 2026-11-26 10:00（原 2026-11-19 10:00）",
    "verified_at": "2026-11-18",
    "verified_note": "GHANEPS 官方列表 2026-11-15 仍显示为投标阶段",
    "terminal_at": null,
