@@ -3,16 +3,16 @@
   "title": "西非工程机会",
   "schedule": "每日 07:30 Africa/Accra（UTC+0）",
   "timezone": "Africa/Accra",
-  "last_success_at": "2026-11-18T16:39:47.032Z",
+  "last_success_at": "2026-11-19T08:57:42.751Z",
   "last_run": {
-   "started_at": "2026-11-18T16:39:29Z",
-   "finished_at": "2026-11-18T16:39:47.032Z",
+   "started_at": "2026-11-19T08:56:18Z",
+   "finished_at": "2026-11-19T08:57:42.751Z",
    "result": "成功",
-   "runner": "GitHub Actions 云端",
-   "note": "云端更新：GHANEPS 新增 0、世界银行新增 0；DGMarket 与其他来源由本机任务读取。"
+   "runner": "本机任务",
+   "note": "GHANEPS 与世界银行读取成功，新增 0；无云端待翻译记录；DGMarket 遇安全验证未读取（未授权）；其余来源仅做可达性检查。"
   },
   "dgmarket_authorized": false,
-  "built_at": "2026-11-18T16:39:47.073Z",
+  "built_at": "2026-11-19T08:57:42.895Z",
   "purge_rule": "终态（已授标/已取消/已截止）满 72 小时自动删除"
  },
  "sources": [
@@ -23,8 +23,8 @@
    "kind": "官方",
    "url": "https://www.ghaneps.gov.gh/epps/home.do",
    "status": "已核验无新增",
-   "checked_at": "2026-11-18T16:39:47.032Z",
-   "note": "云端读取当前招标列表 8 页（80 条）：自动新增 0 条工程类招标，刷新 0 条既有记录核验日期。"
+   "checked_at": "2026-11-19T08:57:42.748Z",
+   "note": "本机读取当前招标列表 8 页（80 条）：加纳 0 条开放工程类候选，无新增。"
   },
   {
    "id": "ppa",
@@ -33,7 +33,7 @@
    "kind": "官方",
    "url": "https://ppa.gov.gh/",
    "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-18T07:59:49.276Z",
+   "checked_at": "2026-11-19T08:57:42.748Z",
    "note": "站点可打开（HTTP 200），本次仅做可达性检查，未逐条筛查公告，既有记录保持原样。"
   },
   {
@@ -43,7 +43,7 @@
    "kind": "官方",
    "url": "https://bids.mrh.gov.gh/",
    "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-18T07:59:49.276Z",
+   "checked_at": "2026-11-19T08:57:42.748Z",
    "note": "站点可打开（HTTP 200），本次仅做可达性检查，未逐条筛查公告，既有记录保持原样。"
   },
   {
@@ -73,7 +73,7 @@
    "kind": "官方",
    "url": "https://dnccp.gouv.tg/",
    "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-18T07:59:49.276Z",
+   "checked_at": "2026-11-19T08:57:42.748Z",
    "note": "站点可打开（HTTP 200），本次仅做可达性检查，未逐条筛查公告，既有记录保持原样。"
   },
   {
@@ -83,7 +83,7 @@
    "kind": "官方",
    "url": "https://osmapt.arcop.tg/",
    "status": "访问失败",
-   "checked_at": "2026-11-18T07:59:49.276Z",
+   "checked_at": "2026-11-19T08:57:42.748Z",
    "note": "osmapt.armp.tg 连接失败（无响应）。"
   },
   {
@@ -113,8 +113,8 @@
    "kind": "官方",
    "url": "https://dnccp.gouv.tg/liste-des-marches/",
    "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-13T17:56:08.561Z",
-   "note": "官方已签合同库（非招标公告），含 2026 年第 1—2 季度数据，可按“Travaux / Energie, Eau et Ressources Minières / Infrastructures”筛选并导出，列出中标企业、金额与资金来源。适合补充中标结果，本次未逐条筛查。"
+   "checked_at": "2026-11-19T08:57:42.748Z",
+   "note": "站点可打开（HTTP 200），本次仅做可达性检查，未逐条筛查公告，既有记录保持原样。"
   },
   {
    "id": "ceb",
@@ -163,7 +163,7 @@
    "kind": "官方",
    "url": "https://bppweb.webhostingng.org/nigeria-open-contracting-portal/",
    "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-18T07:59:49.276Z",
+   "checked_at": "2026-11-19T08:57:42.748Z",
    "note": "站点可打开（HTTP 200），本次仅做可达性检查，未逐条筛查公告，既有记录保持原样。"
   },
   {
@@ -172,9 +172,9 @@
    "country": "NG",
    "kind": "官方",
    "url": "https://www.bpp.gov.ng/",
-   "status": "访问失败",
-   "checked_at": "2026-11-18T07:59:49.276Z",
-   "note": "www.bpp.gov.ng 返回重定向、未取得内容，本次未能筛查。"
+   "status": "可访问，未逐条筛查",
+   "checked_at": "2026-11-19T08:57:42.748Z",
+   "note": "站点可打开（HTTP 200），本次仅做可达性检查，未逐条筛查公告，既有记录保持原样。"
   },
   {
    "id": "rea",
@@ -183,7 +183,7 @@
    "kind": "官方",
    "url": "https://www.rea.gov.ng/tenders",
    "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-18T07:59:49.276Z",
+   "checked_at": "2026-11-19T08:57:42.748Z",
    "note": "站点可打开（HTTP 200），本次仅做可达性检查，未逐条筛查公告，既有记录保持原样。"
   },
   {
@@ -193,7 +193,7 @@
    "kind": "官方",
    "url": "https://nep.rea.gov.ng/resource-hub.html",
    "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-18T07:59:49.276Z",
+   "checked_at": "2026-11-19T08:57:42.748Z",
    "note": "站点可打开（HTTP 200），本次仅做可达性检查，未逐条筛查公告，既有记录保持原样。"
   },
   {
@@ -203,7 +203,7 @@
    "kind": "官方",
    "url": "https://eprocurement.nddc.gov.ng/",
    "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-18T07:59:49.276Z",
+   "checked_at": "2026-11-19T08:57:42.748Z",
    "note": "站点可打开（HTTP 200），本次仅做可达性检查，未逐条筛查公告，既有记录保持原样。"
   },
   {
@@ -232,9 +232,9 @@
    "country": "MULTI",
    "kind": "国际机构",
    "url": "https://projects.worldbank.org/en/projects-operations/opportunities",
-   "status": "已核验无新增",
-   "checked_at": "2026-11-18T16:39:47.032Z",
-   "note": "云端按加纳/多哥/尼日利亚读取世界银行采购公告 API，开放工程类候选 7 条，自动新增 0 条。"
+   "status": "已核验并更新",
+   "checked_at": "2026-11-19T08:57:42.748Z",
+   "note": "读取世界银行采购公告：加纳 0、多哥 0、尼日利亚 7 条候选；5 条已收录，2 条为 IDEAS 项目职业培训工具包（货物采购，非工程）未收录。无新增。"
   },
   {
    "id": "wb-proc",
@@ -242,9 +242,9 @@
    "country": "MULTI",
    "kind": "国际机构",
    "url": "https://projects.worldbank.org/en/projects-operations/procurement",
-   "status": "已核验无新增",
-   "checked_at": "2026-11-18T16:39:47.032Z",
-   "note": "云端按加纳/多哥/尼日利亚读取世界银行采购公告 API，开放工程类候选 7 条，自动新增 0 条。"
+   "status": "已核验并更新",
+   "checked_at": "2026-11-19T08:57:42.748Z",
+   "note": "读取世界银行采购公告：加纳 0、多哥 0、尼日利亚 7 条候选；5 条已收录，2 条为 IDEAS 项目职业培训工具包（货物采购，非工程）未收录。无新增。"
   },
   {
    "id": "afdb",
@@ -252,9 +252,9 @@
    "country": "MULTI",
    "kind": "国际机构",
    "url": "https://www.afdb.org/en/documents/category/procurement-notices",
-   "status": "访问失败",
-   "checked_at": "2026-11-18T07:59:49.276Z",
-   "note": "AfDB 页面返回 HTTP 403，本次未能读取。"
+   "status": "可访问，未逐条筛查",
+   "checked_at": "2026-11-19T08:57:42.748Z",
+   "note": "站点可打开（HTTP 200），本次仅做可达性检查，未逐条筛查公告，既有记录保持原样。"
   },
   {
    "id": "afdb-gpn",
@@ -262,9 +262,9 @@
    "country": "MULTI",
    "kind": "国际机构",
    "url": "https://www.afdb.org/en/documents/category/general-procurement-notices",
-   "status": "访问失败",
-   "checked_at": "2026-11-18T07:59:49.276Z",
-   "note": "AfDB 页面返回 HTTP 403，本次未能读取。"
+   "status": "可访问，未逐条筛查",
+   "checked_at": "2026-11-19T08:57:42.748Z",
+   "note": "站点可打开（HTTP 200），本次仅做可达性检查，未逐条筛查公告，既有记录保持原样。"
   },
   {
    "id": "wapp",
@@ -292,9 +292,9 @@
    "country": "MULTI",
    "kind": "国际机构",
    "url": "https://www.ungm.org/Public/Notice",
-   "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-18T07:59:49.276Z",
-   "note": "站点可打开（HTTP 200），本次仅做可达性检查，未逐条筛查公告，既有记录保持原样。"
+   "status": "访问失败",
+   "checked_at": "2026-11-19T08:57:42.748Z",
+   "note": "UNGM 返回 HTTP 403，未读取。"
   },
   {
    "id": "dgmarket",
@@ -303,8 +303,8 @@
    "kind": "会员",
    "url": "https://www.dgmarket.com/tenders/list.do?sub=tenders-in-Africa&locationISO=_s&updatedId=1w",
    "status": "未获授权",
-   "checked_at": "2026-11-18T07:59:49.276Z",
-   "note": "ego 浏览器访问 DGMarket 时出现安全验证页面，未读取、未绕过；保留既有 DGMarket 记录及其核验日期。"
+   "checked_at": "2026-11-19T08:57:42.748Z",
+   "note": "ego 浏览器访问 DGMarket 显示安全验证页面，未读取（不绕过验证）；保留既有 DGMarket 记录及其核验日期。"
   }
  ],
  "items": [
@@ -3947,9 +3947,9 @@
    "risk": "仅见于 DGMarket，需以采购方文件为准；为咨询服务而非施工招标，施工企业价值在于项目线索；截止时刻（WAT）未在摘要中给出。",
    "verified_at": "2026-11-11",
    "verified_note": "DGMarket 会员公告页 2026-11-11 读取，状态 published: Nov 5, 2026。",
-   "terminal_at": null,
+   "terminal_at": "2026-11-18T22:59:00.000Z",
    "added_at": "2026-11-11T08:49:21Z",
-   "status": "开放中",
+   "status": "已截止（待评审）",
    "completeness": 10,
    "deadline_ms": 1795042740000
   },
