@@ -398,5 +398,61 @@
   "status": "已截止（待评审）",
   "terminal_at": "2026-11-16T22:59:00.000Z",
   "purged_at": "2026-11-20T08:08:49.801Z"
+ },
+ {
+  "id": "3e7a4dc3d8aa",
+  "title": "Danyame幼儿园、厕所、水井及供电延伸综合工程",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3816764",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-17T10:00:00.000Z",
+  "purged_at": "2026-11-20T16:18:20.742Z"
+ },
+ {
+  "id": "4d3f4cc4bd41",
+  "title": "加纳大学 Legon Hall Annex A 翻修",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3773663",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-17T11:00:00.000Z",
+  "purged_at": "2026-11-20T16:18:20.742Z"
+ },
+ {
+  "id": "dace15e872ac",
+  "title": "加纳 Abbosey Okai 桥重建工程",
+  "url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00473668",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-17T10:00:00.000Z",
+  "purged_at": "2026-11-20T16:18:20.742Z"
+ },
+ {
+  "id": "b91cc8210f5d",
+  "title": "加纳南拉 Home School 18 单元教学楼建设",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3895610",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-17T11:30:00.000Z",
+  "purged_at": "2026-11-20T16:18:20.742Z"
+ },
+ {
+  "id": "92f9c575099e",
+  "title": "UDS Nyankpala 校区四层讲堂及办公楼 B 座续建",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3893867",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-17T14:00:00.000Z",
+  "purged_at": "2026-11-20T16:18:20.742Z"
+ },
+ {
+  "id": "8e7096154711",
+  "title": "GRIDCo Esiama变电站馈线间隔及25/33MVA变压器安装",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3645752",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-17T13:00:00.000Z",
+  "purged_at": "2026-11-20T16:18:20.742Z"
+ },
+ {
+  "id": "2d024cf3b128",
+  "title": "GRIDCo Elubo变电站馈线间隔及25/33MVA变压器安装",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3645711",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-17T11:00:00.000Z",
+  "purged_at": "2026-11-20T16:18:20.742Z"
  }
 ]
