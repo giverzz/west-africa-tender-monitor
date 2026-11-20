@@ -12,7 +12,7 @@
    "note": "本机更新：GHANEPS、世界银行、UNGM、AfDB 读取成功；新增 4 条、重新招标更新 1 条，中文化云端记录 7 条，刷新核验日期 55 条；DGMarket 停在安全验证页，未获授权；OSMAPT、CEET 连接超时。"
   },
   "dgmarket_authorized": false,
-  "built_at": "2026-11-20T08:09:11.647Z",
+  "built_at": "2026-11-20T08:11:01.495Z",
   "purge_rule": "终态（已授标/已取消/已截止）满 72 小时自动删除"
  },
  "sources": [
