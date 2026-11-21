@@ -3,16 +3,16 @@
   "title": "西非工程机会",
   "schedule": "每日 07:30 Africa/Accra（UTC+0）",
   "timezone": "Africa/Accra",
-  "last_success_at": "2026-11-21T07:46:48.987Z",
+  "last_success_at": "2026-11-21T08:03:03.179Z",
   "last_run": {
-   "started_at": "2026-11-21T07:39:18Z",
-   "finished_at": "2026-11-21T07:46:48.987Z",
+   "started_at": "2026-11-21T08:01:06Z",
+   "finished_at": "2026-11-21T08:03:03.179Z",
    "result": "成功",
    "runner": "本机任务",
-   "note": "本机更新：GHANEPS、世界银行、DGMarket（会员会话已登录）、UNGM、AfDB 读取成功；新增 15 条，补 DGMarket 链接 13 条，刷新核验日期 66 条；OSMAPT 连接超时。"
+   "note": "当日第二次本机运行：GHANEPS、世界银行、DGMarket（会员会话已登录）重新读取成功，与 07:39 运行相比无新增、无截止时间变化；刷新核验日期 2 条。其余来源沿用当日 07:39 运行的筛查结果；OSMAPT 旧域名仍超时，新域名仅登录页。"
   },
   "dgmarket_authorized": true,
-  "built_at": "2026-11-21T07:48:05.363Z",
+  "built_at": "2026-11-21T08:03:03.322Z",
   "purge_rule": "终态（已授标/已取消/已截止）满 72 小时自动删除"
  },
  "sources": [
@@ -23,8 +23,8 @@
    "kind": "官方",
    "url": "https://www.ghaneps.gov.gh/epps/home.do",
    "status": "已核验无新增",
-   "checked_at": "2026-11-21T07:46:48.978Z",
-   "note": "本机抓取 8 页共 80 条当前招标并逐条筛查：未收录的 22 条均为 IT/网络设备、车辆、家具、餐饮、纪念品、矿产勘探等非工程采购，无新增；既有记录截止时间变化 0 条。"
+   "checked_at": "2026-11-21T08:03:03.179Z",
+   "note": "当日第二次本机运行：抓取 8 页共 80 条当前招标，58 条已收录，截止时间变化 0 条；其余 22 条为 IT/网络设备、车辆、家具、餐饮、纪念品、矿产勘探等非工程采购，无新增。"
   },
   {
    "id": "ppa",
@@ -82,9 +82,9 @@
    "country": "TG",
    "kind": "官方",
    "url": "https://osmapt.arcop.tg/",
-   "status": "访问失败",
-   "checked_at": "2026-11-21T07:46:48.978Z",
-   "note": "curl 连接超时（25 秒无响应），未读取。"
+   "status": "可访问，未逐条筛查",
+   "checked_at": "2026-11-21T08:03:03.179Z",
+   "note": "osmapt.armp.tg 仍连接超时；新域名 osmapt.arcop.tg 可打开（HTTP 200），首页仅为登录界面，未读到公告列表，既有记录保持原样。"
   },
   {
    "id": "arcop",
@@ -233,8 +233,8 @@
    "kind": "国际机构",
    "url": "https://projects.worldbank.org/en/projects-operations/opportunities",
    "status": "已核验无新增",
-   "checked_at": "2026-11-21T07:46:48.978Z",
-   "note": "本机运行 wb-fetch：开放工程类候选 7 条，5 条已收录并复核；另 2 条 IDEAS 项目职业培训工具包为货物采购，未收录。"
+   "checked_at": "2026-11-21T08:03:03.179Z",
+   "note": "当日第二次本机运行 wb-fetch：开放工程类候选 7 条，5 条已收录并复核；另 2 条 IDEAS 项目职业培训工具包（OP00480649/OP00480650）为货物采购，未收录。"
   },
   {
    "id": "wb-proc",
@@ -243,8 +243,8 @@
    "kind": "国际机构",
    "url": "https://projects.worldbank.org/en/projects-operations/procurement",
    "status": "已核验无新增",
-   "checked_at": "2026-11-21T07:46:48.978Z",
-   "note": "同世界银行 Business Opportunities：候选 7 条，5 条已收录并复核，2 条培训工具包货物采购未收录。"
+   "checked_at": "2026-11-21T08:03:03.179Z",
+   "note": "当日第二次本机运行 wb-fetch：开放工程类候选 7 条，5 条已收录并复核；另 2 条 IDEAS 项目职业培训工具包（OP00480649/OP00480650）为货物采购，未收录。"
   },
   {
    "id": "afdb",
@@ -302,9 +302,9 @@
    "country": "MULTI",
    "kind": "会员",
    "url": "https://www.dgmarket.com/tenders/list.do?sub=tenders-in-Africa&locationISO=_s&updatedId=1w",
-   "status": "已核验并更新",
-   "checked_at": "2026-11-21T07:46:48.978Z",
-   "note": "ego 浏览器会员会话已登录（CWE Renewable Energy），读取近一周列表：加纳 93 results、多哥 8 results、尼日利亚 135 results（去重 236 条）。工程/能源类候选 65 条：13 条与既有 GHANEPS/世行记录相同（补 DGMarket 链接），新增 14 条会员来源记录（卡诺州 5 个教育局翻修、IsDB 阿比亚两条道路监理 EOI、NEWMAP-EIB 两州咨询 EOI、FUPRE 工程楼资格预审、贝努埃 TETFund 就业中心、Abia DBOT 停车场、NPERA 货物与工程、ActionAid 农民培训中心）及 UNICEF 塔马利屋面（已找到 UNGM 原始公告）；世行授标公告 20 条均不对应既有记录，其余为货物、个人咨询、采购计划等，未收录。"
+   "status": "已核验无新增",
+   "checked_at": "2026-11-21T08:03:03.179Z",
+   "note": "ego 浏览器会员会话已登录（CWE Renewable Energy），当日第二次读取近一周列表：加纳 93 results、多哥 8 results、尼日利亚 135 results（去重 236 条），与当日 07:39 运行相比无新公告。"
   }
  ],
  "items": [
@@ -4433,7 +4433,7 @@
    "origin_type": "国际机构官方",
    "discovery": "DGMarket 会员公告",
    "dgmarket": true,
-   "verified_at": "2026-11-17",
+   "verified_at": "2026-11-21",
    "verified_note": "2026-11-17 本机在 DGMarket 会员公告读取，并打开 IsDB 官网原始公告核实参考编号与截止日期。DGMarket 日期为其收录日期，原公告日期以 IsDB 页面为准。",
    "terminal_at": null,
    "added_at": "2026-11-17T08:03:05.919Z",
@@ -4470,7 +4470,7 @@
    "origin_type": "国际机构官方",
    "discovery": "DGMarket 会员公告",
    "dgmarket": true,
-   "verified_at": "2026-11-17",
+   "verified_at": "2026-11-21",
    "verified_note": "2026-11-17 本机在 DGMarket 会员公告读取，并打开 IsDB 官网原始公告核实参考编号与截止日期。DGMarket 日期为其收录日期，原公告日期以 IsDB 页面为准。",
    "terminal_at": null,
    "added_at": "2026-11-17T08:03:05.919Z",
