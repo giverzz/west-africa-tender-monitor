@@ -454,5 +454,29 @@
   "status": "已截止（待评审）",
   "terminal_at": "2026-11-17T11:00:00.000Z",
   "purged_at": "2026-11-20T16:18:20.742Z"
+ },
+ {
+  "id": "a18ac1897839",
+  "title": "尼日利亚电力监管委员会（NERC）咨询服务意向征集",
+  "url": "https://www.dgmarket.com/tenders/np-notice.do?keywords=&noticeId=117243964",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-17T22:59:00.000Z",
+  "purged_at": "2026-11-21T07:46:49.130Z"
+ },
+ {
+  "id": "afe54bcaebbb",
+  "title": "国家汽车设计与发展委员会（NADDC）项目实施招标及意向征集",
+  "url": "https://www.dgmarket.com/tenders/np-notice.do?keywords=&noticeId=117307788",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-17T22:59:00.000Z",
+  "purged_at": "2026-11-21T07:46:49.130Z"
+ },
+ {
+  "id": "cb2726d8c5e1",
+  "title": "尼日尔三角洲发展委员会（NDDC）办公设施建设及修复",
+  "url": "https://eprocurement.nddc.gov.ng/",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-17T22:59:00.000Z",
+  "purged_at": "2026-11-21T07:46:49.130Z"
  }
 ]
