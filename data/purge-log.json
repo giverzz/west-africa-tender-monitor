@@ -478,5 +478,45 @@
   "status": "已截止（待评审）",
   "terminal_at": "2026-11-17T22:59:00.000Z",
   "purged_at": "2026-11-21T07:46:49.130Z"
+ },
+ {
+  "id": "5f1f9035cfb7",
+  "title": "最高法院大楼供应及安装 2 部电梯",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3841079",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-18T14:00:00.000Z",
+  "purged_at": "2026-11-21T15:30:50.107Z"
+ },
+ {
+  "id": "c1ad2e2f9569",
+  "title": "Sekyere Central 指定社区清扫与疏浚服务—一区",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3827317",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-18T10:00:00.000Z",
+  "purged_at": "2026-11-21T15:30:50.107Z"
+ },
+ {
+  "id": "c3c6b37e2609",
+  "title": "Sekyere Central 指定社区清扫与疏浚服务—二区",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3827361",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-18T10:00:00.000Z",
+  "purged_at": "2026-11-21T15:30:50.107Z"
+ },
+ {
+  "id": "063bf93e10ee",
+  "title": "La Dade Kotopon 三层行政楼建设",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3900420",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-18T11:00:00.000Z",
+  "purged_at": "2026-11-21T15:30:50.107Z"
+ },
+ {
+  "id": "0ac5f8cd8d04",
+  "title": "加纳法院综合体4口机械化水井及处理设施",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3860257",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-18T14:00:00.000Z",
+  "purged_at": "2026-11-21T15:30:50.107Z"
  }
 ]
