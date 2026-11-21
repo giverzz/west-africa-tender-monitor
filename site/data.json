@@ -12,7 +12,7 @@
    "note": "本机更新：GHANEPS、世界银行、DGMarket（会员会话已登录）、UNGM、AfDB 读取成功；新增 15 条，补 DGMarket 链接 13 条，刷新核验日期 66 条；OSMAPT 连接超时。"
   },
   "dgmarket_authorized": true,
-  "built_at": "2026-11-21T07:46:49.130Z",
+  "built_at": "2026-11-21T07:48:05.363Z",
   "purge_rule": "终态（已授标/已取消/已截止）满 72 小时自动删除"
  },
  "sources": [
