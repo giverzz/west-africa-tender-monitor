@@ -518,5 +518,85 @@
   "status": "已截止（待评审）",
   "terminal_at": "2026-11-18T14:00:00.000Z",
   "purged_at": "2026-11-21T15:30:50.107Z"
+ },
+ {
+  "id": "a6584dfd12e1",
+  "title": "建设CHPS 社区诊所，位于 Adigbo Tornu",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3819690",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-19T11:00:00.000Z",
+  "purged_at": "2026-11-22T15:33:47.783Z"
+ },
+ {
+  "id": "54be56a467cf",
+  "title": "建设新行政楼，用于 GES，位于 Ve Golokuati",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3815569",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-19T11:30:00.000Z",
+  "purged_at": "2026-11-22T15:33:47.783Z"
+ },
+ {
+  "id": "7319e470583e",
+  "title": "建设CHPS，位于 Leklebi Agbesia",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3815773",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-19T10:30:00.000Z",
+  "purged_at": "2026-11-22T15:33:47.783Z"
+ },
+ {
+  "id": "155d2e1f407b",
+  "title": "建设CHPS 社区诊所及护士宿舍，位于 Liati Dafonu",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3816066",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-19T11:00:00.000Z",
+  "purged_at": "2026-11-22T15:33:47.783Z"
+ },
+ {
+  "id": "7629491bb0d3",
+  "title": "Dzolokpuita 4栋区议会员工平房续建",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3895026",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-19T14:00:00.000Z",
+  "purged_at": "2026-11-22T15:33:47.783Z"
+ },
+ {
+  "id": "e5bb96088004",
+  "title": "Nsawam Adoagyiri 市移民指挥中心",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3926670",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-19T10:00:00.000Z",
+  "purged_at": "2026-11-22T15:33:47.783Z"
+ },
+ {
+  "id": "5ceafbdf94af",
+  "title": "Nsawam Adoagyiri 市钻探并机械化 8 口水井及高位水箱",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3925074",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-19T10:00:00.000Z",
+  "purged_at": "2026-11-22T15:33:47.783Z"
+ },
+ {
+  "id": "5c977389adb6",
+  "title": "Nsawam Adoagyiri 市 6 栋官员住宅修缮完工",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3923509",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-19T10:00:00.000Z",
+  "purged_at": "2026-11-22T15:33:47.783Z"
+ },
+ {
+  "id": "810caeeccca3",
+  "title": "Nsawam Adoagyiri 市 Asiyaw 6 间教学楼及卫生设施完工",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3922188",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-19T10:00:00.000Z",
+  "purged_at": "2026-11-22T15:33:47.783Z"
+ },
+ {
+  "id": "eee69b623638",
+  "title": "尼日利亚输电公司（TCN）配电行业振兴计划（DiSREP）PforR 部分独立核查机构咨询服务意向征集",
+  "url": "https://www.dgmarket.com/tenders/np-notice.do?keywords=&noticeId=117413368",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-18T22:59:00.000Z",
+  "purged_at": "2026-11-22T15:33:47.783Z"
  }
 ]
