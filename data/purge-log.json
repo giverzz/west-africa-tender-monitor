@@ -598,5 +598,85 @@
   "status": "已截止（待评审）",
   "terminal_at": "2026-11-18T22:59:00.000Z",
   "purged_at": "2026-11-22T15:33:47.783Z"
+ },
+ {
+  "id": "e9275d8d37e6",
+  "title": "建设 4 座双孔涵洞桥：Lawarkrom、Kwarkrom、Ewaise 与 Mpomam",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3886656",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-20T11:30:00.000Z",
+  "purged_at": "2026-11-23T19:25:40.081Z"
+ },
+ {
+  "id": "d5f4cabb6f66",
+  "title": "Sefwi Wiawso CHPS 社区诊所及三卧室公寓建设与家具配置（DACF）",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3895317",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-20T11:30:00.000Z",
+  "purged_at": "2026-11-23T19:25:40.081Z"
+ },
+ {
+  "id": "71b67fc2ad61",
+  "title": "Sefwi Wiawso CHPS 社区诊所及三卧室公寓建设与家具配置（MDF）",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3893667",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-20T11:30:00.000Z",
+  "purged_at": "2026-11-23T19:25:40.081Z"
+ },
+ {
+  "id": "7cf72a5611bd",
+  "title": "Sunyani Technical University 基础学校 B 座建设",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3888252",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-20T11:00:00.000Z",
+  "purged_at": "2026-11-23T19:25:40.081Z"
+ },
+ {
+  "id": "ef604de60b21",
+  "title": "Sefwi Wiawso 警察岗亭建设及配置",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3906086",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-20T11:30:00.000Z",
+  "purged_at": "2026-11-23T19:25:40.081Z"
+ },
+ {
+  "id": "a4dd82fa0f8d",
+  "title": "Sefwi Wiawso 三单元教室及更衣室建设与配置",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3903292",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-20T11:30:00.000Z",
+  "purged_at": "2026-11-23T19:25:40.081Z"
+ },
+ {
+  "id": "fc9e6bb90607",
+  "title": "Sefwi Wiawso 10口新水井及5口既有水井机械化工程",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3901161",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-20T11:30:00.000Z",
+  "purged_at": "2026-11-23T19:25:40.081Z"
+ },
+ {
+  "id": "8fc0be76c162",
+  "title": "Old Tafo 市两层综合办公楼（消防、救护、法律援助、医保、移民、身份局）",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3932881",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-20T11:00:00.000Z",
+  "purged_at": "2026-11-23T19:25:40.081Z"
+ },
+ {
+  "id": "dde3ea49ba4f",
+  "title": "Sefwi Wiawso 市两层社区护理培训宿舍完工",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3886392",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-20T11:30:00.000Z",
+  "purged_at": "2026-11-23T19:25:40.081Z"
+ },
+ {
+  "id": "fe6549613e6a",
+  "title": "尼日利亚 Rabbah 灌溉区（Niger 州）ESIA 与移民安置行动计划（RAP）咨询服务——世行 SPIN 项目意向征集",
+  "url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00479744",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-20T11:00:00.000Z",
+  "purged_at": "2026-11-23T19:25:40.081Z"
  }
 ]
