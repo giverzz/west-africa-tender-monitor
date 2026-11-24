@@ -3,16 +3,16 @@
   "title": "西非工程机会",
   "schedule": "每日 07:30 Africa/Accra（UTC+0）",
   "timezone": "Africa/Accra",
-  "last_success_at": "2026-11-23T19:25:40.040Z",
+  "last_success_at": "2026-11-24T08:02:30.787Z",
   "last_run": {
-   "started_at": "2026-11-23T19:25:19Z",
-   "finished_at": "2026-11-23T19:25:40.040Z",
+   "started_at": "2026-11-24T08:00:45Z",
+   "finished_at": "2026-11-24T08:02:30.787Z",
    "result": "成功",
-   "runner": "GitHub Actions 云端",
-   "note": "云端更新：GHANEPS 新增 2、世界银行新增 0；DGMarket 与其他来源由本机任务读取。"
+   "runner": "本机任务",
+   "note": "GHANEPS 与世界银行读取成功；新增 1 条，复核翻译云端收录 2 条；DGMarket 遇安全验证未读取；AfDB 403。"
   },
   "dgmarket_authorized": false,
-  "built_at": "2026-11-23T19:25:40.081Z",
+  "built_at": "2026-11-24T08:02:30.939Z",
   "purge_rule": "终态（已授标/已取消/已截止）满 72 小时自动删除"
  },
  "sources": [
@@ -23,8 +23,8 @@
    "kind": "官方",
    "url": "https://www.ghaneps.gov.gh/epps/home.do",
    "status": "已核验并更新",
-   "checked_at": "2026-11-23T19:25:40.040Z",
-   "note": "云端读取当前招标列表 8 页（80 条）：自动新增 2 条工程类招标，刷新 55 条既有记录核验日期。"
+   "checked_at": "2026-11-24T08:02:30.787Z",
+   "note": "本机读取 8 页 80 行；新增 Dadwen 卫生中心病房建设 1 条，复核并翻译云端自动收录 2 条；其余为非工程类（IT、车辆、家具等）未收录。"
   },
   {
    "id": "ppa",
@@ -33,8 +33,8 @@
    "kind": "官方",
    "url": "https://ppa.gov.gh/",
    "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-23T10:06:24.773Z",
-   "note": "本次仅确认站点可打开(HTTP 200)，未逐条筛查。"
+   "checked_at": "2026-11-24T08:02:30.787Z",
+   "note": "HTTP 200 可访问，未逐条筛查"
   },
   {
    "id": "mrh",
@@ -43,8 +43,8 @@
    "kind": "官方",
    "url": "https://bids.mrh.gov.gh/",
    "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-23T10:06:24.773Z",
-   "note": "本次仅确认站点可打开(HTTP 200)，未逐条筛查。"
+   "checked_at": "2026-11-24T08:02:30.787Z",
+   "note": "HTTP 200 可访问，未逐条筛查"
   },
   {
    "id": "gha",
@@ -73,8 +73,8 @@
    "kind": "官方",
    "url": "https://dnccp.gouv.tg/",
    "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-23T10:06:24.773Z",
-   "note": "本次仅确认站点可打开(HTTP 200)，未逐条筛查。"
+   "checked_at": "2026-11-24T08:02:30.787Z",
+   "note": "HTTP 200 可访问，未逐条筛查"
   },
   {
    "id": "osmapt",
@@ -132,9 +132,9 @@
    "country": "TG",
    "kind": "官方",
    "url": "https://www.ceet.tg/tg/?cat=15",
-   "status": "访问失败",
-   "checked_at": "2026-11-23T10:06:24.773Z",
-   "note": "本次请求无响应(超时/连接失败)。"
+   "status": "可访问，未逐条筛查",
+   "checked_at": "2026-11-24T08:02:30.787Z",
+   "note": "HTTP 200 可访问，未逐条筛查（本次站点可打开）"
   },
   {
    "id": "at2er",
@@ -163,8 +163,8 @@
    "kind": "官方",
    "url": "https://bppweb.webhostingng.org/nigeria-open-contracting-portal/",
    "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-21T07:46:48.978Z",
-   "note": "站点可打开（HTTP 200），本次仅做可达性检查，未逐条筛查公告，既有记录保持原样。"
+   "checked_at": "2026-11-24T08:02:30.787Z",
+   "note": "HTTP 200 可访问，未逐条筛查"
   },
   {
    "id": "bpp",
@@ -183,8 +183,8 @@
    "kind": "官方",
    "url": "https://www.rea.gov.ng/tenders",
    "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-23T10:06:24.773Z",
-   "note": "本次仅确认站点可打开(HTTP 200)，未逐条筛查。"
+   "checked_at": "2026-11-24T08:02:30.787Z",
+   "note": "HTTP 200 可访问，未逐条筛查"
   },
   {
    "id": "nep",
@@ -233,8 +233,8 @@
    "kind": "国际机构",
    "url": "https://projects.worldbank.org/en/projects-operations/opportunities",
    "status": "已核验无新增",
-   "checked_at": "2026-11-23T19:25:40.040Z",
-   "note": "云端按加纳/多哥/尼日利亚读取世界银行采购公告 API，开放工程类候选 8 条，自动新增 0 条。"
+   "checked_at": "2026-11-24T08:02:30.787Z",
+   "note": "wb-fetch：加纳/多哥/尼日利亚各扫描 80 条，开放候选 8 条，6 条已收录，2 条 IDEAS 项目职业培训工具包为货物采购未收录。"
   },
   {
    "id": "wb-proc",
@@ -243,8 +243,8 @@
    "kind": "国际机构",
    "url": "https://projects.worldbank.org/en/projects-operations/procurement",
    "status": "已核验无新增",
-   "checked_at": "2026-11-23T19:25:40.040Z",
-   "note": "云端按加纳/多哥/尼日利亚读取世界银行采购公告 API，开放工程类候选 8 条，自动新增 0 条。"
+   "checked_at": "2026-11-24T08:02:30.787Z",
+   "note": "同 wb-fetch 结果，无新增工程类公告。"
   },
   {
    "id": "afdb",
@@ -253,8 +253,8 @@
    "kind": "国际机构",
    "url": "https://www.afdb.org/en/documents/category/procurement-notices",
    "status": "访问失败",
-   "checked_at": "2026-11-23T10:06:24.773Z",
-   "note": "本次请求返回HTTP 403。"
+   "checked_at": "2026-11-24T08:02:30.787Z",
+   "note": "HTTP 403 拒绝自动访问，不绕过；既有记录保持原样。"
   },
   {
    "id": "afdb-gpn",
@@ -293,8 +293,8 @@
    "kind": "国际机构",
    "url": "https://www.ungm.org/Public/Notice",
    "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-23T10:06:24.773Z",
-   "note": "本次仅确认站点可打开(HTTP 200)，未逐条筛查。"
+   "checked_at": "2026-11-24T08:02:30.787Z",
+   "note": "HTTP 200 可访问，未逐条筛查"
   },
   {
    "id": "dgmarket",
@@ -303,8 +303,8 @@
    "kind": "会员",
    "url": "https://www.dgmarket.com/tenders/list.do?sub=tenders-in-Africa&locationISO=_s&updatedId=1w",
    "status": "未授权",
-   "checked_at": "2026-11-23T10:06:24.773Z",
-   "note": "ego浏览器会话遇到DGMarket安全验证页，按规则未绕过、未读取；保留既有DGMarket记录及核验日期。"
+   "checked_at": "2026-11-24T08:02:30.787Z",
+   "note": "ego 浏览器访问 DGMarket 时出现安全验证页面，不绕过、不输入账号；既有 DGMarket 记录及核验日期保持原样。"
   }
  ],
  "items": [
@@ -1723,7 +1723,7 @@
    "stage_note": "DGMarket 类型：Invitation for Bids；DGMarket 收录 2026-11-04；公告原发布日期待核实",
    "verified_at": "2026-11-06",
    "verified_note": "2026-11-06 经 ego 浏览器 DGMarket 会员会话读取列表与摘要",
-   "terminal_at": null,
+   "terminal_at": "2026-11-23T23:59:00.000Z",
    "added_at": "2026-11-06T10:45:51.127Z",
    "action": "在 UNGM 按参考号 LRFPS-2026-9207115 查找原始公告并下载招标文件。",
    "title": "多哥 UNICEF 固定式四位洗手设施及墙式洗手池建设",
@@ -1735,7 +1735,7 @@
    "scope": "建设接入既有饮用水管网的固定式四位洗手设施，并安装大立柱墙式洗手池。",
    "stage": "正式招标",
    "risk": "仅见于 DGMarket 会员摘要，截止时刻未列明，需以采购方文件为准；原始公告应在 UNGM，尚未回链",
-   "status": "开放中",
+   "status": "已截止（待评审）",
    "completeness": 10,
    "deadline_ms": 1795478340000
   },
@@ -1833,7 +1833,7 @@
    "stage_note": "DGMarket 类型：Invitation for Bids；DGMarket 收录 2026-11-05；公告原发布日期待核实",
    "verified_at": "2026-11-06",
    "verified_note": "2026-11-06 经 ego 浏览器 DGMarket 会员会话读取列表与摘要",
-   "terminal_at": null,
+   "terminal_at": "2026-11-23T22:59:00.000Z",
    "added_at": "2026-11-06T10:45:51.127Z",
    "action": "登录 DGMarket 查看全文并追溯采购方原始公告，核实截止时刻与资格要求。",
    "title": "三角州高教部：瓦里教育学院女生宿舍建设",
@@ -1844,7 +1844,7 @@
    "scope": "在瓦里教育学院建设女生宿舍。",
    "stage": "正式招标",
    "risk": "仅见于 DGMarket 会员摘要，截止时刻未列明，需以采购方文件为准",
-   "status": "开放中",
+   "status": "已截止（待评审）",
    "completeness": 9,
    "deadline_ms": 1795474740000
   },
@@ -4397,7 +4397,7 @@
   {
    "amount": "未披露",
    "verified_at": "2026-11-21",
-   "terminal_at": null,
+   "terminal_at": "2026-11-23T22:59:00.000Z",
    "added_at": "2026-11-21T07:46:48.978Z",
    "ref_no": "",
    "published_at": "",
@@ -4427,7 +4427,7 @@
    "action": "截止在即（2026-11-23），如有投资+建设意向立即联系阿比亚州 PPP 办公室。",
    "risk": "仅见于 DGMarket，需以采购方文件为准。PPP 投资类项目，需承担融资与运营风险；截止时间极近。",
    "id": "7f2c96d8b4f4",
-   "status": "开放中",
+   "status": "已截止（待评审）",
    "completeness": 9,
    "deadline_ms": 1795474740000
   },
@@ -4650,30 +4650,29 @@
    "deadline_ms": 1797417000000
   },
   {
-   "location": "",
+   "location": "加纳中部大区 Ekumfi 区 Otabanadze",
    "ref_no": "",
    "amount": "未披露",
    "dgmarket_url": "",
    "dgmarket": false,
    "funder": "",
    "conditions": "",
-   "action": "自动收录：登录官方平台下载招标文件，核实资格、保证金与工程量。",
-   "risk": "云端自动收录，中文标题与工程范围待人工复核；金额未披露。",
-   "verified_at": "2026-11-23",
+   "action": "登录 GHANEPS 下载招标文件，核实资格、保证金与工程量，按截止时间准备国内竞争性招标文件。",
+   "risk": "金额未披露；小型国内竞争性招标，通常要求加纳本地注册承包商资质。",
+   "verified_at": "2026-11-24",
    "terminal_at": null,
    "added_at": "2026-11-23T19:25:40.040Z",
-   "auto_ingested": true,
    "id": "5c3a82b65d5b",
-   "title": "Construction of 1no.CHPs compound with 3-unit residence, fencing and concreting of yard, Drilling and mechanization of 1no. Borehole with overhead tank at Ekumfi Otabanadze（中文标题待翻译）",
+   "title": "Ekumfi 区 Otabanadze 社区卫生服务站（CHPS）院落及3套住房建设、围墙与院落硬化、带高位水箱机械化钻井",
    "title_original": "Construction of 1no.CHPs compound with 3-unit residence, fencing and concreting of yard, Drilling and mechanization of 1no. Borehole with overhead tank at Ekumfi Otabanadze",
    "country": "GH",
    "sectors": [
-    "水利灌溉",
-    "建筑基础设施"
+    "建筑基础设施",
+    "水利灌溉"
    ],
    "sector_raw": "自动分类",
    "entity": "EKUMFI DISTRICT ASSEMBLY",
-   "scope": "Construction of 1no.CHPs compound with 3-unit residence, fencing and concreting of yard, Drilling and mechanization of 1no. Borehole with overhead tank at Ekumfi Otabanadze",
+   "scope": "建设1处 CHPS 院落及3套住房，围墙与院落混凝土硬化，钻凿并配套1口带高位水箱的机械化水井。",
    "stage": "正式招标",
    "stage_note": "National Competitive Tendering",
    "published_at": "2026-11-23 17:53",
@@ -4682,27 +4681,26 @@
    "origin": "GHANEPS",
    "origin_type": "政府官方",
    "discovery": "GHANEPS 当前招标列表（云端自动收录）",
-   "verified_note": "2026-11-23 GHANEPS 官方列表读取",
+   "verified_note": "2026-11-24 对照 GHANEPS 官方列表复核，标题与范围已翻译。",
    "status": "开放中",
-   "completeness": 9,
+   "completeness": 10,
    "deadline_ms": 1796724000000
   },
   {
-   "location": "",
+   "location": "大阿克拉大区 Ga North 市 Pokuase",
    "ref_no": "",
    "amount": "未披露",
    "dgmarket_url": "",
    "dgmarket": false,
    "funder": "",
    "conditions": "",
-   "action": "自动收录：登录官方平台下载招标文件，核实资格、保证金与工程量。",
-   "risk": "云端自动收录，中文标题与工程范围待人工复核；金额未披露。",
-   "verified_at": "2026-11-23",
+   "action": "登录 GHANEPS 下载招标文件，核实资格、保证金与工程量，按截止时间准备国内竞争性招标文件。",
+   "risk": "金额未披露；小型国内竞争性招标，通常要求加纳本地注册承包商资质。",
+   "verified_at": "2026-11-24",
    "terminal_at": null,
    "added_at": "2026-11-23T19:25:40.040Z",
-   "auto_ingested": true,
    "id": "f4b32ec2bcf8",
-   "title": "Construction of 1NO. Single Storey 6-Unit Classroom for at Pokuase Methodist School, at Pokuase（中文标题待翻译）",
+   "title": "Pokuase 卫理公会学校单层6间教室建设",
    "title_original": "Construction of 1NO. Single Storey 6-Unit Classroom for at Pokuase Methodist School, at Pokuase",
    "country": "GH",
    "sectors": [
@@ -4710,7 +4708,7 @@
    ],
    "sector_raw": "自动分类",
    "entity": "GA NORTH MUNICIPAL ASSEMBLY",
-   "scope": "Construction of 1NO. Single Storey 6-Unit Classroom for at Pokuase Methodist School, at Pokuase",
+   "scope": "建设1栋单层6间教室。",
    "stage": "正式招标",
    "stage_note": "National Competitive Tendering",
    "published_at": "2026-11-23 07:15",
@@ -4719,10 +4717,46 @@
    "origin": "GHANEPS",
    "origin_type": "政府官方",
    "discovery": "GHANEPS 当前招标列表（云端自动收录）",
-   "verified_note": "2026-11-23 GHANEPS 官方列表读取",
+   "verified_note": "2026-11-24 对照 GHANEPS 官方列表复核，标题与范围已翻译。",
    "status": "开放中",
-   "completeness": 9,
+   "completeness": 10,
    "deadline_ms": 1797249600000
+  },
+  {
+   "location": "阿散蒂大区 Adansi North 区 Dadwen",
+   "ref_no": "",
+   "amount": "未披露",
+   "dgmarket_url": "",
+   "dgmarket": false,
+   "funder": "",
+   "conditions": "",
+   "terminal_at": null,
+   "added_at": "2026-11-24T08:02:30.787Z",
+   "country": "GH",
+   "sector_raw": "GHANEPS 列表",
+   "stage": "正式招标",
+   "stage_note": "National Competitive Tendering",
+   "origin": "GHANEPS",
+   "origin_type": "政府官方",
+   "discovery": "GHANEPS 当前招标列表（本机筛查）",
+   "verified_at": "2026-11-24",
+   "verified_note": "2026-11-24 GHANEPS 官方列表读取",
+   "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=4073209",
+   "title_original": "Construction of One(1) storey male, female and kids ward and other related facilities at dadwen Health Centre Dadwen (PHASE 1)",
+   "entity": "ADANSI NORTH DISTRICT ASSEMBLY",
+   "published_at": "2026-11-24 06:04",
+   "deadline": "2026-12-11 10:00",
+   "id": "4073209",
+   "title": "Adansi North 区 Dadwen 卫生中心一层男女及儿童病房等配套设施建设（第一期）",
+   "sectors": [
+    "建筑基础设施"
+   ],
+   "scope": "建设1栋单层男、女及儿童病房及相关配套设施（第一期）。",
+   "action": "登录 GHANEPS 下载招标文件，核实资格、保证金与工程量。",
+   "risk": "金额未披露；国内竞争性招标，通常要求加纳本地承包商资质。",
+   "status": "开放中",
+   "completeness": 10,
+   "deadline_ms": 1796983200000
   }
  ]
 }
