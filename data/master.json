@@ -3,13 +3,13 @@
   "title": "西非工程机会",
   "schedule": "每日 07:30 Africa/Accra（UTC+0）",
   "timezone": "Africa/Accra",
-  "last_success_at": "2026-11-24T19:00:42.384Z",
+  "last_success_at": "2026-11-25T08:02:30.136Z",
   "last_run": {
-   "started_at": "2026-11-24T19:00:20Z",
-   "finished_at": "2026-11-24T19:00:42.384Z",
+   "started_at": "2026-11-25T08:00:37Z",
+   "finished_at": "2026-11-25T08:02:30.136Z",
    "result": "成功",
-   "runner": "GitHub Actions 云端",
-   "note": "云端更新：GHANEPS 新增 8、世界银行新增 0；DGMarket 与其他来源由本机任务读取。"
+   "runner": "本机定时任务",
+   "note": "GHANEPS 与世界银行读取成功；翻译复核7条云端收录；DGMarket 遇安全验证未读取；其余来源仅探测可访问性。"
   },
   "dgmarket_authorized": false
  },
@@ -20,9 +20,9 @@
    "country": "GH",
    "kind": "官方",
    "url": "https://www.ghaneps.gov.gh/epps/home.do",
-   "status": "已核验并更新",
-   "checked_at": "2026-11-24T19:00:42.384Z",
-   "note": "云端读取当前招标列表 8 页（80 条）：自动新增 8 条工程类招标，刷新 46 条既有记录核验日期。"
+   "status": "可访问，未逐条筛查",
+   "checked_at": "2026-11-25T08:02:30.136Z",
+   "note": "2026-11-25 站点可打开(HTTP 200)，本次未逐条筛查，既有记录保持原样。"
   },
   {
    "id": "ppa",
@@ -31,8 +31,8 @@
    "kind": "官方",
    "url": "https://ppa.gov.gh/",
    "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-24T08:02:30.787Z",
-   "note": "HTTP 200 可访问，未逐条筛查"
+   "checked_at": "2026-11-25T08:02:30.136Z",
+   "note": "2026-11-25 站点可打开(HTTP 200)，本次未逐条筛查，既有记录保持原样。"
   },
   {
    "id": "mrh",
@@ -41,8 +41,8 @@
    "kind": "官方",
    "url": "https://bids.mrh.gov.gh/",
    "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-24T08:02:30.787Z",
-   "note": "HTTP 200 可访问，未逐条筛查"
+   "checked_at": "2026-11-25T08:02:30.136Z",
+   "note": "2026-11-25 站点可打开(HTTP 200)，本次未逐条筛查，既有记录保持原样。"
   },
   {
    "id": "gha",
@@ -71,8 +71,8 @@
    "kind": "官方",
    "url": "https://dnccp.gouv.tg/",
    "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-24T08:02:30.787Z",
-   "note": "HTTP 200 可访问，未逐条筛查"
+   "checked_at": "2026-11-25T08:02:30.136Z",
+   "note": "2026-11-25 站点可打开(HTTP 200)，本次未逐条筛查，既有记录保持原样。"
   },
   {
    "id": "osmapt",
@@ -81,8 +81,8 @@
    "kind": "官方",
    "url": "https://osmapt.arcop.tg/",
    "status": "访问失败",
-   "checked_at": "2026-11-23T10:06:24.773Z",
-   "note": "本次请求无响应(超时/连接失败)。"
+   "checked_at": "2026-11-25T08:02:30.136Z",
+   "note": "2026-11-25 连接失败。"
   },
   {
    "id": "arcop",
@@ -131,8 +131,8 @@
    "kind": "官方",
    "url": "https://www.ceet.tg/tg/?cat=15",
    "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-24T08:02:30.787Z",
-   "note": "HTTP 200 可访问，未逐条筛查（本次站点可打开）"
+   "checked_at": "2026-11-25T08:02:30.136Z",
+   "note": "2026-11-25 站点可打开(HTTP 200)，本次未逐条筛查，既有记录保持原样。"
   },
   {
    "id": "at2er",
@@ -150,9 +150,9 @@
    "country": "TG",
    "kind": "辅助",
    "url": "https://intercom.tg/opportunites/appels-d-offres",
-   "status": "已核验无新增",
-   "checked_at": "2026-11-21T07:46:48.978Z",
-   "note": "列表最新发布仍为 2026-09-22（CEET Lomé B HTA 开关柜、CEET 智能计量），均为早期公告，无新增。"
+   "status": "可访问，未逐条筛查",
+   "checked_at": "2026-11-25T08:02:30.136Z",
+   "note": "2026-11-25 站点可打开(HTTP 200)，本次未逐条筛查，既有记录保持原样。"
   },
   {
    "id": "nocopo",
@@ -161,8 +161,8 @@
    "kind": "官方",
    "url": "https://bppweb.webhostingng.org/nigeria-open-contracting-portal/",
    "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-24T08:02:30.787Z",
-   "note": "HTTP 200 可访问，未逐条筛查"
+   "checked_at": "2026-11-25T08:02:30.136Z",
+   "note": "2026-11-25 站点可打开(HTTP 200)，本次未逐条筛查，既有记录保持原样。"
   },
   {
    "id": "bpp",
@@ -181,8 +181,8 @@
    "kind": "官方",
    "url": "https://www.rea.gov.ng/tenders",
    "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-24T08:02:30.787Z",
-   "note": "HTTP 200 可访问，未逐条筛查"
+   "checked_at": "2026-11-25T08:02:30.136Z",
+   "note": "2026-11-25 站点可打开(HTTP 200)，本次未逐条筛查，既有记录保持原样。"
   },
   {
    "id": "nep",
@@ -201,8 +201,8 @@
    "kind": "官方",
    "url": "https://eprocurement.nddc.gov.ng/",
    "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-23T10:06:24.773Z",
-   "note": "本次仅确认站点可打开(HTTP 200)，未逐条筛查。"
+   "checked_at": "2026-11-25T08:02:30.136Z",
+   "note": "2026-11-25 站点可打开(HTTP 200)，本次未逐条筛查，既有记录保持原样。"
   },
   {
    "id": "lsppa",
@@ -231,8 +231,8 @@
    "kind": "国际机构",
    "url": "https://projects.worldbank.org/en/projects-operations/opportunities",
    "status": "已核验无新增",
-   "checked_at": "2026-11-24T19:00:42.384Z",
-   "note": "云端按加纳/多哥/尼日利亚读取世界银行采购公告 API，开放工程类候选 8 条，自动新增 0 条。"
+   "checked_at": "2026-11-25T08:02:30.136Z",
+   "note": "wb-fetch 读取：GH/TG/NG各80条，NG开放候选8条，均已收录或为货物采购（IDEAS 教培套件，排除）。"
   },
   {
    "id": "wb-proc",
@@ -241,8 +241,8 @@
    "kind": "国际机构",
    "url": "https://projects.worldbank.org/en/projects-operations/procurement",
    "status": "已核验无新增",
-   "checked_at": "2026-11-24T19:00:42.384Z",
-   "note": "云端按加纳/多哥/尼日利亚读取世界银行采购公告 API，开放工程类候选 8 条，自动新增 0 条。"
+   "checked_at": "2026-11-25T08:02:30.136Z",
+   "note": "同上。"
   },
   {
    "id": "afdb",
@@ -250,9 +250,9 @@
    "country": "MULTI",
    "kind": "国际机构",
    "url": "https://www.afdb.org/en/documents/category/procurement-notices",
-   "status": "访问失败",
-   "checked_at": "2026-11-24T08:02:30.787Z",
-   "note": "HTTP 403 拒绝自动访问，不绕过；既有记录保持原样。"
+   "status": "可访问，未逐条筛查",
+   "checked_at": "2026-11-25T08:02:30.136Z",
+   "note": "2026-11-25 站点可打开(HTTP 200)，本次未逐条筛查，既有记录保持原样。"
   },
   {
    "id": "afdb-gpn",
@@ -290,9 +290,9 @@
    "country": "MULTI",
    "kind": "国际机构",
    "url": "https://www.ungm.org/Public/Notice",
-   "status": "可访问，未逐条筛查",
-   "checked_at": "2026-11-24T08:02:30.787Z",
-   "note": "HTTP 200 可访问，未逐条筛查"
+   "status": "访问失败",
+   "checked_at": "2026-11-25T08:02:30.136Z",
+   "note": "2026-11-25 返回 HTTP 403。"
   },
   {
    "id": "dgmarket",
@@ -301,8 +301,8 @@
    "kind": "会员",
    "url": "https://www.dgmarket.com/tenders/list.do?sub=tenders-in-Africa&locationISO=_s&updatedId=1w",
    "status": "未授权",
-   "checked_at": "2026-11-24T08:02:30.787Z",
-   "note": "ego 浏览器访问 DGMarket 时出现安全验证页面，不绕过、不输入账号；既有 DGMarket 记录及核验日期保持原样。"
+   "checked_at": "2026-11-25T08:02:30.136Z",
+   "note": "2026-11-25 ego 浏览器读取 DGMarket 时出现安全验证页面，按规则未绕过，保留既有 DGMarket 记录。"
   }
  ],
  "items": [
@@ -4513,7 +4513,7 @@
    "status": "开放中"
   },
   {
-   "location": "",
+   "location": "Subriso",
    "ref_no": "",
    "amount": "未披露",
    "dgmarket_url": "",
@@ -4521,13 +4521,12 @@
    "funder": "",
    "conditions": "",
    "action": "自动收录：登录官方平台下载招标文件，核实资格、保证金与工程量。",
-   "risk": "云端自动收录，中文标题与工程范围待人工复核；金额未披露。",
-   "verified_at": "2026-11-24",
+   "risk": "资质、保证金与工程量需下载招标文件核实；金额未披露。",
+   "verified_at": "2026-11-25",
    "terminal_at": null,
    "added_at": "2026-11-24T19:00:42.384Z",
-   "auto_ingested": true,
    "id": "d79bdec12c80",
-   "title": "Construction and Furnishing of 1No. Standard CHPs Compound and Construction of 1No. 1-Bedroom Staff Accommodation at Subriso（中文标题待翻译）",
+   "title": "塔诺北市政议会：Subriso 标准社区卫生服务站（CHPS）及1套单间职工宿舍建设与配套",
    "title_original": "Construction and Furnishing of 1No. Standard CHPs Compound and Construction of 1No. 1-Bedroom Staff Accommodation at Subriso",
    "country": "GH",
    "sectors": [
@@ -4535,7 +4534,7 @@
    ],
    "sector_raw": "自动分类",
    "entity": "TANO NORTH MUNICIPAL ASSEMBLY",
-   "scope": "Construction and Furnishing of 1No. Standard CHPs Compound and Construction of 1No. 1-Bedroom Staff Accommodation at Subriso",
+   "scope": "建设标准CHPS站点院落及1栋一居室职工宿舍并配置家具（据 GHANEPS 官方列表标题译）",
    "stage": "正式招标",
    "stage_note": "National Competitive Tendering",
    "published_at": "2026-11-24 17:32",
@@ -4544,11 +4543,11 @@
    "origin": "GHANEPS",
    "origin_type": "政府官方",
    "discovery": "GHANEPS 当前招标列表（云端自动收录）",
-   "verified_note": "2026-11-24 GHANEPS 官方列表读取",
+   "verified_note": "2026-11-25 GHANEPS 官方列表再次读取，本机复核翻译",
    "status": "开放中"
   },
   {
-   "location": "",
+   "location": "Ada East 区 Kasseh",
    "ref_no": "",
    "amount": "未披露",
    "dgmarket_url": "",
@@ -4556,13 +4555,12 @@
    "funder": "",
    "conditions": "",
    "action": "自动收录：登录官方平台下载招标文件，核实资格、保证金与工程量。",
-   "risk": "云端自动收录，中文标题与工程范围待人工复核；金额未披露。",
-   "verified_at": "2026-11-24",
+   "risk": "资质、保证金与工程量需下载招标文件核实；金额未披露。",
+   "verified_at": "2026-11-25",
    "terminal_at": null,
    "added_at": "2026-11-24T19:00:42.384Z",
-   "auto_ingested": true,
    "id": "aaeef5c8dd88",
-   "title": "Construction of 1 No Clinic Facility at Kasseh of the Ada East District（中文标题待翻译）",
+   "title": "阿达东区议会：Kasseh 1座诊所建设",
    "title_original": "Construction of 1 No Clinic Facility at Kasseh of the Ada East District",
    "country": "GH",
    "sectors": [
@@ -4570,7 +4568,7 @@
    ],
    "sector_raw": "自动分类",
    "entity": "ADA EAST DISTRICT ASSEMBLY",
-   "scope": "Construction of 1 No Clinic Facility at Kasseh of the Ada East District",
+   "scope": "建设1座诊所设施（据 GHANEPS 官方列表标题译）",
    "stage": "正式招标",
    "stage_note": "National Competitive Tendering",
    "published_at": "2026-11-24 14:03",
@@ -4579,11 +4577,11 @@
    "origin": "GHANEPS",
    "origin_type": "政府官方",
    "discovery": "GHANEPS 当前招标列表（云端自动收录）",
-   "verified_note": "2026-11-24 GHANEPS 官方列表读取",
+   "verified_note": "2026-11-25 GHANEPS 官方列表再次读取，本机复核翻译",
    "status": "开放中"
   },
   {
-   "location": "",
+   "location": "Adjiringanor",
    "ref_no": "",
    "amount": "未披露",
    "dgmarket_url": "",
@@ -4591,13 +4589,12 @@
    "funder": "",
    "conditions": "",
    "action": "自动收录：登录官方平台下载招标文件，核实资格、保证金与工程量。",
-   "risk": "云端自动收录，中文标题与工程范围待人工复核；金额未披露。",
-   "verified_at": "2026-11-24",
+   "risk": "资质、保证金与工程量需下载招标文件核实；金额未披露。",
+   "verified_at": "2026-11-25",
    "terminal_at": null,
    "added_at": "2026-11-24T19:00:42.384Z",
-   "auto_ingested": true,
    "id": "15e32a105b92",
-   "title": "Construction of 1 no. 3-storey Clinic with ancillary facillities-Completion Phase III Final Floor at Adjiringanor（中文标题待翻译）",
+   "title": "阿丹坦市政议会：Adjiringanor 3层诊所及配套设施（第三期末层完工）",
    "title_original": "Construction of 1 no. 3-storey Clinic with ancillary facillities-Completion Phase III Final Floor at Adjiringanor",
    "country": "GH",
    "sectors": [
@@ -4605,7 +4602,7 @@
    ],
    "sector_raw": "自动分类",
    "entity": "ADENTAN MUNICIPAL ASSEMBLY",
-   "scope": "Construction of 1 no. 3-storey Clinic with ancillary facillities-Completion Phase III Final Floor at Adjiringanor",
+   "scope": "1座3层诊所及配套设施第三期（最后一层）完工（据 GHANEPS 官方列表标题译）",
    "stage": "正式招标",
    "stage_note": "National Competitive Tendering",
    "published_at": "2026-11-24 13:33",
@@ -4614,11 +4611,11 @@
    "origin": "GHANEPS",
    "origin_type": "政府官方",
    "discovery": "GHANEPS 当前招标列表（云端自动收录）",
-   "verified_note": "2026-11-24 GHANEPS 官方列表读取",
+   "verified_note": "2026-11-25 GHANEPS 官方列表再次读取，本机复核翻译",
    "status": "开放中"
   },
   {
-   "location": "",
+   "location": "Asare Bediako SHS",
    "ref_no": "",
    "amount": "未披露",
    "dgmarket_url": "",
@@ -4626,13 +4623,12 @@
    "funder": "",
    "conditions": "",
    "action": "自动收录：登录官方平台下载招标文件，核实资格、保证金与工程量。",
-   "risk": "云端自动收录，中文标题与工程范围待人工复核；金额未披露。",
-   "verified_at": "2026-11-24",
+   "risk": "资质、保证金与工程量需下载招标文件核实；金额未披露。",
+   "verified_at": "2026-11-25",
    "terminal_at": null,
    "added_at": "2026-11-24T19:00:42.384Z",
-   "auto_ingested": true,
    "id": "9d8f36d61842",
-   "title": "Consruction one story 12-unit classroom block with ancillary facilities at Asare Bediako SHS（中文标题待翻译）",
+   "title": "阿丹西北区议会：Asare Bediako 高中12间教室单层教学楼及配套建设",
    "title_original": "Consruction one story 12-unit classroom block with ancillary facilities at Asare Bediako SHS",
    "country": "GH",
    "sectors": [
@@ -4640,7 +4636,7 @@
    ],
    "sector_raw": "自动分类",
    "entity": "ADANSI NORTH DISTRICT ASSEMBLY",
-   "scope": "Consruction one story 12-unit classroom block with ancillary facilities at Asare Bediako SHS",
+   "scope": "建设1栋单层12间教室教学楼及配套设施（据 GHANEPS 官方列表标题译）",
    "stage": "正式招标",
    "stage_note": "National Competitive Tendering",
    "published_at": "2026-11-24 10:18",
@@ -4649,11 +4645,11 @@
    "origin": "GHANEPS",
    "origin_type": "政府官方",
    "discovery": "GHANEPS 当前招标列表（云端自动收录）",
-   "verified_note": "2026-11-24 GHANEPS 官方列表读取",
+   "verified_note": "2026-11-25 GHANEPS 官方列表再次读取，本机复核翻译",
    "status": "开放中"
   },
   {
-   "location": "",
+   "location": "Otanor 社区小学",
    "ref_no": "",
    "amount": "未披露",
    "dgmarket_url": "",
@@ -4661,13 +4657,12 @@
    "funder": "",
    "conditions": "",
    "action": "自动收录：登录官方平台下载招标文件，核实资格、保证金与工程量。",
-   "risk": "云端自动收录，中文标题与工程范围待人工复核；金额未披露。",
-   "verified_at": "2026-11-24",
+   "risk": "资质、保证金与工程量需下载招标文件核实；金额未披露。",
+   "verified_at": "2026-11-25",
    "terminal_at": null,
    "added_at": "2026-11-24T19:00:42.384Z",
-   "auto_ingested": true,
    "id": "cd2a45e24d8a",
-   "title": "Construction of 1no. 3-storey 18-Units Classroom Block Sectional Completion Phase II-Final Floor (6-units classroom block) at Otanor Comunity Basic School（中文标题待翻译）",
+   "title": "阿丹坦市政议会：Otanor 社区小学3层18间教室楼（第二期末层6间教室）分段完工",
    "title_original": "Construction of 1no. 3-storey 18-Units Classroom Block Sectional Completion Phase II-Final Floor (6-units classroom block) at Otanor Comunity Basic School",
    "country": "GH",
    "sectors": [
@@ -4675,7 +4670,7 @@
    ],
    "sector_raw": "自动分类",
    "entity": "ADENTAN MUNICIPAL ASSEMBLY",
-   "scope": "Construction of 1no. 3-storey 18-Units Classroom Block Sectional Completion Phase II-Final Floor (6-units classroom block) at Otanor Comunity Basic School",
+   "scope": "3层18间教室楼第二期（最后一层6间教室）分段完工（据 GHANEPS 官方列表标题译）",
    "stage": "正式招标",
    "stage_note": "National Competitive Tendering",
    "published_at": "2026-11-24 09:21",
@@ -4684,11 +4679,11 @@
    "origin": "GHANEPS",
    "origin_type": "政府官方",
    "discovery": "GHANEPS 当前招标列表（云端自动收录）",
-   "verified_note": "2026-11-24 GHANEPS 官方列表读取",
+   "verified_note": "2026-11-25 GHANEPS 官方列表再次读取，本机复核翻译",
    "status": "开放中"
   },
   {
-   "location": "",
+   "location": "New Legon",
    "ref_no": "",
    "amount": "未披露",
    "dgmarket_url": "",
@@ -4696,13 +4691,12 @@
    "funder": "",
    "conditions": "",
    "action": "自动收录：登录官方平台下载招标文件，核实资格、保证金与工程量。",
-   "risk": "云端自动收录，中文标题与工程范围待人工复核；金额未披露。",
-   "verified_at": "2026-11-24",
+   "risk": "资质、保证金与工程量需下载招标文件核实；金额未披露。",
+   "verified_at": "2026-11-25",
    "terminal_at": null,
    "added_at": "2026-11-24T19:00:42.384Z",
-   "auto_ingested": true,
    "id": "11fd9a1c4b0e",
-   "title": "Construction of 1no. 3-storey 18-Units Classroom Block Complex with Ancillary facilities at New LEGON (ANimal Research)（中文标题待翻译）",
+   "title": "阿丹坦市政议会：New Legon（动物研究区）3层18间教室楼及配套设施建设",
    "title_original": "Construction of 1no. 3-storey 18-Units Classroom Block Complex with Ancillary facilities at New LEGON (ANimal Research)",
    "country": "GH",
    "sectors": [
@@ -4710,7 +4704,7 @@
    ],
    "sector_raw": "自动分类",
    "entity": "ADENTAN MUNICIPAL ASSEMBLY",
-   "scope": "Construction of 1no. 3-storey 18-Units Classroom Block Complex with Ancillary facilities at New LEGON (ANimal Research)",
+   "scope": "建设1栋3层18间教室教学楼及配套设施（据 GHANEPS 官方列表标题译）",
    "stage": "正式招标",
    "stage_note": "National Competitive Tendering",
    "published_at": "2026-11-24 08:51",
@@ -4719,11 +4713,11 @@
    "origin": "GHANEPS",
    "origin_type": "政府官方",
    "discovery": "GHANEPS 当前招标列表（云端自动收录）",
-   "verified_note": "2026-11-24 GHANEPS 官方列表读取",
+   "verified_note": "2026-11-25 GHANEPS 官方列表再次读取，本机复核翻译",
    "status": "开放中"
   },
   {
-   "location": "",
+   "location": "Sraha",
    "ref_no": "",
    "amount": "未披露",
    "dgmarket_url": "",
@@ -4731,13 +4725,12 @@
    "funder": "",
    "conditions": "",
    "action": "自动收录：登录官方平台下载招标文件，核实资格、保证金与工程量。",
-   "risk": "云端自动收录，中文标题与工程范围待人工复核；金额未披露。",
-   "verified_at": "2026-11-24",
+   "risk": "资质、保证金与工程量需下载招标文件核实；金额未披露。",
+   "verified_at": "2026-11-25",
    "terminal_at": null,
    "added_at": "2026-11-24T19:00:42.384Z",
-   "auto_ingested": true,
    "id": "2eb7845fe7bb",
-   "title": "Construction of 1 no. Two (2)-storey Police Station with fence wall at Sraha（中文标题待翻译）",
+   "title": "阿丹坦市政议会：Sraha 2层警察局及围墙建设",
    "title_original": "Construction of 1 no. Two (2)-storey Police Station with fence wall at Sraha",
    "country": "GH",
    "sectors": [
@@ -4745,7 +4738,7 @@
    ],
    "sector_raw": "自动分类",
    "entity": "ADENTAN MUNICIPAL ASSEMBLY",
-   "scope": "Construction of 1 no. Two (2)-storey Police Station with fence wall at Sraha",
+   "scope": "建设1座2层警察局及围墙（据 GHANEPS 官方列表标题译）",
    "stage": "正式招标",
    "stage_note": "National Competitive Tendering",
    "published_at": "2026-11-24 08:44",
@@ -4754,7 +4747,7 @@
    "origin": "GHANEPS",
    "origin_type": "政府官方",
    "discovery": "GHANEPS 当前招标列表（云端自动收录）",
-   "verified_note": "2026-11-24 GHANEPS 官方列表读取",
+   "verified_note": "2026-11-25 GHANEPS 官方列表再次读取，本机复核翻译",
    "status": "开放中"
   }
  ]
