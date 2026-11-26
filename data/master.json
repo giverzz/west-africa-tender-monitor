@@ -3,13 +3,13 @@
   "title": "西非工程机会",
   "schedule": "每日 07:30 Africa/Accra（UTC+0）",
   "timezone": "Africa/Accra",
-  "last_success_at": "2026-11-26T17:40:39.357Z",
+  "last_success_at": "2026-11-26T17:50:47.939Z",
   "last_run": {
-   "started_at": "2026-11-26T17:39:30Z",
-   "finished_at": "2026-11-26T17:40:39.357Z",
+   "started_at": "2026-11-26T17:50:28Z",
+   "finished_at": "2026-11-26T17:50:47.939Z",
    "result": "成功",
-   "runner": "本机任务",
-   "note": "GHANEPS 与世界银行读取成功，无新增；DGMarket 仅部分读取（多哥），新增1条多哥水资源咨询EOI；其余来源未逐条筛查。 补充：DGMarket 重跑成功，新增 6 条。"
+   "runner": "GitHub Actions 云端",
+   "note": "云端更新：GHANEPS 新增 1、世界银行新增 0；DGMarket 与其他来源由本机任务读取。"
   },
   "dgmarket_authorized": true
  },
@@ -21,8 +21,8 @@
    "kind": "官方",
    "url": "https://www.ghaneps.gov.gh/epps/home.do",
    "status": "已核验并更新",
-   "checked_at": "2026-11-26T17:40:39.357Z",
-   "note": "读取8页共80条；工程类候选均已在库（云端已收录），新增0条；排除家具/车辆/服务器等非工程采购；刷新既有记录核验日期"
+   "checked_at": "2026-11-26T17:50:47.939Z",
+   "note": "云端读取当前招标列表 8 页（80 条）：自动新增 1 条工程类招标，刷新 0 条既有记录核验日期。"
   },
   {
    "id": "ppa",
@@ -230,9 +230,9 @@
    "country": "MULTI",
    "kind": "国际机构",
    "url": "https://projects.worldbank.org/en/projects-operations/opportunities",
-   "status": "已核验并更新",
-   "checked_at": "2026-11-26T17:40:39.357Z",
-   "note": "世界银行候选14条（GH 4/NG 10），新增0条：其余2条数字设备、2条职训工具包为非工程采购，已排除"
+   "status": "已核验无新增",
+   "checked_at": "2026-11-26T17:50:47.939Z",
+   "note": "云端按加纳/多哥/尼日利亚读取世界银行采购公告 API，开放工程类候选 14 条，自动新增 0 条。"
   },
   {
    "id": "wb-proc",
@@ -240,9 +240,9 @@
    "country": "MULTI",
    "kind": "国际机构",
    "url": "https://projects.worldbank.org/en/projects-operations/procurement",
-   "status": "已核验并更新",
-   "checked_at": "2026-11-26T17:40:39.357Z",
-   "note": "与 Business Opportunities 同一脚本读取，无新增工程类"
+   "status": "已核验无新增",
+   "checked_at": "2026-11-26T17:50:47.939Z",
+   "note": "云端按加纳/多哥/尼日利亚读取世界银行采购公告 API，开放工程类候选 14 条，自动新增 0 条。"
   },
   {
    "id": "afdb",
@@ -5335,6 +5335,41 @@
    "verified_note": "DGMarket 会员列表 2026-11-26 读取（标题、类型、采购方、截止日期取自列表页，未打开详情）。",
    "terminal_at": null,
    "added_at": "2026-11-26T17:42:56.904Z",
+   "status": "开放中"
+  },
+  {
+   "location": "",
+   "ref_no": "",
+   "amount": "未披露",
+   "dgmarket_url": "",
+   "dgmarket": false,
+   "funder": "",
+   "conditions": "",
+   "action": "自动收录：登录官方平台下载招标文件，核实资格、保证金与工程量。",
+   "risk": "云端自动收录，中文标题与工程范围待人工复核；金额未披露。",
+   "verified_at": "2026-11-26",
+   "terminal_at": null,
+   "added_at": "2026-11-26T17:50:47.939Z",
+   "auto_ingested": true,
+   "id": "88733ab19167",
+   "title": "Furnishing of Nungua Poly Clinic（中文标题待翻译）",
+   "title_original": "Furnishing of Nungua Poly Clinic",
+   "country": "GH",
+   "sectors": [
+    "建筑基础设施"
+   ],
+   "sector_raw": "自动分类",
+   "entity": "KROWOR MUNICIPAL ASSEMBLY",
+   "scope": "Furnishing of Nungua Poly Clinic",
+   "stage": "正式招标",
+   "stage_note": "National Competitive Tendering",
+   "published_at": "2026-11-26 13:01",
+   "deadline": "2026-12-15 08:17",
+   "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=4107045",
+   "origin": "GHANEPS",
+   "origin_type": "政府官方",
+   "discovery": "GHANEPS 当前招标列表（云端自动收录）",
+   "verified_note": "2026-11-26 GHANEPS 官方列表读取",
    "status": "开放中"
   }
  ]
