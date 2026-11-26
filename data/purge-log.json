@@ -694,5 +694,37 @@
   "status": "已截止（待评审）",
   "terminal_at": "2026-11-22T23:59:00.000Z",
   "purged_at": "2026-11-26T08:03:00.870Z"
+ },
+ {
+  "id": "48b78bb9d178",
+  "title": "Takoradi Technical University 基础学校二期建设",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3833481",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-23T10:00:00.000Z",
+  "purged_at": "2026-11-26T17:40:31.552Z"
+ },
+ {
+  "id": "9ade7ed5d033",
+  "title": "奥贡州 2 个农业转型中心及 32 公里连接道路建设（4 个标段）",
+  "url": "https://www.afdb.org/en/documents/spn-nigeria-construction-2-atcs-32km-connecting-97752",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-23T11:00:00.000Z",
+  "purged_at": "2026-11-26T17:40:31.552Z"
+ },
+ {
+  "id": "6206330f2577",
+  "title": "多哥太阳能制冷与照明设备采购及安装",
+  "url": "https://www.ungm.org/Public/Notice/320663",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-23T10:00:00.000Z",
+  "purged_at": "2026-11-26T17:40:31.552Z"
+ },
+ {
+  "id": "0003a764033f",
+  "title": "尼日利亚贝努埃州 Naka 水处理厂修复（仅服务与安装）询价（IOM）",
+  "url": "https://www.ungm.org/Public/Notice/322941",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-23T12:09:00.000Z",
+  "purged_at": "2026-11-26T17:40:31.552Z"
  }
 ]
