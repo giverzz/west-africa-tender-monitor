@@ -750,5 +750,45 @@
   "status": "已截止（待评审）",
   "terminal_at": "2026-11-23T22:59:00.000Z",
   "purged_at": "2026-11-27T08:03:00.278Z"
+ },
+ {
+  "id": "52eca551bfac",
+  "title": "Aowin 市 3 间讲堂及办公室、卫生间与机械化水井",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3929260",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-24T10:00:00.000Z",
+  "purged_at": "2026-11-27T17:35:59.116Z"
+ },
+ {
+  "id": "3e38394ce05b",
+  "title": "Aowin 市 New Gyesikrom 6 间小学教学楼及卫生设施",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3930569",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-24T10:00:00.000Z",
+  "purged_at": "2026-11-27T17:35:59.116Z"
+ },
+ {
+  "id": "192ff3accfbd",
+  "title": "阿基姆曼索 2 栋 4 单元一居室护士宿舍及 1 口机械化水井、2 座高位水箱建设",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3944329",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-24T10:00:00.000Z",
+  "purged_at": "2026-11-27T17:35:59.116Z"
+ },
+ {
+  "id": "01f1b4565f38",
+  "title": "阿曼特姆恩夸塔 2 栋 12 单元两层可锁商铺建设",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3944036",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-24T10:00:00.000Z",
+  "purged_at": "2026-11-27T17:35:59.116Z"
+ },
+ {
+  "id": "59808508a5f6",
+  "title": "阿温市手术室建设及 X 光机、麻醉机配置",
+  "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3930206",
+  "status": "已截止（待评审）",
+  "terminal_at": "2026-11-24T10:00:00.000Z",
+  "purged_at": "2026-11-27T17:35:59.116Z"
  }
 ]

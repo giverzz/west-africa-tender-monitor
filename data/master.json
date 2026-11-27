@@ -3,13 +3,13 @@
   "title": "西非工程机会",
   "schedule": "每日 07:30 Africa/Accra（UTC+0）",
   "timezone": "Africa/Accra",
-  "last_success_at": "2026-11-27T08:03:00.115Z",
+  "last_success_at": "2026-11-27T17:35:59.071Z",
   "last_run": {
-   "started_at": "2026-11-27T08:00:37Z",
-   "finished_at": "2026-11-27T08:03:00.115Z",
+   "started_at": "2026-11-27T17:35:40Z",
+   "finished_at": "2026-11-27T17:35:59.071Z",
    "result": "成功",
-   "runner": "本机任务",
-   "note": "GHANEPS 与世界银行读取成功；新增 1、删除 1；DGMarket 遇安全验证未读取；其余官方站点仅确认可访问。"
+   "runner": "GitHub Actions 云端",
+   "note": "云端更新：GHANEPS 新增 1、世界银行新增 1；DGMarket 与其他来源由本机任务读取。"
   },
   "dgmarket_authorized": false
  },
@@ -21,8 +21,8 @@
    "kind": "官方",
    "url": "https://www.ghaneps.gov.gh/epps/home.do",
    "status": "已核验并更新",
-   "checked_at": "2026-11-27T08:03:00.115Z",
-   "note": "本机读取当前招标列表 8 页（80 条）：新增 1 条（Teshie 教学楼），删除 1 条非工程自动收录（Nungua 诊所家具），刷新 53 条既有记录核验日期；IT、车辆、设备类公告不收录。"
+   "checked_at": "2026-11-27T17:35:59.071Z",
+   "note": "云端读取当前招标列表 8 页（80 条）：自动新增 1 条工程类招标，刷新 0 条既有记录核验日期。"
   },
   {
    "id": "ppa",
@@ -230,9 +230,9 @@
    "country": "MULTI",
    "kind": "国际机构",
    "url": "https://projects.worldbank.org/en/projects-operations/opportunities",
-   "status": "已核验无新增",
-   "checked_at": "2026-11-27T08:03:00.115Z",
-   "note": "读取加纳、多哥、尼日利亚采购公告：开放候选 13 条，工程/能源类均已在库；新增候选为货物类（投影设备、培训工具包）未收录。首次请求曾 HTTP 503，重试成功。"
+   "status": "已核验并更新",
+   "checked_at": "2026-11-27T17:35:59.071Z",
+   "note": "云端按加纳/多哥/尼日利亚读取世界银行采购公告 API，开放工程类候选 12 条，自动新增 1 条。"
   },
   {
    "id": "wb-proc",
@@ -240,9 +240,9 @@
    "country": "MULTI",
    "kind": "国际机构",
    "url": "https://projects.worldbank.org/en/projects-operations/procurement",
-   "status": "已核验无新增",
-   "checked_at": "2026-11-26T17:50:47.939Z",
-   "note": "云端按加纳/多哥/尼日利亚读取世界银行采购公告 API，开放工程类候选 14 条，自动新增 0 条。"
+   "status": "已核验并更新",
+   "checked_at": "2026-11-27T17:35:59.071Z",
+   "note": "云端按加纳/多哥/尼日利亚读取世界银行采购公告 API，开放工程类候选 12 条，自动新增 1 条。"
   },
   {
    "id": "afdb",
@@ -1107,75 +1107,6 @@
    "status": "开放中"
   },
   {
-   "id": "52eca551bfac",
-   "title": "Aowin 市 3 间讲堂及办公室、卫生间与机械化水井",
-   "title_original": "Construction of 1No. 3-units Lecture Hall with 3No. Offices with washrooms, 6-units WC with Urinal and 1 No. Mechanized Borehole",
-   "country": "GH",
-   "sectors": [
-    "水利灌溉",
-    "建筑基础设施"
-   ],
-   "sector_raw": "建筑及其他基础设施、灌溉及水利",
-   "entity": "AOWIN 市议会（AOWIN MUNICIPAL ASSEMBLY）",
-   "location": "西北区 Aowin 市",
-   "scope": "新建 3 间讲堂、3 间带卫生间办公室、6 位卫生间及小便池、1 口机械化水井。",
-   "ref_no": "",
-   "stage": "正式招标",
-   "stage_note": "National Competitive Tendering",
-   "published_at": "2026-11-06 07:57",
-   "deadline": "2026-11-24 10:00",
-   "amount": "未披露",
-   "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3929260",
-   "origin": "GHANEPS",
-   "origin_type": "政府官方",
-   "discovery": "GHANEPS 当前招标列表",
-   "dgmarket_url": "",
-   "dgmarket": false,
-   "funder": "",
-   "conditions": "",
-   "action": "登录 GHANEPS 获取招标文件；水井部分核实钻井资质要求。",
-   "risk": "金额未披露；国内竞争性招标。",
-   "verified_at": "2026-11-23",
-   "verified_note": "GHANEPS 官方列表 2026-11-23 仍显示为投标阶段",
-   "terminal_at": "2026-11-24T10:00:00.000Z",
-   "added_at": "2026-11-06T10:40:00Z",
-   "status": "已截止（待评审）"
-  },
-  {
-   "id": "3e38394ce05b",
-   "title": "Aowin 市 New Gyesikrom 6 间小学教学楼及卫生设施",
-   "title_original": "Construction of 1 No. 6-units Primary classroom block with office, store and 6-seater WC Toilet Facility at New Gyesikrom",
-   "country": "GH",
-   "sectors": [
-    "建筑基础设施"
-   ],
-   "sector_raw": "建筑及其他基础设施",
-   "entity": "AOWIN 市议会（AOWIN MUNICIPAL ASSEMBLY）",
-   "location": "西北区 Aowin 市 New Gyesikrom",
-   "scope": "新建 6 间小学教学楼（含办公室、库房）及 6 位冲水卫生间。",
-   "ref_no": "",
-   "stage": "正式招标",
-   "stage_note": "National Competitive Tendering",
-   "published_at": "2026-11-06 07:55",
-   "deadline": "2026-11-24 10:00",
-   "amount": "未披露",
-   "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3930569",
-   "origin": "GHANEPS",
-   "origin_type": "政府官方",
-   "discovery": "GHANEPS 当前招标列表",
-   "dgmarket_url": "",
-   "dgmarket": false,
-   "funder": "",
-   "conditions": "",
-   "action": "登录 GHANEPS 获取招标文件，核实资格与保证金。",
-   "risk": "金额未披露；国内竞争性招标。",
-   "verified_at": "2026-11-23",
-   "verified_note": "GHANEPS 官方列表 2026-11-23 仍显示为投标阶段",
-   "terminal_at": "2026-11-24T10:00:00.000Z",
-   "added_at": "2026-11-06T10:40:00Z",
-   "status": "已截止（待评审）"
-  },
-  {
    "id": "3339d2ed5873",
    "title": "Ga West 市议会 SWCD 行政楼",
    "title_original": "Construction of 1no. administrative block for Ga West Municipal Assembly (SWCD)",
@@ -1377,9 +1308,9 @@
    "risk": "ONP 国内采购，外国企业可能需当地实体；营业额与现金流门槛以奈拉计。",
    "verified_at": "2026-11-13",
    "verified_note": "2026-11-12 世界银行采购公告核验，信息无变化",
-   "terminal_at": null,
+   "terminal_at": "2026-11-27T11:00:00.000Z",
    "added_at": "2026-11-06T10:40:00Z",
-   "status": "开放中"
+   "status": "已截止（待评审）"
   },
   {
    "id": "82d599ecdf0c",
@@ -1412,9 +1343,9 @@
    "risk": "截止时刻按公告正文为当日中午 12 点（WAT），世界银行系统字段显示 00:00，以招标文件为准。",
    "verified_at": "2026-11-06",
    "verified_note": "2026-11-06 读取官方原始公告/列表核验",
-   "terminal_at": null,
+   "terminal_at": "2026-11-27T11:00:00.000Z",
    "added_at": "2026-11-06T10:40:00Z",
-   "status": "开放中"
+   "status": "已截止（待评审）"
   },
   {
    "id": "d55be28179d7",
@@ -1636,7 +1567,7 @@
    "action": "登录 GHANEPS 下载招标文件，核实资格要求、保证金与工程量；向业主核实预算",
    "risk": "金额未披露；国内竞争性招标，可能有本地注册或份额要求；GHANEPS 未显示资金来源",
    "verified_at": "2026-11-24",
-   "terminal_at": null,
+   "terminal_at": "2026-11-27T10:00:00.000Z",
    "added_at": "2026-11-07T08:03:30.426Z",
    "id": "2423050ae2de",
    "title": "Agona Nyakrom 市场摊位、可锁商铺、仓库及 10 座厕所设施的续建工程",
@@ -1657,7 +1588,7 @@
    "origin_type": "政府官方",
    "discovery": "GHANEPS 当前招标列表（云端自动收录）",
    "verified_note": "GHANEPS 官方列表 2026-11-24 仍显示为投标阶段",
-   "status": "开放中"
+   "status": "已截止（待评审）"
   },
   {
    "location": "尼日利亚克罗斯河州",
@@ -1722,75 +1653,6 @@
    "published_at": "2026-11-08 22:22",
    "deadline": "2026-11-26 10:00",
    "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3944286",
-   "origin": "GHANEPS",
-   "origin_type": "政府官方",
-   "discovery": "GHANEPS 当前招标列表（云端自动收录）",
-   "verified_note": "GHANEPS 官方列表 2026-11-24 仍显示为投标阶段",
-   "status": "已截止（待评审）"
-  },
-  {
-   "location": "加纳东部省 Akim Manso（Asene Manso Akroso 区）",
-   "ref_no": "",
-   "amount": "未披露",
-   "dgmarket_url": "",
-   "dgmarket": false,
-   "funder": "",
-   "conditions": "",
-   "action": "登录 GHANEPS 下载招标文件，核实土建工程量、钻井深度与水泵规格，确认投标保证金与本地注册要求。",
-   "risk": "区议会 DACF 类小型工程，资金到位进度受地方拨款影响；金额未披露；国内竞争性招标，外资企业一般需本地合作方。",
-   "verified_at": "2026-11-24",
-   "terminal_at": "2026-11-24T10:00:00.000Z",
-   "added_at": "2026-11-10T15:43:41.466Z",
-   "id": "192ff3accfbd",
-   "title": "阿基姆曼索 2 栋 4 单元一居室护士宿舍及 1 口机械化水井、2 座高位水箱建设",
-   "title_original": "Construction of 2No. 4-Unit 1-Bedroom, Living room, Kitchen, Toilet and Bath Nurses Quarters with 1No. Mechanized Borehole and 2No. Overhead Tanks at Akim Manso",
-   "country": "GH",
-   "sectors": [
-    "水利灌溉",
-    "建筑基础设施"
-   ],
-   "sector_raw": "Works / 房建",
-   "entity": "Asene Manso Akroso District Assembly",
-   "scope": "建设 2 栋 4 单元护士宿舍（每单元 1 卧室、客厅、厨房、厕所及浴室），配套 1 口机械化水井和 2 座高位水箱，位于加纳东部省 Akim Manso。",
-   "stage": "正式招标",
-   "stage_note": "National Competitive Tendering",
-   "published_at": "2026-11-10 08:15",
-   "deadline": "2026-11-24 10:00",
-   "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3944329",
-   "origin": "GHANEPS",
-   "origin_type": "政府官方",
-   "discovery": "GHANEPS 当前招标列表（云端自动收录）",
-   "verified_note": "GHANEPS 官方列表 2026-11-24 仍显示为投标阶段",
-   "status": "已截止（待评审）"
-  },
-  {
-   "location": "加纳东部省 Amantem Nkwanta（Asene Manso Akroso 区）",
-   "ref_no": "",
-   "amount": "未披露",
-   "dgmarket_url": "",
-   "dgmarket": false,
-   "funder": "",
-   "conditions": "",
-   "action": "登录 GHANEPS 下载招标文件，核实结构方案、工期与付款条件。",
-   "risk": "区议会小型房建工程，金额未披露；国内竞争性招标，外资企业一般需本地合作方。",
-   "verified_at": "2026-11-24",
-   "terminal_at": "2026-11-24T10:00:00.000Z",
-   "added_at": "2026-11-10T15:43:41.466Z",
-   "id": "01f1b4565f38",
-   "title": "阿曼特姆恩夸塔 2 栋 12 单元两层可锁商铺建设",
-   "title_original": "Construction of 2No. 12-Unit Storey Lockable Stores at Amantem Nkwanta",
-   "country": "GH",
-   "sectors": [
-    "建筑基础设施"
-   ],
-   "sector_raw": "Works / 房建",
-   "entity": "Asene Manso Akroso District Assembly",
-   "scope": "建设 2 栋 12 单元两层可锁式商铺（市场商业用房），位于加纳东部省 Amantem Nkwanta。",
-   "stage": "正式招标",
-   "stage_note": "National Competitive Tendering",
-   "published_at": "2026-11-10 08:06",
-   "deadline": "2026-11-24 10:00",
-   "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3944036",
    "origin": "GHANEPS",
    "origin_type": "政府官方",
    "discovery": "GHANEPS 当前招标列表（云端自动收录）",
@@ -1897,9 +1759,9 @@
    "risk": "区议会房建工程，金额未披露；国内竞争性招标。",
    "verified_at": "2026-11-25",
    "verified_note": "GHANEPS 官方列表 2026-11-25 仍显示为投标阶段",
-   "terminal_at": null,
+   "terminal_at": "2026-11-27T12:00:00.000Z",
    "added_at": "2026-11-11T07:54:01Z",
-   "status": "开放中"
+   "status": "已截止（待评审）"
   },
   {
    "id": "dd94f5a6c38f",
@@ -1931,9 +1793,9 @@
    "risk": "区议会房建工程，金额未披露；国内竞争性招标。",
    "verified_at": "2026-11-25",
    "verified_note": "GHANEPS 官方列表 2026-11-25 仍显示为投标阶段",
-   "terminal_at": null,
+   "terminal_at": "2026-11-27T10:00:00.000Z",
    "added_at": "2026-11-11T07:54:01Z",
-   "status": "开放中"
+   "status": "已截止（待评审）"
   },
   {
    "id": "b20d0daf74fa",
@@ -1965,41 +1827,7 @@
    "risk": "区议会房建工程，金额未披露；国内竞争性招标。",
    "verified_at": "2026-11-24",
    "verified_note": "GHANEPS 官方列表 2026-11-24 仍显示为投标阶段",
-   "terminal_at": null,
-   "added_at": "2026-11-11T07:54:01Z",
-   "status": "开放中"
-  },
-  {
-   "id": "59808508a5f6",
-   "title": "阿温市手术室建设及 X 光机、麻醉机配置",
-   "title_original": "Const. of 1no. Theater with X-Ray machine and Anastatic Machine",
-   "country": "GH",
-   "sectors": [
-    "建筑基础设施"
-   ],
-   "sector_raw": "Works",
-   "entity": "AOWIN MUNICIPAL ASSEMBLY",
-   "location": "加纳西部北省 Aowin 市",
-   "scope": "建设 1 座手术室，并配置 X 光机与麻醉机。",
-   "ref_no": "",
-   "stage": "正式招标",
-   "stage_note": "GHANEPS 公告：National Competitive Tendering；状态 Bid Submission",
-   "published_at": "2026-11-06 07:56",
-   "deadline": "2026-11-24 10:00",
-   "amount": "未披露",
-   "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3930206",
-   "origin": "GHANEPS",
-   "origin_type": "政府官方",
-   "discovery": "GHANEPS 当前招标列表（本机筛查）",
-   "dgmarket_url": "",
-   "dgmarket": false,
-   "funder": "",
-   "conditions": "投标文件须经 GHANEPS 平台在线提交；需加纳本地注册与相应工程类资质。",
-   "action": "登录 GHANEPS 下载招标文件，确认土建与医疗设备供货是否同一标段、设备品牌与验收标准。",
-   "risk": "土建与医疗设备混合标段，设备部分非纯工程采购；金额未披露；国内竞争性招标。",
-   "verified_at": "2026-11-23",
-   "verified_note": "GHANEPS 官方列表 2026-11-23 仍显示为投标阶段",
-   "terminal_at": "2026-11-24T10:00:00.000Z",
+   "terminal_at": "2026-11-27T11:00:00.000Z",
    "added_at": "2026-11-11T07:54:01Z",
    "status": "已截止（待评审）"
   },
@@ -2494,7 +2322,7 @@
    "action": "在 GHANEPS 平台登录后下载招标文件，核实资格要求、投标保证金、工程量清单与工期，评估是否参与。",
    "risk": "地方议会小型土建工程，金额未披露，通常以加纳本地承包商为主，外资企业需核实资格限制。",
    "verified_at": "2026-11-27",
-   "terminal_at": null,
+   "terminal_at": "2026-11-27T10:00:00.000Z",
    "added_at": "2026-11-12T16:08:34.819Z",
    "id": "5a590e3a9b0f",
    "title": "中通古区 Mawoekpor CHPS 社区诊所及 4 单元宿舍建设",
@@ -2515,7 +2343,7 @@
    "origin_type": "政府官方",
    "discovery": "GHANEPS 当前招标列表（云端自动收录）",
    "verified_note": "GHANEPS 官方列表 2026-11-25 仍显示为投标阶段",
-   "status": "开放中"
+   "status": "已截止（待评审）"
   },
   {
    "location": "加纳中部地区阿武图塞尼亚区 Papaase",
@@ -2528,7 +2356,7 @@
    "action": "在 GHANEPS 平台登录后下载招标文件，核实资格要求、投标保证金、工程量清单与工期，评估是否参与。",
    "risk": "地方议会小型土建工程，金额未披露，通常以加纳本地承包商为主，外资企业需核实资格限制。",
    "verified_at": "2026-11-27",
-   "terminal_at": null,
+   "terminal_at": "2026-11-27T13:00:00.000Z",
    "added_at": "2026-11-12T16:08:34.819Z",
    "id": "85dc66d65aa4",
    "title": "Papaase 6 间教学楼（含办公室、卫生间、无障碍坡道）及机械化水井建设",
@@ -2550,7 +2378,7 @@
    "origin_type": "政府官方",
    "discovery": "GHANEPS 当前招标列表（云端自动收录）",
    "verified_note": "GHANEPS 官方列表 2026-11-25 仍显示为投标阶段",
-   "status": "开放中"
+   "status": "已截止（待评审）"
   },
   {
    "location": "加纳沃尔特地区中通古区 Adidome",
@@ -2563,7 +2391,7 @@
    "action": "在 GHANEPS 平台登录后下载招标文件，核实资格要求、投标保证金、工程量清单与工期，评估是否参与。",
    "risk": "地方议会小型土建工程，金额未披露，通常以加纳本地承包商为主，外资企业需核实资格限制。",
    "verified_at": "2026-11-27",
-   "terminal_at": null,
+   "terminal_at": "2026-11-27T10:00:00.000Z",
    "added_at": "2026-11-12T16:08:34.819Z",
    "id": "0d8ec42f2d19",
    "title": "阿迪多梅（Adidome）政府医院耳鼻喉及眼科中心建设",
@@ -2584,7 +2412,7 @@
    "origin_type": "政府官方",
    "discovery": "GHANEPS 当前招标列表（云端自动收录）",
    "verified_note": "GHANEPS 官方列表 2026-11-25 仍显示为投标阶段",
-   "status": "开放中"
+   "status": "已截止（待评审）"
   },
   {
    "location": "加纳中部地区姆凡茨曼市",
@@ -2597,7 +2425,7 @@
    "action": "在 GHANEPS 平台登录后下载招标文件，核实资格要求、投标保证金、工程量清单与工期，评估是否参与。",
    "risk": "地方议会小型土建工程，金额未披露，通常以加纳本地承包商为主，外资企业需核实资格限制。",
    "verified_at": "2026-11-27",
-   "terminal_at": null,
+   "terminal_at": "2026-11-27T10:00:00.000Z",
    "added_at": "2026-11-12T16:08:34.819Z",
    "id": "189659f11572",
    "title": "Kwegyir Aggrey 高中两层宿舍楼及附属设施建设",
@@ -2618,7 +2446,7 @@
    "origin_type": "政府官方",
    "discovery": "GHANEPS 当前招标列表（云端自动收录）",
    "verified_note": "GHANEPS 官方列表 2026-11-25 仍显示为投标阶段",
-   "status": "开放中"
+   "status": "已截止（待评审）"
   },
   {
    "location": "加纳中部地区姆凡茨曼市",
@@ -2631,7 +2459,7 @@
    "action": "在 GHANEPS 平台登录后下载招标文件，核实资格要求、投标保证金、工程量清单与工期，评估是否参与。",
    "risk": "地方议会小型土建工程，金额未披露，通常以加纳本地承包商为主，外资企业需核实资格限制。",
    "verified_at": "2026-11-27",
-   "terminal_at": null,
+   "terminal_at": "2026-11-27T10:00:00.000Z",
    "added_at": "2026-11-12T16:08:34.819Z",
    "id": "562645ae28db",
    "title": "Kobina Ansah 高中两层宿舍楼及附属设施建设",
@@ -2652,7 +2480,7 @@
    "origin_type": "政府官方",
    "discovery": "GHANEPS 当前招标列表（云端自动收录）",
    "verified_note": "GHANEPS 官方列表 2026-11-25 仍显示为投标阶段",
-   "status": "开放中"
+   "status": "已截止（待评审）"
   },
   {
    "location": "加纳中部地区姆凡茨曼市 Nsanfo",
@@ -2665,7 +2493,7 @@
    "action": "在 GHANEPS 平台登录后下载招标文件，核实资格要求、投标保证金、工程量清单与工期，评估是否参与。",
    "risk": "地方议会小型土建工程，金额未披露，通常以加纳本地承包商为主，外资企业需核实资格限制。",
    "verified_at": "2026-11-27",
-   "terminal_at": null,
+   "terminal_at": "2026-11-27T10:00:00.000Z",
    "added_at": "2026-11-12T16:08:34.819Z",
    "id": "29ae7c8e3e8b",
    "title": "Nsanfo 基础学校 6 间教学楼及 6 位水厕建设",
@@ -2686,7 +2514,7 @@
    "origin_type": "政府官方",
    "discovery": "GHANEPS 当前招标列表（云端自动收录）",
    "verified_note": "GHANEPS 官方列表 2026-11-25 仍显示为投标阶段",
-   "status": "开放中"
+   "status": "已截止（待评审）"
   },
   {
    "location": "加纳沃尔特地区南通古区 Agbeve",
@@ -2734,7 +2562,7 @@
    "action": "在 GHANEPS 平台登录后下载招标文件，核实资格要求、投标保证金、工程量清单与工期，评估是否参与。",
    "risk": "地方议会小型土建工程，金额未披露，通常以加纳本地承包商为主，外资企业需核实资格限制。",
    "verified_at": "2026-11-27",
-   "terminal_at": null,
+   "terminal_at": "2026-11-27T10:00:00.000Z",
    "added_at": "2026-11-12T16:08:34.819Z",
    "id": "0122ead3740f",
    "title": "Mprenkyi 基础学校 6 间教学楼及 6 位水厕建设",
@@ -2755,7 +2583,7 @@
    "origin_type": "政府官方",
    "discovery": "GHANEPS 当前招标列表（云端自动收录）",
    "verified_note": "GHANEPS 官方列表 2026-11-25 仍显示为投标阶段",
-   "status": "开放中"
+   "status": "已截止（待评审）"
   },
   {
    "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3966552",
@@ -2800,7 +2628,7 @@
    "funder": "",
    "conditions": "",
    "action": "登录 GHANEPS 下载招标文件，核实资格、保证金与工程量；国内竞争性招标，评估本地注册要求。",
-   "risk": "金额未披露；国内竞争性招标，可能有本地注册或份额要求；规模偏小，需评估性价比。",
+   "risk": "金额未披露；国内竞争性招标，可能有本地注册或份额要求；规模偏小，需评估性价比。；GHANEPS 列表显示截止改为 2026-12-01 13:00（原 2026-11-30 13:00）",
    "verified_at": "2026-11-27",
    "terminal_at": null,
    "added_at": "2026-11-13T15:36:01.941Z",
@@ -2818,7 +2646,7 @@
    "stage": "正式招标",
    "stage_note": "National Competitive Tendering",
    "published_at": "2026-11-13 14:37",
-   "deadline": "2026-11-30 13:00",
+   "deadline": "2026-12-01 13:00",
    "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3901753",
    "origin": "GHANEPS",
    "origin_type": "政府官方",
@@ -2835,7 +2663,7 @@
    "funder": "",
    "conditions": "",
    "action": "登录 GHANEPS 下载招标文件，核实资格、保证金与工程量；国内竞争性招标，评估本地注册要求。",
-   "risk": "金额未披露；国内竞争性招标，可能有本地注册或份额要求；规模偏小，需评估性价比。",
+   "risk": "金额未披露；国内竞争性招标，可能有本地注册或份额要求；规模偏小，需评估性价比。；GHANEPS 列表显示截止改为 2026-12-01 13:00（原 2026-11-30 13:00）",
    "verified_at": "2026-11-27",
    "terminal_at": null,
    "added_at": "2026-11-13T15:36:01.941Z",
@@ -2853,7 +2681,7 @@
    "stage": "正式招标",
    "stage_note": "National Competitive Tendering",
    "published_at": "2026-11-13 14:20",
-   "deadline": "2026-11-30 13:00",
+   "deadline": "2026-12-01 13:00",
    "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=3900930",
    "origin": "GHANEPS",
    "origin_type": "政府官方",
@@ -5265,6 +5093,78 @@
    "verified_note": "2026-11-27 GHANEPS 官方列表读取",
    "terminal_at": null,
    "added_at": "2026-11-27T08:03:00.115Z",
+   "status": "开放中"
+  },
+  {
+   "location": "",
+   "ref_no": "",
+   "amount": "未披露",
+   "dgmarket_url": "",
+   "dgmarket": false,
+   "funder": "",
+   "conditions": "",
+   "action": "自动收录：登录官方平台下载招标文件，核实资格、保证金与工程量。",
+   "risk": "云端自动收录，中文标题与工程范围待人工复核；金额未披露。",
+   "verified_at": "2026-11-27",
+   "terminal_at": null,
+   "added_at": "2026-11-27T17:35:59.071Z",
+   "auto_ingested": true,
+   "id": "88733ab19167",
+   "title": "Furnishing of Nungua Poly Clinic（中文标题待翻译）",
+   "title_original": "Furnishing of Nungua Poly Clinic",
+   "country": "GH",
+   "sectors": [
+    "建筑基础设施"
+   ],
+   "sector_raw": "自动分类",
+   "entity": "KROWOR MUNICIPAL ASSEMBLY",
+   "scope": "Furnishing of Nungua Poly Clinic",
+   "stage": "正式招标",
+   "stage_note": "National Competitive Tendering",
+   "published_at": "2026-11-26 13:01",
+   "deadline": "2026-12-15 08:17",
+   "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=4107045",
+   "origin": "GHANEPS",
+   "origin_type": "政府官方",
+   "discovery": "GHANEPS 当前招标列表（云端自动收录）",
+   "verified_note": "2026-11-27 GHANEPS 官方列表读取",
+   "status": "开放中"
+  },
+  {
+   "location": "",
+   "ref_no": "NG-NIGER L-PRES-578263-CW-RFB",
+   "amount": "未披露",
+   "dgmarket_url": "",
+   "dgmarket": false,
+   "funder": "世界银行（项目 P160865）",
+   "conditions": "",
+   "action": "自动收录：登录官方平台下载招标文件，核实资格、保证金与工程量。",
+   "risk": "云端自动收录，中文标题待复核；截止时刻以公告正文为准（on or before 12:00noon on Thursday 3rd December, 2026 ）",
+   "verified_at": "2026-11-27",
+   "terminal_at": null,
+   "added_at": "2026-11-27T17:35:59.071Z",
+   "auto_ingested": true,
+   "id": "ba65ca657fc1",
+   "title": "CONSTRUCTION OF SOLAR-POWERED POULTRY FARM ESTATE（中文标题待翻译）",
+   "title_original": "CONSTRUCTION OF SOLAR-POWERED POULTRY FARM ESTATE",
+   "country": "NG",
+   "sectors": [
+    "清洁能源/光伏",
+    "电力电气",
+    "建筑基础设施"
+   ],
+   "sector_raw": "自动分类",
+   "entity": "Niger L-PRES",
+   "scope": "NIGER STATE LIVESTOCK PRODUCTIVITY AND RESILIENCE SUPPORT (L-PRES) PROJECT Standard Procurement Notice (SPN) Credit No.: IDA 70570-NG REQUEST FOR BIDS (RFB) RFB No: NG NIGER L-PRES-578263-CW-RFB RFB Description: Construction of SOLAR-POWERED POULTRY FARM ESTATE Project: Livestock Productivity and Resilience Support (L-PRES) Project Employer: Niger State Project Implementation Unit Country: Nigeria",
+   "stage": "正式招标",
+   "stage_note": "Invitation for Bids；Request for Bids",
+   "published_at": "2026-11-26",
+   "deadline": "2026-12-03 12:00",
+   "url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00483927",
+   "origin": "世界银行",
+   "origin_type": "国际机构官方",
+   "discovery": "世界银行采购公告 API（云端自动收录）",
+   "verified_note": "2026-11-27 世界银行 API 读取",
    "status": "开放中"
   }
  ]
