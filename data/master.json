@@ -3,13 +3,13 @@
   "title": "西非工程机会",
   "schedule": "每日 07:30 Africa/Accra（UTC+0）",
   "timezone": "Africa/Accra",
-  "last_success_at": "2026-11-28T08:03:48.922Z",
+  "last_success_at": "2026-11-28T16:19:41.830Z",
   "last_run": {
-   "started_at": "2026-11-28T08:01:05Z",
-   "finished_at": "2026-11-28T08:03:48.922Z",
+   "started_at": "2026-11-28T16:19:24Z",
+   "finished_at": "2026-11-28T16:19:41.830Z",
    "result": "成功",
-   "runner": "本机任务",
-   "note": "GHANEPS 与世界银行读取成功；新增 2、删除 1（非工程自动收录）、翻译复核 1；DGMarket 遇安全验证未读取；AfDB 403、OSMAPT/CEET 无响应；其余站点仅确认可访问。"
+   "runner": "GitHub Actions 云端",
+   "note": "云端更新：GHANEPS 新增 2、世界银行新增 0；DGMarket 与其他来源由本机任务读取。"
   },
   "dgmarket_authorized": false
  },
@@ -21,8 +21,8 @@
    "kind": "官方",
    "url": "https://www.ghaneps.gov.gh/epps/home.do",
    "status": "已核验并更新",
-   "checked_at": "2026-11-28T08:03:48.922Z",
-   "note": "本机读取当前招标列表 8 页（80 条）：新增 2 条（Bankuman 消防站器械库及办公用房、Tema 建筑设计支持服务），删除 1 条非工程自动收录（Nungua 诊所家具），刷新 53 条在列记录核验日期；车辆、IT、设备、餐饮等非工程公告不收录。"
+   "checked_at": "2026-11-28T16:19:41.830Z",
+   "note": "云端读取当前招标列表 8 页（80 条）：自动新增 2 条工程类招标，刷新 0 条既有记录核验日期。"
   },
   {
    "id": "ppa",
@@ -231,8 +231,8 @@
    "kind": "国际机构",
    "url": "https://projects.worldbank.org/en/projects-operations/opportunities",
    "status": "已核验无新增",
-   "checked_at": "2026-11-28T08:03:48.922Z",
-   "note": "由 wb-fetch.mjs 同批读取，无新增工程类机会。"
+   "checked_at": "2026-11-28T16:19:41.830Z",
+   "note": "云端按加纳/多哥/尼日利亚读取世界银行采购公告 API，开放工程类候选 10 条，自动新增 0 条。"
   },
   {
    "id": "wb-proc",
@@ -240,9 +240,9 @@
    "country": "MULTI",
    "kind": "国际机构",
    "url": "https://projects.worldbank.org/en/projects-operations/procurement",
-   "status": "已核验并更新",
-   "checked_at": "2026-11-28T08:03:48.922Z",
-   "note": "读取加纳、多哥、尼日利亚采购公告：开放候选 12 条（GH 4、NG 8、TG 0）；工程/能源类均已在库，复核并翻译云端收录的尼日尔州太阳能家禽园区（RFB，12-03 截止）；新增候选 3 条为货物类（数字设备、职业培训工具包）未收录。"
+   "status": "已核验无新增",
+   "checked_at": "2026-11-28T16:19:41.830Z",
+   "note": "云端按加纳/多哥/尼日利亚读取世界银行采购公告 API，开放工程类候选 10 条，自动新增 0 条。"
   },
   {
    "id": "afdb",
@@ -5198,6 +5198,76 @@
    "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=4117955",
    "action": "登录 GHANEPS 查看意向征集文件，核对服务范围与对本地注册咨询公司的要求。",
    "risk": "咨询服务，服务范围与是否限国内公司未核实；金额未披露。",
+   "status": "开放中"
+  },
+  {
+   "location": "",
+   "ref_no": "",
+   "amount": "未披露",
+   "dgmarket_url": "",
+   "dgmarket": false,
+   "funder": "",
+   "conditions": "",
+   "action": "自动收录：登录官方平台下载招标文件，核实资格、保证金与工程量。",
+   "risk": "云端自动收录，中文标题与工程范围待人工复核；金额未披露。",
+   "verified_at": "2026-11-28",
+   "terminal_at": null,
+   "added_at": "2026-11-28T16:19:41.830Z",
+   "auto_ingested": true,
+   "id": "d508c06a9d5e",
+   "title": "CONSTRUCTION OF 1NO 12 UNIT LOCKABLE STORES AT BREMAN BRAKWA（中文标题待翻译）",
+   "title_original": "CONSTRUCTION OF 1NO 12 UNIT LOCKABLE STORES AT BREMAN BRAKWA",
+   "country": "GH",
+   "sectors": [
+    "建筑基础设施"
+   ],
+   "sector_raw": "自动分类",
+   "entity": "ASIKUMA ODOBEN BRAKWA DISTRICT ASSEMBLY",
+   "scope": "CONSTRUCTION OF 1NO 12 UNIT LOCKABLE STORES AT BREMAN BRAKWA",
+   "stage": "正式招标",
+   "stage_note": "National Competitive Tendering",
+   "published_at": "2026-11-28 08:23",
+   "deadline": "2026-12-14 10:00",
+   "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=4129247",
+   "origin": "GHANEPS",
+   "origin_type": "政府官方",
+   "discovery": "GHANEPS 当前招标列表（云端自动收录）",
+   "verified_note": "2026-11-28 GHANEPS 官方列表读取",
+   "status": "开放中"
+  },
+  {
+   "location": "",
+   "ref_no": "",
+   "amount": "未披露",
+   "dgmarket_url": "",
+   "dgmarket": false,
+   "funder": "",
+   "conditions": "",
+   "action": "自动收录：登录官方平台下载招标文件，核实资格、保证金与工程量。",
+   "risk": "云端自动收录，中文标题与工程范围待人工复核；金额未披露。",
+   "verified_at": "2026-11-28",
+   "terminal_at": null,
+   "added_at": "2026-11-28T16:19:41.830Z",
+   "auto_ingested": true,
+   "id": "88733ab19167",
+   "title": "Furnishing of Nungua Poly Clinic（中文标题待翻译）",
+   "title_original": "Furnishing of Nungua Poly Clinic",
+   "country": "GH",
+   "sectors": [
+    "建筑基础设施"
+   ],
+   "sector_raw": "自动分类",
+   "entity": "KROWOR MUNICIPAL ASSEMBLY",
+   "scope": "Furnishing of Nungua Poly Clinic",
+   "stage": "正式招标",
+   "stage_note": "National Competitive Tendering",
+   "published_at": "2026-11-26 13:01",
+   "deadline": "2026-12-15 08:17",
+   "url": "https://www.ghaneps.gov.gh/epps/cft/prepareViewCfTWS.do?resourceId=4107045",
+   "origin": "GHANEPS",
+   "origin_type": "政府官方",
+   "discovery": "GHANEPS 当前招标列表（云端自动收录）",
+   "verified_note": "2026-11-28 GHANEPS 官方列表读取",
    "status": "开放中"
   }
  ]
